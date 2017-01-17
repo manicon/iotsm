@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_related sys_domain="global" table="x_76760_iot_sm_task" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Iot Sm Task - Default view" name="x_76760_iot_sm_task" related_list="NULL" sys_domain="global" view="Default view">fd84417edb103200c5df7befbf9619f5</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>task_sla.task</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-01-17 10:21:05</sys_created_on>
+            <sys_id>3984417edb103200c5df7befbf9619f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-01-17 10:21:05</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Iot Sm Task - Default view" name="x_76760_iot_sm_task" related_list="NULL" sys_domain="global" view="Default view">fd84417edb103200c5df7befbf9619f5</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>task_ci.task</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-01-17 10:21:05</sys_created_on>
+            <sys_id>3584417edb103200c5df7befbf9619f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-01-17 10:21:05</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Iot Sm Task - Default view" name="x_76760_iot_sm_task" related_list="NULL" sys_domain="global" view="Default view">fd84417edb103200c5df7befbf9619f5</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>sm_part_requirement.service_order_task</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-01-17 10:21:05</sys_created_on>
+            <sys_id>f584417edb103200c5df7befbf9619f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-01-17 10:21:05</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Iot Sm Task - Default view" name="x_76760_iot_sm_task" related_list="NULL" sys_domain="global" view="Default view">fd84417edb103200c5df7befbf9619f5</list_id>
+            <order_by/>
+            <position>3</position>
+            <related_list>alm_transfer_order.service_order_task</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-01-17 10:21:05</sys_created_on>
+            <sys_id>7584417edb103200c5df7befbf9619f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-01-17 10:21:05</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Iot Sm Task - Default view" name="x_76760_iot_sm_task" related_list="NULL" sys_domain="global" view="Default view">fd84417edb103200c5df7befbf9619f5</list_id>
+            <order_by/>
+            <position>4</position>
+            <related_list>sm_asset_usage.service_order_task</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-01-17 10:21:05</sys_created_on>
+            <sys_id>bd84417edb103200c5df7befbf9619f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-01-17 10:21:05</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Iot Sm Task - Default view" name="x_76760_iot_sm_task" related_list="NULL" sys_domain="global" view="Default view">fd84417edb103200c5df7befbf9619f5</list_id>
+            <order_by/>
+            <position>5</position>
+            <related_list>sm_m2m_task_dependency.downstream_task</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-01-17 10:21:05</sys_created_on>
+            <sys_id>b984417edb103200c5df7befbf9619f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-01-17 10:21:05</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Iot Sm Task - Default view" name="x_76760_iot_sm_task" related_list="NULL" sys_domain="global" view="Default view">fd84417edb103200c5df7befbf9619f5</list_id>
+            <order_by/>
+            <position>6</position>
+            <related_list>sm_m2m_task_dependency.upstream_task</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-01-17 10:21:05</sys_created_on>
+            <sys_id>f184417edb103200c5df7befbf9619f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-01-17 10:21:05</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Iot Sm Task - Default view" name="x_76760_iot_sm_task" related_list="NULL" sys_domain="global" view="Default view">fd84417edb103200c5df7befbf9619f5</list_id>
+            <order_by/>
+            <position>7</position>
+            <related_list>sm_incidentals.parent_task</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-01-17 10:21:05</sys_created_on>
+            <sys_id>fd84417edb103200c5df7befbf9619f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-01-17 10:21:05</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Iot Sm Task - Default view" name="x_76760_iot_sm_task" related_list="NULL" sys_domain="global" view="Default view">fd84417edb103200c5df7befbf9619f5</list_id>
+            <order_by/>
+            <position>8</position>
+            <related_list>sm_m2m_task_contract.task</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-01-17 10:21:05</sys_created_on>
+            <sys_id>7d84417edb103200c5df7befbf9619f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-01-17 10:21:05</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Iot Sm Task - Default view" name="x_76760_iot_sm_task" related_list="NULL" sys_domain="global" view="Default view">fd84417edb103200c5df7befbf9619f5</list_id>
+            <order_by/>
+            <position>9</position>
+            <related_list>REL:e8675c6947232100158b949b6c9a71db</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-01-17 10:21:05</sys_created_on>
+            <sys_id>7984417edb103200c5df7befbf9619f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-01-17 10:21:05</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Iot Sm Task - Default view" name="x_76760_iot_sm_task" related_list="NULL" sys_domain="global" view="Default view">fd84417edb103200c5df7befbf9619f5</list_id>
+            <order_by/>
+            <position>10</position>
+            <related_list>task_activity.task</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-01-17 10:21:05</sys_created_on>
+            <sys_id>b184417edb103200c5df7befbf9619f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-01-17 10:21:05</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Iot Sm Task - Default view</calculated_name>
+            <filter/>
+            <name>x_76760_iot_sm_task</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-01-17 10:21:05</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fd84417edb103200c5df7befbf9619f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Iot Sm Task - Default view</sys_name>
+            <sys_package display_value="IoT SM" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="IoT SM">ae54013edb103200c5df7befbf96191f</sys_scope>
+            <sys_update_name>sys_ui_related_x_76760_iot_sm_task_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-01-17 10:21:05</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

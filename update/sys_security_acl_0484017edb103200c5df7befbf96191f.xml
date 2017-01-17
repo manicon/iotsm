@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description>IoT SM basic users can set the IoT SM Task priority</description>
+        <name>x_76760_iot_sm_task.priority</name>
+        <operation display_value="write">write</operation>
+        <script><![CDATA[var sc = new sn_sm.SMConfiguration();
+var stateFlowsOff = !sc.isEnabled(current, 'use_sf');
+var taskNotClosed =
+	current.state != global.SMConstants.TASK_CLOSED_COMPLETE &&
+	current.state != global.SMConstants.TASK_CLOSED_INCOMPLETE &&
+	current.state != global.SMConstants.TASK_CANCELLED;
+
+answer = stateFlowsOff || taskNotClosed;]]></script>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-01-17 10:20:58</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>0484017edb103200c5df7befbf96191f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_76760_iot_sm_task.priority</sys_name>
+        <sys_package display_value="IoT SM" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IoT SM">ae54013edb103200c5df7befbf96191f</sys_scope>
+        <sys_update_name>sys_security_acl_0484017edb103200c5df7befbf96191f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-01-17 10:20:58</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>
