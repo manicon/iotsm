@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element attributes="update_synch=true" extends="sf_sm_flow" label="IoT SM Task Flow" max_length="40" name="x_76760_iot_sf_sm_task" type="collection"/>
+    <element attributes="update_synch=true" extends="sf_sm_flow" label="IoT Service Task Flow" max_length="40" name="x_76760_iot_sf_sm_task" type="collection"/>
 </database>

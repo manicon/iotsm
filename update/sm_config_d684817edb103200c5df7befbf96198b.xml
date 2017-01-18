@@ -12,19 +12,19 @@
         <associated_task_tables/>
         <auto_dispatch>true</auto_dispatch>
         <basic_role display_value="x_76760_iot_basic" name="x_76760_iot_basic">9354493edb103200c5df7befbf961971</basic_role>
-        <catalog display_value="IoT SM Catalog">6884017edb103200c5df7befbf9619e7</catalog>
-        <created_with_version>Istanbul: 11-18-2016_1553</created_with_version>
+        <catalog display_value="IoT SM Catalog">08a49f43131cf600cb273192e144b0bf</catalog>
+        <created_with_version>Helsinki: 12-04-2016_2028</created_with_version>
         <disabled_processes/>
         <dispatch_group_type display_value="iot_sm_dispatch">5964c93edb103200c5df7befbf96195b</dispatch_group_type>
-        <dispatch_queue>false</dispatch_queue>
+        <dispatch_queue>true</dispatch_queue>
         <dispatcher_role display_value="x_76760_iot_dispatcher" name="x_76760_iot_dispatcher">1354493edb103200c5df7befbf961974</dispatcher_role>
-        <follow_the_sun_priority>{value:,type:,display:}</follow_the_sun_priority>
-        <geolocation_maps>false</geolocation_maps>
+        <follow_the_sun_priority>1,2</follow_the_sun_priority>
+        <geolocation_maps>true</geolocation_maps>
         <inbound_email>false</inbound_email>
         <initiator_role display_value="x_76760_iot_initiator" name="x_76760_iot_initiator">db54493edb103200c5df7befbf961976</initiator_role>
         <kbase display_value="IoT SM Knowledge">3484417edb103200c5df7befbf96190c</kbase>
-        <knowledge_base>false</knowledge_base>
-        <limit_by_location>false</limit_by_location>
+        <knowledge_base>true</knowledge_base>
+        <limit_by_location>true</limit_by_location>
         <main_model_category display_value="IoT SM Request Template">e1744d3edb103200c5df7befbf9619af</main_model_category>
         <main_model_table>x_76760_iot_sm_request_template</main_model_table>
         <main_state_flow_table>x_76760_iot_sf_sm_request</main_state_flow_table>
@@ -33,7 +33,6 @@
         <mandatory_work_notes>true</mandatory_work_notes>
         <name>IoT SM</name>
         <part_requirement>true</part_requirement>
-        <pdf_order_summary>false</pdf_order_summary>
         <property_prefix>x_76760_iot</property_prefix>
         <qualification>false</qualification>
         <qualification_group_type/>
@@ -44,22 +43,21 @@
         <request_driven>false</request_driven>
         <rollup_work_notes>false</rollup_work_notes>
         <service_catalog>true</service_catalog>
-        <signature_capture>false</signature_capture>
         <surveys/>
         <sys_class_name>sm_config</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-01-17 10:21:07</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>d684817edb103200c5df7befbf96198b</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>IoT SM</sys_name>
-        <sys_package display_value="IoT SM" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
+        <sys_package display_value="IoT Service Management" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
-        <sys_scope display_value="IoT SM">ae54013edb103200c5df7befbf96191f</sys_scope>
+        <sys_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</sys_scope>
         <sys_update_name>sm_config_d684817edb103200c5df7befbf96198b</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-01-17 13:03:22</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-01-18 15:29:08</sys_updated_on>
         <task_activities>false</task_activities>
         <task_dispatch_method>auto</task_dispatch_method>
         <task_dispatch_workflow display_value="Assignment Workflow for SM">e1865971d7132100bbc783e80e610365</task_dispatch_workflow>
@@ -73,7 +71,7 @@
         <use_consistent_assignment>false</use_consistent_assignment>
         <use_follow_the_sun>false</use_follow_the_sun>
         <use_location>false</use_location>
-        <use_schedule>false</use_schedule>
+        <use_schedule>true</use_schedule>
         <use_sf>true</use_sf>
         <use_skill>all</use_skill>
         <use_timezone>false</use_timezone>

@@ -5,10 +5,9 @@
         <enforce_license>log</enforce_license>
         <js_level>helsinki_es5</js_level>
         <licensable>true</licensable>
-        <license_model>none</license_model>
         <logo/>
         <menu/>
-        <name>IoT SM</name>
+        <name>IoT Service Management</name>
         <private>false</private>
         <restrict_table_access>false</restrict_table_access>
         <runtime_access_tracking>permissive</runtime_access_tracking>
@@ -23,9 +22,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-01-17 10:20:20</sys_created_on>
         <sys_id>ae54013edb103200c5df7befbf96191f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-01-17 10:20:20</sys_updated_on>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin_kbazanov</sys_updated_by>
+        <sys_updated_on>2017-01-18 14:53:29</sys_updated_on>
         <template>esa</template>
         <trackable>true</trackable>
         <user_role/>

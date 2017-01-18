@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_documentation element="" label="IoT SM Request" language="en" table="x_76760_iot_sm_request">
+    <sys_documentation element="" label="IoT Service Request" language="en" table="x_76760_iot_sm_request">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element/>
             <help/>
             <hint/>
-            <label>IoT SM Request</label>
+            <label>IoT Service Request</label>
             <language>en</language>
             <name>x_76760_iot_sm_request</name>
-            <plural>IoT SM Requests</plural>
+            <plural>IoT Service Requests</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2017-01-17 10:20:20</sys_created_on>
             <sys_customer_update>true</sys_customer_update>
             <sys_id>3e54093edb103200c5df7befbf9619c3</sys_id>
-            <sys_mod_count>4</sys_mod_count>
-            <sys_name>IoT SM Request</sys_name>
-            <sys_package display_value="IoT SM" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_name>IoT Service Request</sys_name>
+            <sys_package display_value="IoT Service Management" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
-            <sys_scope display_value="IoT SM">ae54013edb103200c5df7befbf96191f</sys_scope>
+            <sys_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</sys_scope>
             <sys_update_name>sys_documentation_x_76760_iot_sm_request__en</sys_update_name>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-01-17 10:37:02</sys_updated_on>
+            <sys_updated_by>admin_kbazanov</sys_updated_by>
+            <sys_updated_on>2017-01-18 14:20:19</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

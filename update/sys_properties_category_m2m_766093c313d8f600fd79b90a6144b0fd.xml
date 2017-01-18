@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="INSERT_OR_UPDATE">
+        <category display_value="IoT SM Geolocation">7e6093c313d8f600fd79b90a6144b0fb</category>
+        <order>1</order>
+        <property display_value="x_76760_iot.rush.travel.buffer" name="x_76760_iot.rush.travel.buffer">63640d3edb103200c5df7befbf96198e</property>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2017-01-18 15:10:46</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>766093c313d8f600fd79b90a6144b0fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_76760_iot.rush.travel.buffer.IoT SM Geolocation</sys_name>
+        <sys_package display_value="IoT Service Management" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_766093c313d8f600fd79b90a6144b0fd</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-01-18 15:10:46</sys_updated_on>
+    </sys_properties_category_m2m>
+</record_update>

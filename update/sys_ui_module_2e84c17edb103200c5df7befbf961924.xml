@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update sys_domain="global" table="sys_ui_module">
     <sys_ui_module action="INSERT_OR_UPDATE">
-        <active>false</active>
-        <application display_value="IoT SM">ae84817edb103200c5df7befbf9619ee</application>
+        <active>true</active>
+        <application display_value="IoT SM">436093c313d8f600fd79b90a6144b0ff</application>
         <filter/>
         <name>My Dispatch Map</name>
-        <order>182</order>
-        <path>sm_dispatch/iot_sm</path>
+        <order>300</order>
+        <path>map/4a1724519f02310034c6b6a0942e7071</path>
         <path_relative_to_root>false</path_relative_to_root>
         <roles>x_76760_iot_dispatcher</roles>
         <sys_class_name>sys_ui_module</sys_class_name>
@@ -16,15 +16,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2e84c17edb103200c5df7befbf961924</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>My Dispatch Map</sys_name>
-        <sys_package display_value="IoT SM" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
+        <sys_package display_value="IoT Service Management" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
-        <sys_scope display_value="IoT SM">ae54013edb103200c5df7befbf96191f</sys_scope>
+        <sys_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</sys_scope>
         <sys_update_name>sys_ui_module_2e84c17edb103200c5df7befbf961924</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-01-17 10:21:09</sys_updated_on>
+        <sys_updated_by>admin_stwilhelm</sys_updated_by>
+        <sys_updated_on>2017-01-18 15:33:40</sys_updated_on>
         <table/>
         <uncancelable>false</uncancelable>
         <view_name/>

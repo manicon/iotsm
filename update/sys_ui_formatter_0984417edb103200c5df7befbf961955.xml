@@ -2,20 +2,19 @@
 <record_update table="sys_ui_formatter">
     <sys_ui_formatter action="INSERT_OR_UPDATE">
         <active>true</active>
-        <angular_module/>
         <formatter>process_flow.xml</formatter>
         <name>Process Flow</name>
         <sys_class_name>sys_ui_formatter</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-01-17 10:21:02</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>0984417edb103200c5df7befbf961955</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Process Flow</sys_name>
-        <sys_package display_value="IoT SM" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
+        <sys_package display_value="IoT Service Management" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
-        <sys_scope display_value="IoT SM">ae54013edb103200c5df7befbf96191f</sys_scope>
+        <sys_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</sys_scope>
         <sys_update_name>sys_ui_formatter_0984417edb103200c5df7befbf961955</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2017-01-17 10:21:02</sys_updated_on>

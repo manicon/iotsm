@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="sm_task" label="Iot Sm Task" max_length="40" name="x_76760_iot_sm_task" type="collection"/>
+    <element audit="true" extends="sm_task" label="IoT Service Task" max_length="40" name="x_76760_iot_sm_task" sizeclass="6" type="collection"/>
 </database>

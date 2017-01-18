@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="cmdb_servicetask_product_model" label="IoT SM Task Template" max_length="40" name="x_76760_iot_sm_task_template" type="collection"/>
+    <element extends="cmdb_servicetask_product_model" label="IoT Service Template" max_length="40" name="x_76760_iot_sm_task_template" type="collection"/>
 </database>

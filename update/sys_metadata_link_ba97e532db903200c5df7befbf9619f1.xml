@@ -13,7 +13,7 @@
         <barcode/>
         <billable>false</billable>
         <bundle>false</bundle>
-        <category display_value="Default Category">a484017edb103200c5df7befbf9619ef</category>
+        <category display_value="Service Maintenance">1ad517c3131cf600cb273192e144b02f</category>
         <certified>false</certified>
         <checklist_template/>
         <cmdb_ci_class/>
@@ -37,7 +37,7 @@
         <picture/>
         <power_consumption/>
         <priority>4</priority>
-        <product_catalog_item display_value="Order &amp; Replace Component">2697a5fedb503200c5df7befbf961929</product_catalog_item>
+        <product_catalog_item display_value="Order &amp; Replace Component">cee8d707131cf600cb273192e144b017</product_catalog_item>
         <qualification_group/>
         <rack_units>1</rack_units>
         <salvage_value>0</salvage_value>
@@ -49,9 +49,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-01-17 12:54:20</sys_created_on>
         <sys_id>ea97a5fedb503200c5df7befbf961928</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-01-17 12:54:20</sys_updated_on>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin_kbazanov</sys_updated_by>
+        <sys_updated_on>2017-01-18 15:47:50</sys_updated_on>
         <type>Generic</type>
         <weight/>
         <workflow/>
@@ -82,15 +82,15 @@
         <sys_created_on>2017-01-17 12:54:20</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>ba97e532db903200c5df7befbf9619f1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Order &amp; Replace Component</sys_name>
-        <sys_package display_value="IoT SM" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
+        <sys_package display_value="IoT Service Management" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
-        <sys_scope display_value="IoT SM">ae54013edb103200c5df7befbf96191f</sys_scope>
+        <sys_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</sys_scope>
         <sys_update_name>sys_metadata_link_ba97e532db903200c5df7befbf9619f1</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-01-17 12:54:20</sys_updated_on>
+        <sys_updated_by>admin_kbazanov</sys_updated_by>
+        <sys_updated_on>2017-01-18 15:47:50</sys_updated_on>
         <tablename>x_76760_iot_sm_request_template</tablename>
     </sys_metadata_link>
 </record_update>

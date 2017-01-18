@@ -4,14 +4,14 @@
         <sys_class_name>sys_security_acl_role</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-01-17 10:20:59</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>5884017edb103200c5df7befbf9619ae</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>sm_m2m_group_dependency.x_76760_iot_dispatcher</sys_name>
-        <sys_package display_value="IoT SM" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
+        <sys_package display_value="IoT Service Management" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
-        <sys_scope display_value="IoT SM">ae54013edb103200c5df7befbf96191f</sys_scope>
+        <sys_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</sys_scope>
         <sys_security_acl display_value="sm_m2m_group_dependency">7ffa3303df2321006d907a0d3df2630d</sys_security_acl>
         <sys_update_name>sys_security_acl_role_5884017edb103200c5df7befbf9619ae</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>

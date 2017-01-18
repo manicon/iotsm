@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>813b8b0f13d8f600cb273192e144b050</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sm_config_module">
+    <sm_config_module action="INSERT_OR_UPDATE">
+        <app_name display_value="IoT SM">d684817edb103200c5df7befbf96198b</app_name>
+        <aspect>geolocation_maps</aspect>
+        <associated_mobile_module display_value="My Map">093b8b0f13d8f600cb273192e144b011</associated_mobile_module>
+        <associated_module/>
+        <on>true</on>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2017-01-18 14:47:58</sys_created_on>
+        <sys_id>813b8b0f13d8f600cb273192e144b050</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-01-18 14:47:58</sys_updated_on>
+    </sm_config_module>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2017-01-18 14:48:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e93b8b0f13d8f600cb273192e144b06c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IoT SM</sys_name>
+        <sys_package display_value="IoT Service Management" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</sys_scope>
+        <sys_update_name>sys_metadata_link_e93b8b0f13d8f600cb273192e144b06c</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-01-18 14:48:00</sys_updated_on>
+        <tablename>sm_config_module</tablename>
+    </sys_metadata_link>
+</record_update>

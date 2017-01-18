@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="x_76760_iot_thing" label="Industry Robot" max_length="40" name="x_76760_iot_industry_robot" type="collection"/>
+</database>

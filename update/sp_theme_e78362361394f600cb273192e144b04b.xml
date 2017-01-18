@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_theme">
+    <sp_theme action="INSERT_OR_UPDATE">
+        <css_variables>$sp-logo-margin-x: 		15px !default;$sp-tagline-color:		$text-color !default;$navbar-inverse-bg: 	#3a3f51 !default;$navbar-inverse-link-color: #bdc0c4 !default;$navbar-inverse-link-hover-color: #ffffff !default;$body-bg: 				#f0f3f4 !default;</css_variables>
+        <footer/>
+        <footer_fixed>false</footer_fixed>
+        <header display_value="IoT Header ">0294a2761394f600cb273192e144b07f</header>
+        <name>IoT</name>
+        <navbar_fixed>true</navbar_fixed>
+        <sys_class_name>sp_theme</sys_class_name>
+        <sys_created_by>admin_kbazanov</sys_created_by>
+        <sys_created_on>2017-01-17 17:16:28</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>e78362361394f600cb273192e144b04b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>IoT</sys_name>
+        <sys_package display_value="IoT Service Management" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</sys_scope>
+        <sys_update_name>sp_theme_e78362361394f600cb273192e144b04b</sys_update_name>
+        <sys_updated_by>admin_kbazanov</sys_updated_by>
+        <sys_updated_on>2017-01-17 17:21:10</sys_updated_on>
+    </sp_theme>
+</record_update>

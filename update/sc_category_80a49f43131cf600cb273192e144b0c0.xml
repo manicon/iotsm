@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_category">
+    <sc_category action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Service and machine failure analysis and recovery</description>
+        <entitlement_script/>
+        <header_icon/>
+        <homepage_image/>
+        <homepage_renderer display_value="">Default</homepage_renderer>
+        <icon/>
+        <image/>
+        <location/>
+        <mobile_hide_description>false</mobile_hide_description>
+        <mobile_picture/>
+        <mobile_subcategory_render_type>list</mobile_subcategory_render_type>
+        <module/>
+        <order>0</order>
+        <parent/>
+        <roles/>
+        <sc_catalog display_value="IoT SM Catalog">08a49f43131cf600cb273192e144b0bf</sc_catalog>
+        <show_in_cms>false</show_in_cms>
+        <sys_class_name>sc_category</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2017-01-18 15:29:07</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>80a49f43131cf600cb273192e144b0c0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Service Issues</sys_name>
+        <sys_package display_value="IoT Service Management" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</sys_scope>
+        <sys_update_name>sc_category_80a49f43131cf600cb273192e144b0c0</sys_update_name>
+        <sys_updated_by>admin_kbazanov</sys_updated_by>
+        <sys_updated_on>2017-01-18 15:35:41</sys_updated_on>
+        <title>Service Issues</title>
+    </sc_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=80a49f43131cf600cb273192e144b0c0"/>
+</record_update>
