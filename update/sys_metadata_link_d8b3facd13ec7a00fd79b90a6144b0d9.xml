@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>94b3facd13ec7a00fd79b90a6144b0d9</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sm_m2m_somodel_stmodel">
+    <sm_m2m_somodel_stmodel action="INSERT_OR_UPDATE">
+        <order>1</order>
+        <so_model display_value="Recalibrate Machine">40b3facd13ec7a00fd79b90a6144b0d2</so_model>
+        <st_model display_value="Recalibrate machine">41dd9c3041ddc56041dddd0041dda440</st_model>
+        <sys_created_by>admin_stwilhelm</sys_created_by>
+        <sys_created_on>2017-01-24 18:13:07</sys_created_on>
+        <sys_id>94b3facd13ec7a00fd79b90a6144b0d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin_stwilhelm</sys_updated_by>
+        <sys_updated_on>2017-01-24 18:13:07</sys_updated_on>
+    </sm_m2m_somodel_stmodel>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin_stwilhelm</sys_created_by>
+        <sys_created_on>2017-01-24 18:13:07</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>d8b3facd13ec7a00fd79b90a6144b0d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created 24.01.2017 19:13:07</sys_name>
+        <sys_package display_value="IoT Service Management" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</sys_scope>
+        <sys_update_name>sys_metadata_link_d8b3facd13ec7a00fd79b90a6144b0d9</sys_update_name>
+        <sys_updated_by>admin_stwilhelm</sys_updated_by>
+        <sys_updated_on>2017-01-24 18:13:07</sys_updated_on>
+        <tablename>sm_m2m_somodel_stmodel</tablename>
+    </sys_metadata_link>
+</record_update>

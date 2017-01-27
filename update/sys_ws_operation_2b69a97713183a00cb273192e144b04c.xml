@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl>ffce8d6f9f1102003d5c77a0942e7034</enforce_acl>
+        <http_method>POST</http_method>
+        <name>Create new EventReport</name>
+        <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+	var requestBody = request.body;
+	var requestData = requestBody.data; //May be an array or a single object
+	
+	try {
+		var evntReport = new IoTEventReport();
+		evntReport.init();
+
+		try {
+			if(requestData) {
+				evntReport.setField('eventcode', requestData.eventCode);
+				evntReport.setField('eventname', requestData.eventName);
+				evntReport.setField('eventmessage', requestData.eventMessage);
+				evntReport.setField('eventstack', requestData.eventStack);
+				evntReport.setField('eventprovider', requestData.eventProvider);
+				evntReport.setField('eventexternalid', requestData.eventExternalID);
+				evntReport.setField('eventtimestamp', requestData.eventTimestamp);
+				evntReport.setField('ispredictive', requestData.isPredictive);
+				evntReport.setField('predicitvetimestamp', requestData.predicitveTimestamp);
+				
+				evntReport.setField('affectedthingpayload', JSON.stringify(requestData.affectedThingPayload));
+				evntReport.setField('thingstate', requestData.thingStatePayload);
+				
+				evntReport.setField('eventpayload', JSON.stringify(requestBody.data));
+
+				evntReport.insert();
+				
+				// Prepare response
+				var body = {};
+				body = evntReport.get();
+				
+				response.setBody(body);
+			} else {
+				gs.error('Request payload does not contain any data');
+			}
+			
+		} catch(e) {
+			gs.error('Error initializing eventReportClassName Class: ', e);
+		}
+		
+	} catch(e) {
+		gs.error('Error initializing IoTEventReport Class: ', e);
+	}
+
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_76760_iot/sn_iot/eventreport</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/eventreport</relative_path>
+        <request_example/>
+        <requires_acl_authorization>false</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>admin_kbazanov</sys_created_by>
+        <sys_created_on>2017-01-20 15:37:28</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>2b69a97713183a00cb273192e144b04c</sys_id>
+        <sys_mod_count>42</sys_mod_count>
+        <sys_name>Create new EventReport</sys_name>
+        <sys_package display_value="IoT Service Management" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</sys_scope>
+        <sys_update_name>sys_ws_operation_2b69a97713183a00cb273192e144b04c</sys_update_name>
+        <sys_updated_by>admin_kbazanov</sys_updated_by>
+        <sys_updated_on>2017-01-26 13:06:06</sys_updated_on>
+        <web_service_definition display_value="ServiceNow IoT Service Management API">2d19e57713183a00cb273192e144b0f7</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>

@@ -12,7 +12,7 @@
         <associated_task_tables/>
         <auto_dispatch>true</auto_dispatch>
         <basic_role display_value="x_76760_iot_basic" name="x_76760_iot_basic">9354493edb103200c5df7befbf961971</basic_role>
-        <catalog display_value="IoT SM Catalog">08a49f43131cf600cb273192e144b0bf</catalog>
+        <catalog display_value="IoT SM Catalog">db8d5fa11324fa00fd79b90a6144b018</catalog>
         <created_with_version>Helsinki: 12-04-2016_2028</created_with_version>
         <disabled_processes/>
         <dispatch_group_type display_value="iot_sm_dispatch">5964c93edb103200c5df7befbf96195b</dispatch_group_type>
@@ -29,7 +29,7 @@
         <main_model_table>x_76760_iot_sm_request_template</main_model_table>
         <main_state_flow_table>x_76760_iot_sf_sm_request</main_state_flow_table>
         <main_table>x_76760_iot_sm_request</main_table>
-        <managed_docs>true</managed_docs>
+        <managed_docs>false</managed_docs>
         <mandatory_work_notes>true</mandatory_work_notes>
         <name>IoT SM</name>
         <part_requirement>true</part_requirement>
@@ -49,16 +49,16 @@
         <sys_created_on>2017-01-17 10:21:07</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>d684817edb103200c5df7befbf96198b</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name>IoT SM</sys_name>
         <sys_package display_value="IoT Service Management" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</sys_scope>
         <sys_update_name>sm_config_d684817edb103200c5df7befbf96198b</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2017-01-18 15:29:08</sys_updated_on>
-        <task_activities>false</task_activities>
+        <sys_updated_by>admin_stwilhelm</sys_updated_by>
+        <sys_updated_on>2017-01-27 13:45:24</sys_updated_on>
+        <task_activities>true</task_activities>
         <task_dispatch_method>auto</task_dispatch_method>
         <task_dispatch_workflow display_value="Assignment Workflow for SM">e1865971d7132100bbc783e80e610365</task_dispatch_workflow>
         <task_model_category display_value="IoT SM Task Template">2d744d3edb103200c5df7befbf9619af</task_model_category>
@@ -70,7 +70,7 @@
         <track_travel>true</track_travel>
         <use_consistent_assignment>false</use_consistent_assignment>
         <use_follow_the_sun>false</use_follow_the_sun>
-        <use_location>false</use_location>
+        <use_location>true</use_location>
         <use_schedule>true</use_schedule>
         <use_sf>true</use_sf>
         <use_skill>all</use_skill>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="sys_report_map_source" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="sys_report_map_source" element="NULL" name="sys_report_map_source" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ea6dcc00d7001200bd4a4ebfae6103f9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2015-11-25 14:39:00</sys_created_on>
+            <sys_id>ae6dcc00d7001200bd4a4ebfae6103f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2015-11-25 14:39:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>table</element>
+            <list_id display_value="sys_report_map_source" element="NULL" name="sys_report_map_source" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ea6dcc00d7001200bd4a4ebfae6103f9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2015-11-25 14:39:00</sys_created_on>
+            <sys_id>ee6dcc00d7001200bd4a4ebfae6103f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2015-11-25 14:39:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>aggregate_field</element>
+            <list_id display_value="sys_report_map_source" element="NULL" name="sys_report_map_source" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ea6dcc00d7001200bd4a4ebfae6103f9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2015-11-25 14:39:00</sys_created_on>
+            <sys_id>226dcc00d7001200bd4a4ebfae6103fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2015-11-25 14:39:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>type</element>
+            <list_id display_value="sys_report_map_source" element="NULL" name="sys_report_map_source" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ea6dcc00d7001200bd4a4ebfae6103f9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2015-11-25 14:39:00</sys_created_on>
+            <sys_id>626dcc00d7001200bd4a4ebfae6103fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2015-11-25 14:39:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>parent</element>
+            <list_id display_value="sys_report_map_source" element="NULL" name="sys_report_map_source" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ea6dcc00d7001200bd4a4ebfae6103f9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2015-11-25 14:39:00</sys_created_on>
+            <sys_id>a26dcc00d7001200bd4a4ebfae6103fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2015-11-25 14:39:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>use_lat_lon</element>
+            <list_id display_value="sys_report_map_source" element="NULL" name="sys_report_map_source" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ea6dcc00d7001200bd4a4ebfae6103f9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2015-11-25 14:39:00</sys_created_on>
+            <sys_id>e26dcc00d7001200bd4a4ebfae6103fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2015-11-25 14:39:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>report_map_source_mapping</element>
+            <list_id display_value="sys_report_map_source" element="NULL" name="sys_report_map_source" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ea6dcc00d7001200bd4a4ebfae6103f9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2015-11-25 14:39:00</sys_created_on>
+            <sys_id>266dcc00d7001200bd4a4ebfae6103fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2015-11-25 14:39:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>sys_report_map_source</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin_kbazanov</sys_created_by>
+            <sys_created_on>2017-01-26 13:32:19</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e29640f11364fa00fd79b90a6144b0a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sys_report_map_source</sys_name>
+            <sys_package display_value="IoT Service Management" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</sys_scope>
+            <sys_update_name>sys_ui_list_sys_report_map_source_null</sys_update_name>
+            <sys_updated_by>admin_kbazanov</sys_updated_by>
+            <sys_updated_on>2017-01-26 13:32:19</sys_updated_on>
+            <sys_user display_value="Kostyantyn Bazanov (Admin)">2aaa7fcf13cb2200cb273192e144b0cd</sys_user>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

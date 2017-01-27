@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_76760_iot.IoTEventReport</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>IoTEventReport</name>
+        <script><![CDATA[var IoTEventReport = Class.create();
+IoTEventReport.prototype = {
+    initialize: function() {
+    },
+	
+	
+	init: function(number) {
+		if(number === null || number === undefined) {
+			this.record.initialize();
+		} else {
+			this.record.addQuery('number', '=', number);
+			this.record.setLimit(1);
+			this.record.query();
+			
+			if(this.record.next()) {
+				//found
+			} else {
+				//not found
+			}
+			
+		}
+	},
+	
+	setField: function(name, value) {
+		if(name !== undefined && name !== null && name != '') {
+			if(value !== undefined) {
+				this.record.setValue(name, value);
+			}
+		}
+	},
+	
+	insert: function() {
+		this.record.insert();
+	},
+	
+	getEventReportClassName: function() {
+		return this.eventReportClassName;
+	},
+	
+	get: function() {
+		var obj = {};
+		
+		obj.number = this.record.getValue('number');
+		obj.target_record = this.record.getValue('target_record');
+		
+		//obj = this.record;
+		
+		return obj;
+	},
+	
+
+	record: new GlideRecord('x_76760_iot_eventreport'),
+
+	
+    type: 'IoTEventReport'
+};
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin_kbazanov</sys_created_by>
+        <sys_created_on>2017-01-20 16:11:08</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>688e69f713183a00cb273192e144b09e</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>IoTEventReport</sys_name>
+        <sys_package display_value="IoT Service Management" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</sys_scope>
+        <sys_update_name>sys_script_include_688e69f713183a00cb273192e144b09e</sys_update_name>
+        <sys_updated_by>admin_kbazanov</sys_updated_by>
+        <sys_updated_on>2017-01-24 10:04:24</sys_updated_on>
+    </sys_script_include>
+</record_update>

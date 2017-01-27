@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_ng_action">
+    <sys_ui_ng_action action="INSERT_OR_UPDATE">
+        <action_name>cancel</action_name>
+        <active>true</active>
+        <color/>
+        <comments/>
+        <condition>(new global.StateFlow().validFlow(current, '0c64893edb103200c5df7befbf96191c', 'manual'));</condition>
+        <form_button>false</form_button>
+        <form_more_item>true</form_more_item>
+        <hide_when_disabled>true</hide_when_disabled>
+        <hint/>
+        <list_button>false</list_button>
+        <name>Cancel</name>
+        <navigate_back>false</navigate_back>
+        <order>700</order>
+        <script><![CDATA[new global.StateFlow().processFlow(current, '0c64893edb103200c5df7befbf96191c', 'manual');]]></script>
+        <show_for>any</show_for>
+        <sys_class_name>sys_ui_ng_action</sys_class_name>
+        <sys_created_by>admin_stwilhelm</sys_created_by>
+        <sys_created_on>2017-01-27 10:07:50</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ca31e84613e83e00fd79b90a6144b06d</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Cancel</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IoT Service Management" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</sys_scope>
+        <sys_update_name>sys_ui_ng_action_ca31e84613e83e00fd79b90a6144b06d</sys_update_name>
+        <sys_updated_by>admin_stwilhelm</sys_updated_by>
+        <sys_updated_on>2017-01-27 10:21:20</sys_updated_on>
+        <table>x_76760_iot_sm_request</table>
+    </sys_ui_ng_action>
+</record_update>

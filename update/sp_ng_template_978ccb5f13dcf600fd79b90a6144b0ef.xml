@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_ng_template">
+    <sp_ng_template action="INSERT_OR_UPDATE">
+        <id>iotDropdownTreeTemplate</id>
+        <sp_widget display_value="IoT Header ">0294a2761394f600cb273192e144b07f</sp_widget>
+        <sys_class_name>sp_ng_template</sys_class_name>
+        <sys_created_by>admin_kbazanov</sys_created_by>
+        <sys_created_on>2017-01-19 09:32:32</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>978ccb5f13dcf600fd79b90a6144b0ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>iotDropdownTreeTemplate</sys_name>
+        <sys_package display_value="IoT Service Management" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</sys_scope>
+        <sys_update_name>sp_ng_template_978ccb5f13dcf600fd79b90a6144b0ef</sys_update_name>
+        <sys_updated_by>admin_kbazanov</sys_updated_by>
+        <sys_updated_on>2017-01-19 09:32:32</sys_updated_on>
+        <template><![CDATA[<a ng-if="mi.type == 'link'" title="{{mi.title}}" target="{{mi.target}}" href="{{mi.href}}">
+  {{mi.title | characters:60}}
+</a>
+<a ng-if="mi.type == 'record' && !mi.__page" title="{{mi.short_description}}" href="?id=ticket&table={{mi.__table}}&sys_id={{mi.sys_id}}">
+  <span>{{mi.short_description | characters:60}}</span>
+  <span class="block color-primary text-muted">
+    <span class="block" style="float: right">
+      <sn-time-ago timestamp="mi.sys_updated_on" />
+    </span>
+    {{mi.number}}
+  </span>
+</a>
+<a ng-if="mi.type == 'record' && mi.__page" title="{{mi.short_description}}" href="?id={{mi.__page}}&table={{mi.__table}}&sys_id={{mi.sys_id}}">
+  <span>{{mi.short_description | characters:60}}</span>
+  <span class="block color-primary text-muted">
+    <span class="block" style="float: right">
+      <sn-time-ago timestamp="mi.sys_updated_on" />
+    </span>
+    {{mi.number}}
+  </span>
+</a>
+<a ng-if="mi.type == 'request'" title="{{mi.short_description}}" href="?id=sc_request&table={{mi.__table}}&sys_id={{mi.sys_id}}">
+  <span>{{mi.short_description | characters:60}}</span>
+  <span class="block color-primary text-muted">
+    <span class="block" style="float: right">
+      <sn-time-ago timestamp="mi.sys_updated_on" />
+    </span>
+    {{mi.number}}
+  </span>
+</a>
+<a ng-if="mi.type == 'approval'" title="{{mi.short_description}}" href="?id=approval&table={{mi.__table}}&sys_id={{mi.sys_id}}">
+  <span ng-if="mi.short_description">{{mi.short_description | characters:60}}</span>
+  <span class="block color-primary text-muted">
+    <span class="block" style="float: right">
+      <sn-time-ago timestamp="mi.sys_updated_on" />
+    </span>
+    {{mi.number}}
+  </span>
+</a>
+<a ng-if="mi.type == 'menu' && mi.items.length" title="{{mi.title}}" href="javascript:void(0)" class="menu_trigger right-caret">
+  {{mi.title | characters:60}}
+</a>
+<sp-dropdown-tree ng-if="mi.type == 'menu' && mi.items.length" items="mi.items" />]]></template>
+    </sp_ng_template>
+</record_update>

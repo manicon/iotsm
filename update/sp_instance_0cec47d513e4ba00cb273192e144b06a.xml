@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>0</order>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">a615d35d13e4ba00cb273192e144b07b</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin_kbazanov</sys_created_by>
+        <sys_created_on>2017-01-25 14:41:36</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>0cec47d513e4ba00cb273192e144b06a</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="IoT Service Management" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</sys_scope>
+        <sys_update_name>sp_instance_0cec47d513e4ba00cb273192e144b06a</sys_update_name>
+        <sys_updated_by>admin_kbazanov</sys_updated_by>
+        <sys_updated_on>2017-01-25 15:17:36</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<p><embed src=\"$map_page_primary.do?sysparm_sys_id=c5d9aa151364ba00cb273192e144b069\" width=\"100%\" height=\"450px\" /></p>",
+		"displayValue": "<p><embed src=\"$map_page_primary.do?sysparm_sys_id=c5d9aa151364ba00cb273192e144b069\" width=\"100%\" height=\"450px\" /></p>"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+</record_update>

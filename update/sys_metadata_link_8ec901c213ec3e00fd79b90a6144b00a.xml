@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>4ac901c213ec3e00fd79b90a6144b00a</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sm_m2m_somodel_stmodel">
+    <sm_m2m_somodel_stmodel action="INSERT_OR_UPDATE">
+        <order>2</order>
+        <so_model display_value="R1 skill test">a5c98d4213ec3e00fd79b90a6144b0b5</so_model>
+        <st_model display_value="Task 2 Electric">d6b1a00d6b6160d6b2190d6bf320d6b2</st_model>
+        <sys_created_by>admin_stwilhelm</sys_created_by>
+        <sys_created_on>2017-01-27 13:04:18</sys_created_on>
+        <sys_id>4ac901c213ec3e00fd79b90a6144b00a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin_stwilhelm</sys_updated_by>
+        <sys_updated_on>2017-01-27 13:04:18</sys_updated_on>
+    </sm_m2m_somodel_stmodel>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin_stwilhelm</sys_created_by>
+        <sys_created_on>2017-01-27 13:04:18</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>8ec901c213ec3e00fd79b90a6144b00a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created 27.01.2017 14:04:18</sys_name>
+        <sys_package display_value="IoT Service Management" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</sys_scope>
+        <sys_update_name>sys_metadata_link_8ec901c213ec3e00fd79b90a6144b00a</sys_update_name>
+        <sys_updated_by>admin_stwilhelm</sys_updated_by>
+        <sys_updated_on>2017-01-27 13:04:18</sys_updated_on>
+        <tablename>sm_m2m_somodel_stmodel</tablename>
+    </sys_metadata_link>
+</record_update>

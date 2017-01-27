@@ -2,7 +2,7 @@
 <record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
         <active>true</active>
-        <application display_value="IoT SM">c76093c313d8f600fd79b90a6144b0fe</application>
+        <application/>
         <assessment/>
         <content_page/>
         <device_type/>
@@ -18,7 +18,7 @@
         <mobile_title>Open - Unassigned</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_76760_iot_sm_task</name>
-        <order>410</order>
+        <order>520</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -32,7 +32,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8b60d3c313d8f600fd79b90a6144b008</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Open - Unassigned</sys_name>
         <sys_overrides/>
         <sys_package display_value="IoT Service Management" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
@@ -40,8 +40,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</sys_scope>
         <sys_update_name>sys_app_module_8b60d3c313d8f600fd79b90a6144b008</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2017-01-18 15:10:47</sys_updated_on>
+        <sys_updated_by>admin_stwilhelm</sys_updated_by>
+        <sys_updated_on>2017-01-25 10:03:30</sys_updated_on>
         <timeline_page/>
         <title>Open - Unassigned</title>
         <uncancelable>false</uncancelable>

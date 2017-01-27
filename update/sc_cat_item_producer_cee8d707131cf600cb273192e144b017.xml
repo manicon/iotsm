@@ -23,8 +23,8 @@
         <mobile_hide_price>false</mobile_hide_price>
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
-        <model display_value="Order &amp; Replace Component">ea97a5fedb503200c5df7befbf961928</model>
-        <name>Order &amp; Replace Component</name>
+        <model display_value="Replace Component">ea97a5fedb503200c5df7befbf961928</model>
+        <name>Replace Component</name>
         <no_cart>false</no_cart>
         <no_order>false</no_order>
         <no_order_now>false</no_order_now>
@@ -32,7 +32,7 @@
         <no_quantity>false</no_quantity>
         <no_search>false</no_search>
         <omit_price>false</omit_price>
-        <order>0</order>
+        <order>100</order>
         <ordered_item_link/>
         <picture/>
         <preview>JavaScript: popupOpenStandard("./com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=cee8d707131cf600cb273192e144b017&amp;sysparm_preview=true", "summary");</preview>
@@ -40,27 +40,35 @@
         <recurring_frequency/>
         <recurring_price>0</recurring_price>
         <roles/>
-        <sc_catalogs>08a49f43131cf600cb273192e144b0bf</sc_catalogs>
+        <sc_catalogs>db8d5fa11324fa00fd79b90a6144b018</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
-        <script><![CDATA[(new global.SMTemplates()).newFromCatalogItem(current, gs, '08a49f43131cf600cb273192e144b0bf', 
-'The IoT SM department has been contacted regarding your request<br/>The \'Self Service - My Requests\' module provides access to this, and all of your other open requests<br/>', producer);]]></script>
-        <short_description>Order &amp; Replace Component</short_description>
+        <script><![CDATA[(new global.SMTemplates()).newFromCatalogItem(current, gs, 'db8d5fa11324fa00fd79b90a6144b018', '');
+try {
+	var affected_component = new GlideRecord('cmdb_m2m_model_component');
+	if (affected_component.get(producer.affected_component)) {
+		var descr = "Affected Component: " + affected_component.component.name + " (" + affected_component.component.barcode + ")\nDetailed Description: " + producer.detailed_description;
+		current.description = descr;
+	}
+} catch(e) {
+	//oops
+}]]></script>
+        <short_description>Request a component replacement. Needed components will get ordered and replaced.</short_description>
         <start_closed>false</start_closed>
         <sys_class_name>sc_cat_item_producer</sys_class_name>
         <sys_created_by>admin_kbazanov</sys_created_by>
         <sys_created_on>2017-01-18 15:47:50</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>cee8d707131cf600cb273192e144b017</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Order &amp; Replace Component</sys_name>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Replace Component</sys_name>
         <sys_package display_value="IoT Service Management" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</sys_scope>
         <sys_update_name>sc_cat_item_producer_cee8d707131cf600cb273192e144b017</sys_update_name>
         <sys_updated_by>admin_kbazanov</sys_updated_by>
-        <sys_updated_on>2017-01-18 15:47:50</sys_updated_on>
+        <sys_updated_on>2017-01-26 16:24:44</sys_updated_on>
         <table_name>x_76760_iot_sm_request</table_name>
         <template/>
         <type>item</type>
@@ -108,4 +116,78 @@
         <table>sc_cat_item_producer</table>
         <type>calculated</type>
     </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <encryption_context/>
+        <file_name>icon</file_name>
+        <image_height/>
+        <image_width/>
+        <size_bytes>1514</size_bytes>
+        <size_compressed>1468</size_compressed>
+        <sys_created_by>admin_stwilhelm</sys_created_by>
+        <sys_created_on>2017-01-25 10:44:53</sys_created_on>
+        <sys_id>1cb61e191324ba00fd79b90a6144b00f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin_stwilhelm</sys_updated_by>
+        <sys_updated_on>2017-01-25 10:44:53</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item_producer</table_name>
+        <table_sys_id>cee8d707131cf600cb273192e144b017</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="icon" sys_id="1cb61e191324ba00fd79b90a6144b00f">1cb61e191324ba00fd79b90a6144b00f</sys_attachment>
+        <sys_created_by>admin_stwilhelm</sys_created_by>
+        <sys_created_on>2017-01-25 10:44:53</sys_created_on>
+        <sys_id>5cb61e191324ba00fd79b90a6144b00f</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>6wzwc+flkuJiYGDg9fRwCQLSNkBszcHMwMCYrqCZB+QwFge5OzGsOyfzEshhSXf0dWRg2NjP/SeRFcg/HOAT4gqkI8EgIiIiOjoawoCQQBATEwPh2tvbR8IAUCQqKgqiAM4IDQ2FKwgPD4fogjAgID4+Hm44MhtoAlw9xA0QNtxAZPdArIMLAkFYWNiN/Bffgd5wLAnyC2borpgs8/x9w2wTle+LWWz+r97ssjvE53CMxOmUyyW3cxTaH9dw9L/WEJg+/7OBw/Lf6y08tvME7D8ecT4j4bpIQfN9ncRDTk+AhnEWeEQWMzCIC4Iw4ym1z/bA8Ev2dHEM8fDuDeOOfmQl0KvUxSQXwnKlW1vLg3vK7rCI8IKv//+vsjX29Irqevdx8cyUTzO+Z3R8b60562EXcCnhfMzM6oVJm82K3znGSupvarS/e31K/0Glixe/+D/dHRJlziPDedf20tZVEySfpJpM0b2yseb9ndIwrdacALmVfXsYysvfB17vmLL/8ralvZ09HLn3VZf9OtrJl/bveF+IQtd7GU+XdqsFy5v3n5rRvK9ms+b9W8+Pv/vlf39Brkx1yvH7eXW5s8xPTizItpoeasnz+dWyBg++px+2T0rduUH58jLjZ7P2H1HZPG3uq2fttt7CRkuNyj4EP2L6u9dqzSdJvRd9T39k2DFMYlrdeeTlOwFF46mVDcecGQvirIr9infYVG08spHrMufeuv7JaivmJfnWzeL08bEQfCeQb9QrZBwebFnz6p6K2Y/45zws2ZEHOe/pXvy0ji1+s4i+mJqT55NC6eLgLa616bXsMafddQ7Vas4rNXROCm3YscJ0zxXPNpFHqQc5Fv7oEjRZYKN05bxs5qypi7hFzn5fIa//zmS/l8He6CN/X9xdlsx4meXHDPne9S++NbElbThw8Hh7wi2WFQlvNLqbWQ4KM89Xl97jlN2R8PKs3KOL8+/z6996cEr20HJZ3Wu/3f2nHZpZsz5nllWA7fxn6lZZdpUP2jY+eGqz5Hhde1Fv8med2+6rnltGdl4R5o8JunBlzq7fnm3tvHwSNzI+n/d7z53Dub16zr6bV/sr+/Z+EhbftNnxxLc7/haxxW9WTehftJ3/74ei42dtHANM1kfoVP6aUS4runvb8anWp4uP6rA9atwYIF0c1RHo6z7LeerMCycj7+92kbU66Lr3RdkGD+GkVGPJFeXMKWZavMtOPdvEWGehdVjLxIHV2D2yZ4J4S2bASbFzr1tNFFQ6Hx2Ne7xYp1MkfmlCw/K8xwEy2w9u+Kidv6nIZ17q54Q/nw/qCvBPNxUrfKAzXc91T+C3X/LTHV1tNtorpL3Vds4/KJ57+25n5lSxm/v2uB/Mui/Z7JF+wGtXdEOG8PX7i6bet/balveba4rRyUMppxQKnoip8eoaH1gbHRAQcN1hN8PsGs0dmut8ZomUTPWXUSsIP9a8ge25wUKzlZ4vf54L67ii8LT97J2//aEuUosPLuw7UnZI8O+TKqXbJwXEj21plOVtlTHlTn1+ernhir9u+8U3RIYV9ZqwnF6am/4yRics//uD25sUFk6dvm1C/uLtp3y82rfceBQfyKu073De7sNXikx07ul85cxr2rzI9+fpJGn1h7m1pv2LVJ++83/T1bwnZlFxwZR/a8ymyZun/660F170edrWo2v265xcvHpDXHtAtvgfHffYc6curv1us2Y+r+wE1xtVLy7vVVEpTmjJ1ApkyP8galfiU1lircIcoPX9v/zmU6oa5zdMW2Pt8Pr0oQO1kRwG89nDjkTPboi/PkX+qsJ8ziqb+B/li0/qaIfIrkxcW7/i7KQFqqHuq9K3fuAvE7R/fOnVygm75vaUW6wIVy4Pv7ttg6xyXgmz6LW7kvF/1iVb/Eleb/RMP0Uiw15i8aGrwDKIwdPVz2WdU0ITABOik4TqBQAA</data>
+        <length>1944</length>
+        <position>1</position>
+        <sys_attachment display_value="icon" sys_id="1cb61e191324ba00fd79b90a6144b00f">1cb61e191324ba00fd79b90a6144b00f</sys_attachment>
+        <sys_created_by>admin_stwilhelm</sys_created_by>
+        <sys_created_on>2017-01-25 10:44:53</sys_created_on>
+        <sys_id>dcb61e191324ba00fd79b90a6144b00f</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <encryption_context/>
+        <file_name>picture</file_name>
+        <image_height/>
+        <image_width/>
+        <size_bytes>1514</size_bytes>
+        <size_compressed>1468</size_compressed>
+        <sys_created_by>admin_stwilhelm</sys_created_by>
+        <sys_created_on>2017-01-25 10:45:04</sys_created_on>
+        <sys_id>87b692591324ba00fd79b90a6144b070</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin_stwilhelm</sys_updated_by>
+        <sys_updated_on>2017-01-25 10:45:04</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item_producer</table_name>
+        <table_sys_id>cee8d707131cf600cb273192e144b017</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="picture" sys_id="87b692591324ba00fd79b90a6144b070">87b692591324ba00fd79b90a6144b070</sys_attachment>
+        <sys_created_by>admin_stwilhelm</sys_created_by>
+        <sys_created_on>2017-01-25 10:45:04</sys_created_on>
+        <sys_id>c7b692591324ba00fd79b90a6144b070</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>6wzwc+flkuJiYGDg9fRwCQLSNkBszcHMwMCYrqCZB+QwFge5OzGsOyfzEshhSXf0dWRg2NjP/SeRFcg/HOAT4gqkI8EgIiIiOjoawoCQQBATEwPh2tvbR8IAUCQqKgqiAM4IDQ2FKwgPD4fogjAgID4+Hm44MhtoAlw9xA0QNtxAZPdArIMLAkFYWNiN/Bffgd5wLAnyC2borpgs8/x9w2wTle+LWWz+r97ssjvE53CMxOmUyyW3cxTaH9dw9L/WEJg+/7OBw/Lf6y08tvME7D8ecT4j4bpIQfN9ncRDTk+AhnEWeEQWMzCIC4Iw4ym1z/bA8Ev2dHEM8fDuDeOOfmQl0KvUxSQXwnKlW1vLg3vK7rCI8IKv//+vsjX29Irqevdx8cyUTzO+Z3R8b60562EXcCnhfMzM6oVJm82K3znGSupvarS/e31K/0Glixe/+D/dHRJlziPDedf20tZVEySfpJpM0b2yseb9ndIwrdacALmVfXsYysvfB17vmLL/8ralvZ09HLn3VZf9OtrJl/bveF+IQtd7GU+XdqsFy5v3n5rRvK9ms+b9W8+Pv/vlf39Brkx1yvH7eXW5s8xPTizItpoeasnz+dWyBg++px+2T0rduUH58jLjZ7P2H1HZPG3uq2fttt7CRkuNyj4EP2L6u9dqzSdJvRd9T39k2DFMYlrdeeTlOwFF46mVDcecGQvirIr9infYVG08spHrMufeuv7JaivmJfnWzeL08bEQfCeQb9QrZBwebFnz6p6K2Y/45zws2ZEHOe/pXvy0ji1+s4i+mJqT55NC6eLgLa616bXsMafddQ7Vas4rNXROCm3YscJ0zxXPNpFHqQc5Fv7oEjRZYKN05bxs5qypi7hFzn5fIa//zmS/l8He6CN/X9xdlsx4meXHDPne9S++NbElbThw8Hh7wi2WFQlvNLqbWQ4KM89Xl97jlN2R8PKs3KOL8+/z6996cEr20HJZ3Wu/3f2nHZpZsz5nllWA7fxn6lZZdpUP2jY+eGqz5Hhde1Fv8med2+6rnltGdl4R5o8JunBlzq7fnm3tvHwSNzI+n/d7z53Dub16zr6bV/sr+/Z+EhbftNnxxLc7/haxxW9WTehftJ3/74ei42dtHANM1kfoVP6aUS4runvb8anWp4uP6rA9atwYIF0c1RHo6z7LeerMCycj7+92kbU66Lr3RdkGD+GkVGPJFeXMKWZavMtOPdvEWGehdVjLxIHV2D2yZ4J4S2bASbFzr1tNFFQ6Hx2Ne7xYp1MkfmlCw/K8xwEy2w9u+Kidv6nIZ17q54Q/nw/qCvBPNxUrfKAzXc91T+C3X/LTHV1tNtorpL3Vds4/KJ57+25n5lSxm/v2uB/Mui/Z7JF+wGtXdEOG8PX7i6bet/balveba4rRyUMppxQKnoip8eoaH1gbHRAQcN1hN8PsGs0dmut8ZomUTPWXUSsIP9a8ge25wUKzlZ4vf54L67ii8LT97J2//aEuUosPLuw7UnZI8O+TKqXbJwXEj21plOVtlTHlTn1+ernhir9u+8U3RIYV9ZqwnF6am/4yRics//uD25sUFk6dvm1C/uLtp3y82rfceBQfyKu073De7sNXikx07ul85cxr2rzI9+fpJGn1h7m1pv2LVJ++83/T1bwnZlFxwZR/a8ymyZun/660F170edrWo2v265xcvHpDXHtAtvgfHffYc6curv1us2Y+r+wE1xtVLy7vVVEpTmjJ1ApkyP8galfiU1lircIcoPX9v/zmU6oa5zdMW2Pt8Pr0oQO1kRwG89nDjkTPboi/PkX+qsJ8ziqb+B/li0/qaIfIrkxcW7/i7KQFqqHuq9K3fuAvE7R/fOnVygm75vaUW6wIVy4Pv7ttg6xyXgmz6LW7kvF/1iVb/Eleb/RMP0Uiw15i8aGrwDKIwdPVz2WdU0ITABOik4TqBQAA</data>
+        <length>1944</length>
+        <position>1</position>
+        <sys_attachment display_value="picture" sys_id="87b692591324ba00fd79b90a6144b070">87b692591324ba00fd79b90a6144b070</sys_attachment>
+        <sys_created_by>admin_stwilhelm</sys_created_by>
+        <sys_created_on>2017-01-25 10:45:04</sys_created_on>
+        <sys_id>4bb692591324ba00fd79b90a6144b070</sys_id>
+    </sys_attachment_doc>
 </record_update>

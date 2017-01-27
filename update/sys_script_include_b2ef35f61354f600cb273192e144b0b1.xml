@@ -3,17 +3,40 @@
     <sys_script_include action="INSERT_OR_UPDATE">
         <access>package_private</access>
         <active>true</active>
-        <api_name>x_76760_iot.IoTSMUtils</api_name>
+        <api_name>x_76760_iot.IoTSMUtils_bkp</api_name>
         <client_callable>false</client_callable>
         <description>Utility class for supporting and configuring IoT Service Management application</description>
-        <name>IoTSMUtils</name>
+        <name>IoTSMUtils_bkp</name>
         <script><![CDATA[var IoTSMUtils = Class.create();
 IoTSMUtils.prototype = {
     initialize: function() {
     },
-	
+	/**
 	getRootAffectedCIClass: function() {
 	  return gs.getProperty('x_76760_iot.sm.rootClassAffectedCI', 'cmdb_ci');
+	},
+	**/
+	/**
+	*  Description: get query with a comma-separated list of components assigned to the affected CI
+	*  @param affected_ci String
+	*  @return String
+	*/
+	getQueryCIComponents: function(affected_ci){
+	try{	var answer = [];
+		gs.info(affected_ci);
+		//Componentes assigned to affected CI
+		var gr = new GlideRecord('cmdb_m2m_model_component');
+		//gr.addQuery('parent', 'affected_ci.model_id');
+		gr.query();
+		
+		while(gr.next()) {
+			answer.push(gr.getValue('sys_id'));
+		}
+						
+		return 'sys_idIN' + answer.join(',');
+	}catch(e){
+		alert(e);
+	}
 	},
 	
     type: 'IoTSMUtils'
@@ -23,14 +46,14 @@ IoTSMUtils.prototype = {
         <sys_created_on>2017-01-17 14:42:12</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>b2ef35f61354f600cb273192e144b0b1</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>IoTSMUtils</sys_name>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>IoTSMUtils_bkp</sys_name>
         <sys_package display_value="IoT Service Management" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
         <sys_policy>read</sys_policy>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</sys_scope>
         <sys_update_name>sys_script_include_b2ef35f61354f600cb273192e144b0b1</sys_update_name>
         <sys_updated_by>admin_kbazanov</sys_updated_by>
-        <sys_updated_on>2017-01-17 14:51:58</sys_updated_on>
+        <sys_updated_on>2017-01-25 13:16:30</sys_updated_on>
     </sys_script_include>
 </record_update>

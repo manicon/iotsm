@@ -17,7 +17,7 @@
         <name/>
         <order>101</order>
         <override_menu_roles>false</override_menu_roles>
-        <query>catalog_home.do?sysparm_catalog=08a49f43131cf600cb273192e144b0bf&amp;sysparm_catalog_view=catalog_IoT SM_catalog</query>
+        <query>catalog_home.do?sysparm_catalog=db8d5fa11324fa00fd79b90a6144b018&amp;sysparm_catalog_view=catalog_IoT SM_catalog</query>
         <report/>
         <roles/>
         <survey/>
@@ -29,18 +29,18 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1ca41b83131cf600cb273192e144b0c7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>IoT SM Catalog</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>IoT Service Catalog</sys_name>
         <sys_overrides/>
         <sys_package display_value="IoT Service Management" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</sys_scope>
         <sys_update_name>sys_app_module_1ca41b83131cf600cb273192e144b0c7</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2017-01-18 15:29:09</sys_updated_on>
+        <sys_updated_by>admin_stwilhelm</sys_updated_by>
+        <sys_updated_on>2017-01-26 10:37:56</sys_updated_on>
         <timeline_page/>
-        <title>IoT SM Catalog</title>
+        <title>IoT Service Catalog</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

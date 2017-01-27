@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="EventReport" max_length="40" name="x_76760_iot_eventreport" type="collection">
+        <element label="affectedThingPayload" max_length="2014" name="affectedthingpayload" type="string"/>
+        <element label="Affected CI" max_length="32" name="affected_ci" reference="x_76760_iot_thing" type="reference"/>
+        <element label="eventCode" max_length="40" name="eventcode" type="string"/>
+        <element label="eventExternalID" max_length="40" name="eventexternalid" type="string"/>
+        <element label="eventMessage" max_length="1024" name="eventmessage" type="string"/>
+        <element label="eventName" max_length="120" name="eventname" type="string"/>
+        <element label="eventPayload" max_length="10240" name="eventpayload" type="string"/>
+        <element label="eventProvider" max_length="120" name="eventprovider" type="string"/>
+        <element label="eventStack" max_length="1024" name="eventstack" type="string"/>
+        <element label="eventTimestamp" max_length="40" name="eventtimestamp" type="string"/>
+        <element label="isPredictive" max_length="40" name="ispredictive" type="boolean"/>
+        <element default="javascript:getNextObjNumberPadded();" display="true" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="40" name="number" type="string" use_dynamic_default="true"/>
+        <element label="predicitveTimestamp" max_length="40" name="predicitvetimestamp" type="string"/>
+        <element label="Target Record" max_length="32" name="target_record" reference="x_76760_iot_sm_request" type="reference"/>
+        <element label="thingStatePayload" max_length="1024" name="thingstatepayload" type="string"/>
+        <index name="index">
+            <element name="target_record"/>
+        </index>
+        <index name="index2">
+            <element name="affected_ci"/>
+        </index>
+    </element>
+</database>

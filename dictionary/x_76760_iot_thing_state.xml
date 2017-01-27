@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Thing State" max_length="40" name="x_76760_iot_thing_state" type="collection">
+        <element label="Attribute" max_length="40" name="attribute" type="string"/>
+        <element label="Thing" max_length="32" name="thing" reference="x_76760_iot_thing" type="reference"/>
+        <element label="Unit" max_length="40" name="unit" type="string"/>
+        <element label="Value" max_length="512" name="value" type="string"/>
+        <index name="index">
+            <element name="thing"/>
+        </index>
+    </element>
+</database>

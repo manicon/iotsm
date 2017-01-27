@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>7b524ca51368ba00fd79b90a6144b080</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sm_m2m_somodel_stmodel">
+    <sm_m2m_somodel_stmodel action="INSERT_OR_UPDATE">
+        <order>0</order>
+        <so_model display_value="Machine Disposal">ef52c0a51368ba00fd79b90a6144b03a</so_model>
+        <st_model display_value="Request Disposal from ShredIT Germany">3bd51103bd32803bd3a303bd51a03bdf</st_model>
+        <sys_created_by>admin_stwilhelm</sys_created_by>
+        <sys_created_on>2017-01-25 18:35:20</sys_created_on>
+        <sys_id>7b524ca51368ba00fd79b90a6144b080</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin_stwilhelm</sys_updated_by>
+        <sys_updated_on>2017-01-25 18:35:20</sys_updated_on>
+    </sm_m2m_somodel_stmodel>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin_stwilhelm</sys_created_by>
+        <sys_created_on>2017-01-25 18:35:20</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>bf524ca51368ba00fd79b90a6144b080</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created 25.01.2017 19:35:20</sys_name>
+        <sys_package display_value="IoT Service Management" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</sys_scope>
+        <sys_update_name>sys_metadata_link_bf524ca51368ba00fd79b90a6144b080</sys_update_name>
+        <sys_updated_by>admin_stwilhelm</sys_updated_by>
+        <sys_updated_on>2017-01-25 18:35:20</sys_updated_on>
+        <tablename>sm_m2m_somodel_stmodel</tablename>
+    </sys_metadata_link>
+</record_update>

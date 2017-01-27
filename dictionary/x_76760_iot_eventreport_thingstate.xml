@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="EventReport ThingState" max_length="40" name="x_76760_iot_eventreport_thingstate" type="collection">
+        <element label="Attribute" max_length="40" name="attribute" type="string"/>
+        <element label="EventReport" max_length="32" name="eventreport" reference="x_76760_iot_eventreport" type="reference"/>
+        <element label="Value" max_length="512" name="value" type="string"/>
+        <index name="index">
+            <element name="eventreport"/>
+        </index>
+    </element>
+</database>

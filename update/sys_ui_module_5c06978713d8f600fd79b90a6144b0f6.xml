@@ -2,7 +2,7 @@
 <record_update sys_domain="global" table="sys_ui_module">
     <sys_ui_module action="INSERT_OR_UPDATE">
         <active>true</active>
-        <application display_value="IoT SM">436093c313d8f600fd79b90a6144b0ff</application>
+        <application display_value="IoT Service Management">436093c313d8f600fd79b90a6144b0ff</application>
         <filter/>
         <name>My Task Map</name>
         <order>400</order>

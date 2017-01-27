@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ws_definition">
+    <sys_ws_definition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <base_uri>/api/x_76760_iot/sn_iot</base_uri>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_version>No active default version</default_version>
+        <doc_link/>
+        <enforce_acl>ffce8d6f9f1102003d5c77a0942e7034</enforce_acl>
+        <is_versioned>false</is_versioned>
+        <name>ServiceNow IoT Service Management API</name>
+        <namespace>x_76760_iot</namespace>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <service_id>sn_iot</service_id>
+        <short_description/>
+        <sys_class_name>sys_ws_definition</sys_class_name>
+        <sys_created_by>admin_kbazanov</sys_created_by>
+        <sys_created_on>2017-01-20 15:35:01</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>2d19e57713183a00cb273192e144b0f7</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>ServiceNow IoT Service Management API</sys_name>
+        <sys_package display_value="IoT Service Management" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</sys_scope>
+        <sys_update_name>sys_ws_definition_2d19e57713183a00cb273192e144b0f7</sys_update_name>
+        <sys_updated_by>admin_kbazanov</sys_updated_by>
+        <sys_updated_on>2017-01-23 15:00:25</sys_updated_on>
+    </sys_ws_definition>
+</record_update>

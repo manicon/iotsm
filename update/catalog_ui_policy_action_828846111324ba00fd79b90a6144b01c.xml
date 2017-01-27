@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Machine Relocation">a57e802713503a00fd79b90a6144b0fc</catalog_item>
+        <catalog_variable>IO:31324d89136c7a00fd79b90a6144b017</catalog_variable>
+        <disabled>true</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin_stwilhelm</sys_created_by>
+        <sys_created_on>2017-01-25 09:43:08</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>828846111324ba00fd79b90a6144b01c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>current_location</sys_name>
+        <sys_package display_value="IoT Service Management" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_828846111324ba00fd79b90a6144b01c</sys_update_name>
+        <sys_updated_by>admin_stwilhelm</sys_updated_by>
+        <sys_updated_on>2017-01-25 09:43:08</sys_updated_on>
+        <table/>
+        <ui_policy display_value="IoT Relocation Read only">866806111324ba00fd79b90a6144b036</ui_policy>
+        <variable>current_location</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>

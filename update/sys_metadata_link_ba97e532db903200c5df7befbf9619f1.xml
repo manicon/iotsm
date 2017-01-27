@@ -19,10 +19,10 @@
         <cmdb_ci_class/>
         <cmdb_model_category>e1744d3edb103200c5df7befbf9619af</cmdb_model_category>
         <comments/>
-        <cost>0</cost>
+        <cost>0.00</cost>
         <depreciation/>
         <description/>
-        <display_name>Order &amp; Replace Component</display_name>
+        <display_name>Replace Component</display_name>
         <expenditure_type/>
         <flow_rate/>
         <full_name/>
@@ -30,18 +30,19 @@
         <main_component/>
         <manufacturer/>
         <model_number/>
-        <name>Order &amp; Replace Component</name>
-        <order_description/>
+        <name>Replace Component</name>
+        <order_description>- Order component if needed
+- Install component</order_description>
         <order_skills/>
         <owner/>
         <picture/>
         <power_consumption/>
         <priority>4</priority>
-        <product_catalog_item display_value="Order &amp; Replace Component">cee8d707131cf600cb273192e144b017</product_catalog_item>
+        <product_catalog_item display_value="Replace Component">cee8d707131cf600cb273192e144b017</product_catalog_item>
         <qualification_group/>
         <rack_units>1</rack_units>
-        <salvage_value>0</salvage_value>
-        <short_description>Order &amp; Replace Component</short_description>
+        <salvage_value>0.00</salvage_value>
+        <short_description>A machine has to be maintained</short_description>
         <sla/>
         <sound_power/>
         <status>In Production</status>
@@ -49,9 +50,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-01-17 12:54:20</sys_created_on>
         <sys_id>ea97a5fedb503200c5df7befbf961928</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>admin_kbazanov</sys_updated_by>
-        <sys_updated_on>2017-01-18 15:47:50</sys_updated_on>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin_stwilhelm</sys_updated_by>
+        <sys_updated_on>2017-01-25 16:37:02</sys_updated_on>
         <type>Generic</type>
         <weight/>
         <workflow/>
@@ -82,15 +83,15 @@
         <sys_created_on>2017-01-17 12:54:20</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>ba97e532db903200c5df7befbf9619f1</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Order &amp; Replace Component</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Replace Component</sys_name>
         <sys_package display_value="IoT Service Management" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</sys_scope>
         <sys_update_name>sys_metadata_link_ba97e532db903200c5df7befbf9619f1</sys_update_name>
-        <sys_updated_by>admin_kbazanov</sys_updated_by>
-        <sys_updated_on>2017-01-18 15:47:50</sys_updated_on>
+        <sys_updated_by>admin_stwilhelm</sys_updated_by>
+        <sys_updated_on>2017-01-25 16:37:02</sys_updated_on>
         <tablename>x_76760_iot_sm_request_template</tablename>
     </sys_metadata_link>
 </record_update>

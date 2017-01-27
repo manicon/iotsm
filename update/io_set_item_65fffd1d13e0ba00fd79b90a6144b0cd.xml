@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <sc_cat_item display_value="Restart Machine">7726017013687a00fd79b90a6144b062</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>admin_stwilhelm</sys_created_by>
+        <sys_created_on>2017-01-25 09:05:35</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>65fffd1d13e0ba00fd79b90a6144b0cd</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>iot_sm_predictive_maint.Restart Machine</sys_name>
+        <sys_package display_value="IoT Service Management" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</sys_scope>
+        <sys_update_name>io_set_item_65fffd1d13e0ba00fd79b90a6144b0cd</sys_update_name>
+        <sys_updated_by>admin_stwilhelm</sys_updated_by>
+        <sys_updated_on>2017-01-25 09:05:42</sys_updated_on>
+        <variable_set display_value="iot_sm_predictive_maint">1ae716321394f600cb273192e144b024</variable_set>
+    </io_set_item>
+</record_update>

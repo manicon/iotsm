@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="cmn_map_page">
+    <cmn_map_page action="INSERT_OR_UPDATE">
+        <center_address/>
+        <center_latitude>51.0631029</center_latitude>
+        <center_longitude>13.7448008</center_longitude>
+        <controls_size>small</controls_size>
+        <initial_zoom>5</initial_zoom>
+        <name>Map Things</name>
+        <overview>false</overview>
+        <refresh_on_zoom>false</refresh_on_zoom>
+        <script><![CDATA[var uri = gs.getProperty("glide.servlet.uri");
+
+var gr = new GlideRecord("x_76760_iot_thing");
+gr.query();
+
+while (gr.next()) {
+	var item = map.addItem(gr);
+	item.latitude = gr.location.latitude;
+	item.longitude = gr.location.longitude;
+	item.dialog_title = gr.location.getDisplayValue();
+
+	item.icon_width = 24;
+	item.icon_height = 36;
+
+	var link = '' + uri + 'iot?id=list&table=x_76760_iot_sm_request&filter=location%3D' + gr.location + '';
+	item.html = '<a href="' + link + '" target="_blank">' + gr.location.getDisplayValue() + '</a>';
+	
+	item.icon = "images/icong.png";
+	
+	try {
+		var count = new GlideAggregate('x_76760_iot_sm_request');
+		count.addQuery('active', '=', 'true');
+		count.addQuery('location', '=', gr.location);
+		count.addAggregate('COUNT', 'location');
+		count.query();
+
+		//loop through the results
+		while(count.next()) {
+			var locCount = count.getAggregate('COUNT', 'location');
+
+			item.marker_label = locCount;
+			item.label_offset_left = -4;
+			item.label_offset_top = -30;
+			item.icon = "images/iconr.png";
+
+		}
+	} catch (e) {
+		
+	}
+
+}]]></script>
+        <show_device_location>true</show_device_location>
+        <suffix>map_things</suffix>
+        <sys_class_name>cmn_map_page</sys_class_name>
+        <sys_created_by>admin_kbazanov</sys_created_by>
+        <sys_created_on>2017-01-25 12:09:13</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>c5d9aa151364ba00cb273192e144b069</sys_id>
+        <sys_mod_count>44</sys_mod_count>
+        <sys_name>Map Things</sys_name>
+        <sys_package display_value="IoT Service Management" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</sys_scope>
+        <sys_update_name>cmn_map_page_c5d9aa151364ba00cb273192e144b069</sys_update_name>
+        <sys_updated_by>admin_kbazanov</sys_updated_by>
+        <sys_updated_on>2017-01-25 16:28:16</sys_updated_on>
+        <type>normal</type>
+        <type_selection>buttons</type_selection>
+    </cmn_map_page>
+</record_update>
