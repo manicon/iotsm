@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Thing Message" max_length="40" name="x_76760_iot_thing_message" sizeclass="7683" type="collection">
+        <element label="Metadata" max_length="1024" name="metadata" type="string"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Payload" max_length="1024" name="payload" type="string"/>
+        <element label="Thing" max_length="32" name="thing" reference="x_76760_iot_thing" type="reference"/>
+        <index name="index">
+            <element name="thing"/>
+        </index>
+    </element>
+</database>

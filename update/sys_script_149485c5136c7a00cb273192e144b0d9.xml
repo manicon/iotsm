@@ -35,6 +35,7 @@
 	
 	// Todo: look up event code <-> service mapping
 	var template = '';
+	var autodispatch = false;
 	var grCodeDef = new GlideRecord('x_76760_iot_eventcode_definition');
 	grCodeDef.addQuery('eventcode', '=', current.getValue('eventcode'));
 	grCodeDef.setLimit(1);
@@ -42,10 +43,11 @@
 	
 	if(grCodeDef.next()) {
 		template = grCodeDef.getValue('template');
+		autodispatch = grCodeDef.getValue('auto_dispatch');
 	}
 	
 	
-	// Todo: Loop up active requests to
+	// Todo: Look up active requests to
 	var grRequest = new GlideRecord('x_76760_iot_sm_request');
 	grRequest.addQuery('template', '=', template);
 	grRequest.addQuery('cmdb_ci', '=', current.getValue('affected_ci'));
@@ -62,9 +64,10 @@
 	
 		// Create new request from template
 		grRequest.initialize();
-
+		
 		grRequest.setValue('cmdb_ci', current.getValue('affected_ci'));
 		grRequest.setValue('template', template);
+		grRequest.setValue('description', getRecordSummaryJSON(current, ['eventcode', 'eventname', 'eventmessage', 'eventexternalid', 'ispredictive', 'eventstack']), false, ': ');
 
 		grRequest.insert();
 		
@@ -76,8 +79,49 @@
 		grEVNT.setValue('target_record', request_sys_id);
 		grEVNT.update();
 	}
+	
+	// Auto-dispatch
+	if(autodispatch) {
+		autoDispatch(request_sys_id);
+	}
 
-})(current, previous);]]></script>
+})(current, previous);
+
+
+/**
+ * Get record (@see GlideRcord ) summary to, may be moved to Util class
+ */
+function getRecordSummaryJSON(gr, fields, skipEmpty, separator) {
+	var answer = {};
+	
+	if(typeof separator === 'undefined' || separator === null) {
+		separator = ': '; 
+	}
+		
+	for(var i = 0; i < fields.length; i++) {
+		if(gr.getValue(fields[i]) !== null || gr.getValue(fields[i]) != '' )  {
+			answer[gr[fields[i]].getLabel()] = gr.getDisplayValue(fields[i]);
+		} else {
+			if( !skipEmpty ) {
+				answer[gr[fields[i]].getLabel()] = '';
+			}
+		}
+	}
+	
+	return JSON.stringify(answer, null, "\t");
+}
+
+
+function autoDispatch(request_sys_id) {
+	var gr = new GlideRecord('x_76760_iot_sm_request');
+	gs.info('request_sys_id: ' + request_sys_id);
+	if(gr.get(request_sys_id)) {
+		// Move to Dispatching
+		gr.setValue('state', 10);
+		gr.work_notes= gs.getMessage('Auto-dispatching due EventReport configuration');
+		gr.update();
+	}
+}]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin_kbazanov</sys_created_by>
         <sys_created_on>2017-01-24 10:10:36</sys_created_on>
@@ -85,7 +129,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>149485c5136c7a00cb273192e144b0d9</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>33</sys_mod_count>
         <sys_name>IoT Create Target Record</sys_name>
         <sys_overrides/>
         <sys_package display_value="IoT Service Management" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
@@ -94,7 +138,7 @@
         <sys_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</sys_scope>
         <sys_update_name>sys_script_149485c5136c7a00cb273192e144b0d9</sys_update_name>
         <sys_updated_by>admin_kbazanov</sys_updated_by>
-        <sys_updated_on>2017-01-24 13:37:32</sys_updated_on>
+        <sys_updated_on>2017-02-20 15:05:32</sys_updated_on>
         <template/>
         <when>async</when>
     </sys_script>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_76760_iot.CIUtils2</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>CIUtils2</name>
+        <script><![CDATA[var CIUtils2 = Class.create();
+
+CIUtils2.prototype = {
+    initialize: function () {
+        this.maxDepth = gs.getProperty('glide.relationship.max_depth', 10); // how deep to look
+        this.maxAffectedCIs = gs.getProperty('glide.relationship.threshold', 1000); // max records to return
+        this.defaultClasses = ['cmdb_ci_service', 'service_offering'];
+        this.arutil = new ArrayUtil();
+    },
+    
+    /**
+    * Determine which CIs are affected by a specific CI
+    *
+    * Inputs:
+    * id is the sys_id of a configuration item (cmdb_ci)
+    * classArr is an array of CI class names that should be returned
+    * infoObj is an object created by _getInfoObj used to track data accross multiple
+    *     calls to the function made by cisAffectedByTask. It is not needed when calling
+    *     the function directly.
+    *
+    * Returns:
+    * an array of sys_id values for cmdb_ci records upstream of
+    * (or affected by) the input item
+    */
+    
+    cisAffectedByCI: function (id, classArr, infoObj /*optional*/) {
+        if (!infoObj) {
+            infoObj = this._getInfoObj();
+        }
+        if (infoObj.visitedCIs[id]) {
+            // We've already processed this CI
+            return [];
+        }
+        infoObj.visitedCIs[id] = true;
+        if (!classArr || classArr.length == 0) {
+            classArr = this.defaultClasses;
+        }
+        
+        // This is to keep track of affected CIs from this CI only.
+        // CIs that are already listed in infoObj.affectedCIs from prior
+        // calls to the function will not be included.
+        var affectedCIs = [];
+        var ci = new GlideRecord('cmdb_ci');
+        if (ci.get(id)) {
+            //If class = 'ALL' then just add the CI
+            if (classArr[0] == 'ALL' || this.arutil.contains(classArr, ci.sys_class_name.toString())) {
+                affectedCIs.push(id);
+                this._addCI(id, infoObj);
+            }
+            this._addParentCIs(id, infoObj, affectedCIs, 1, classArr);
+        }
+        return this._unique(affectedCIs); // list of affected CIs
+    },
+    
+    /**
+    * Determine which CIs are affected by a task
+    *
+    * Inputs:
+    * task is a task GlideRecord (e.g., incident, change_request, problem)
+    * classArr is an array of CI class names that should be returned
+    *
+    * Returns:
+    * an array of sys_id values for cmdb_ci records upstream from
+    * (or affected by) the configuration item referenced by the task's cmdb_ci field and Affected CIs list
+    */
+    
+    cisAffectedByTask: function (task, classArr) {
+        var infoObj = this._getInfoObj();
+        //Find the impacted CIs for the 'cmdb_ci' value
+        var id = task.cmdb_ci.toString();
+        if (id) {
+            this.cisAffectedByCI(id, classArr, infoObj);
+        }
+        
+        //Find the impacted CIs for any Affected CIs listed on the task
+        var affCI = new GlideRecord('task_ci');
+        affCI.addQuery('task', task.sys_id);
+        affCI.query();
+        while (affCI.next()) {
+            this.cisAffectedByCI(affCI.ci_item.sys_id.toString(), classArr, infoObj);
+        }
+        return this._objToArray(infoObj.affectedCIs);
+    },
+    
+    /**
+    * Returns an XML-formatted string showing all CIs impacted by an outage to the CI given
+    *
+    * Inputs:
+    * id is the sys_id of the root CI
+    *
+    * Returns:
+    * an XML-formatted string containing cmdb_ci records downstream of
+    * (or affected by) the configuration item provided as input
+    */
+    
+    getCIXML: function (id) {
+        var gr = new GlideRecord('cmdb_rel_ci');
+        gr.addQuery('child', id);
+        gr.query();
+        gr.next();
+        var str = '';
+        str += '<CI>';
+        str += '<sys_id>' + gr.child.sys_id + '</sys_id>';
+        str += '<name>' + gr.child.name + '</name>';
+        str += '<relType>SELF</relType>';
+        ret = this._recurs(id);
+        if (ret) {
+            str += '<children>';
+            str += ret;
+            str += '</children>';
+        }
+        str += '</CI>';
+        return str;
+    },
+    
+    _recurs: function (ci) {
+        var gr = new GlideRecord('cmdb_rel_ci');
+        gr.addQuery('child', ci);
+        gr.query();
+        var str = '';
+        while (gr.next()) {
+            str += '<CI>';
+            str += '<sys_id>' + gr.parent.sys_id + '</sys_id>';
+            str += '<name>' + gr.parent.name + '</name>';
+            str += '<relType>' + gr.type.name + '</relType>';
+            ret = this._recurs(gr.parent.sys_id);
+            if (ret) {
+                str += '<children>';
+                str += ret;
+                str += '</children>';
+            }
+            str += '</CI>';
+        }
+        return str;
+    },
+    
+    _addParentCIs: function (id, infoObj, affectedCIs, currentDepth, classArr) {
+        if (infoObj.affectedCIsCount >= this.maxAffectedCIs)
+            return;
+        
+        var rel = new GlideRecord('cmdb_rel_ci');
+        rel.addQuery('child', id);
+        rel.query();
+        
+        var parents = [];
+        while (rel.next()) {
+            parents.push(rel.parent.toString());
+        }
+        if (parents.length) {
+            var parent = new GlideRecord('cmdb_ci');
+            parent.addQuery('sys_id', parents);
+            parent.query();
+            
+            while (parent.next() && infoObj.affectedCIsCount < this.maxAffectedCIs) {
+                var pid = parent.sys_id.toString();
+                if (!infoObj.visitedCIs[pid]) {
+                    infoObj.visitedCIs[pid] = true;
+                    if (classArr[0] == 'ALL' || this.arutil.contains(classArr, parent.sys_class_name.toString())) {
+                        affectedCIs.push(pid);
+                        this._addCI(pid, infoObj);
+                    }
+                    if (currentDepth < this.maxDepth)
+                        this._addParentCIs(pid, infoObj, affectedCIs, currentDepth + 1, classArr);
+                }
+            }
+        }
+    },
+    
+    _addCI: function (id, infoObj) {
+        infoObj.affectedCIs[id] = true;
+        infoObj.affectedCIsCount++;
+    },
+    
+    _getInfoObj: function () {
+        return {
+            affectedCIsCount: 0, // track how many added, since can't get size() for an Object
+            affectedCIs: {},     // full list of affected CIs for specified classes
+            visitedCIs: {}       // track CIs already iterated over
+        };
+    },
+    
+    _objToArray: function (obj) {
+        var ar = [];
+        for (var id in obj) {
+            ar.push(id);
+        }
+        return ar;
+    },
+    
+    _unique: function (a) {
+        var obj = {};
+        for (var idx in a) {
+            obj[a[idx]] = true;
+        }
+        return this._objToArray(obj);
+    },
+    
+    type: 'CIUtils2'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin_kbazanov</sys_created_by>
+        <sys_created_on>2017-02-22 10:38:45</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>6cc122d613c1f640cb273192e144b08b</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>CIUtils2</sys_name>
+        <sys_package display_value="IoT Service Management" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</sys_scope>
+        <sys_update_name>sys_script_include_6cc122d613c1f640cb273192e144b08b</sys_update_name>
+        <sys_updated_by>admin_kbazanov</sys_updated_by>
+        <sys_updated_on>2017-02-22 10:50:12</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -12,7 +12,7 @@
         <barcode/>
         <bundle>false</bundle>
         <certified>false</certified>
-        <checklist_template display_value="stephan checklist">7015bf111368ba00fd79b90a6144b0ca</checklist_template>
+        <checklist_template/>
         <cmdb_ci_class/>
         <cmdb_model_category>2d744d3edb103200c5df7befbf9619af</cmdb_model_category>
         <comments/>
@@ -43,9 +43,9 @@
         <sys_created_by>admin_stwilhelm</sys_created_by>
         <sys_created_on>2017-01-25 18:35:20</sys_created_on>
         <sys_id>3bd51103bd32803bd3a303bd51a03bdf</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin_stwilhelm</sys_updated_by>
-        <sys_updated_on>2017-01-25 18:35:20</sys_updated_on>
+        <sys_updated_on>2017-02-02 15:32:23</sys_updated_on>
         <task_description>- Verify approval
 - Verify machine EOL state
 - Set up disposal request at ShredIT German</task_description>
@@ -80,7 +80,7 @@
         <sys_created_on>2017-01-25 18:35:20</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>37524ca51368ba00fd79b90a6144b080</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Request Disposal from ShredIT Germany</sys_name>
         <sys_package display_value="IoT Service Management" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
         <sys_policy/>
@@ -88,7 +88,7 @@
         <sys_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</sys_scope>
         <sys_update_name>sys_metadata_link_37524ca51368ba00fd79b90a6144b080</sys_update_name>
         <sys_updated_by>admin_stwilhelm</sys_updated_by>
-        <sys_updated_on>2017-01-25 18:35:20</sys_updated_on>
+        <sys_updated_on>2017-02-02 15:32:23</sys_updated_on>
         <tablename>x_76760_iot_sm_task_template</tablename>
     </sys_metadata_link>
 </record_update>

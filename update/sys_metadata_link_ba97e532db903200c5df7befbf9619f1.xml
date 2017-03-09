@@ -31,8 +31,7 @@
         <manufacturer/>
         <model_number/>
         <name>Replace Component</name>
-        <order_description>- Order component if needed
-- Install component</order_description>
+        <order_description/>
         <order_skills/>
         <owner/>
         <picture/>
@@ -42,7 +41,7 @@
         <qualification_group/>
         <rack_units>1</rack_units>
         <salvage_value>0.00</salvage_value>
-        <short_description>A machine has to be maintained</short_description>
+        <short_description>Replace Component</short_description>
         <sla/>
         <sound_power/>
         <status>In Production</status>
@@ -50,9 +49,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-01-17 12:54:20</sys_created_on>
         <sys_id>ea97a5fedb503200c5df7befbf961928</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_updated_by>admin_stwilhelm</sys_updated_by>
-        <sys_updated_on>2017-01-25 16:37:02</sys_updated_on>
+        <sys_updated_on>2017-02-02 15:37:50</sys_updated_on>
         <type>Generic</type>
         <weight/>
         <workflow/>
@@ -83,7 +82,7 @@
         <sys_created_on>2017-01-17 12:54:20</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>ba97e532db903200c5df7befbf9619f1</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Replace Component</sys_name>
         <sys_package display_value="IoT Service Management" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
         <sys_policy/>
@@ -91,7 +90,7 @@
         <sys_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</sys_scope>
         <sys_update_name>sys_metadata_link_ba97e532db903200c5df7befbf9619f1</sys_update_name>
         <sys_updated_by>admin_stwilhelm</sys_updated_by>
-        <sys_updated_on>2017-01-25 16:37:02</sys_updated_on>
+        <sys_updated_on>2017-02-02 15:37:50</sys_updated_on>
         <tablename>x_76760_iot_sm_request_template</tablename>
     </sys_metadata_link>
 </record_update>

@@ -21,7 +21,7 @@
         <color display_value="Default Color">de699435d7033100b4964ebfae610331</color>
         <color_palette display_value="Default UI14">aa558ab3d7732100fa6c0c12ce610377</color_palette>
         <colors/>
-        <column>affected_ci</column>
+        <column>active</column>
         <compute_percent>aggregate</compute_percent>
         <content/>
         <custom_chart_size>false</custom_chart_size>
@@ -32,11 +32,11 @@
         <display_grid>false</display_grid>
         <donut_width_percent>50</donut_width_percent>
         <exp_report_attrs>true</exp_report_attrs>
-        <field>affected_ci</field>
+        <field>active</field>
         <field_list/>
-        <filter table="x_76760_iot_eventreport">target_record.active=true^EQ^GROUPBYaffected_ci^TRENDBYsys_created_on,year<item endquery="false" field="target_record.active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+        <filter table="x_76760_iot_sm_request">active=true^EQ^GROUPBYactive^TRENDBYsys_created_on,year<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
-            <item endquery="false" field="" goto="false" newquery="false" operator="GROUPBY" or="false" value="affected_ci"/>
+            <item endquery="false" field="" goto="false" newquery="false" operator="GROUPBY" or="false" value="active"/>
             <item endquery="false" field="" goto="false" newquery="false" operator="TRENDBY" or="false" value="sys_created_on,year"/>
         </filter>
         <from/>
@@ -57,7 +57,7 @@
         <location_field/>
         <lower_limit/>
         <map display_value="Germany">25d6b682d7301200bd4a4ebfae610319</map>
-        <map_source display_value="IoT EventReport Location">c4a50cb11364fa00fd79b90a6144b074</map_source>
+        <map_source display_value="IoT ServiceRequest Locations">67f58cb11364fa00fd79b90a6144b04e</map_source>
         <orderby_list/>
         <other_threshold>-2</other_threshold>
         <others>true</others>
@@ -65,7 +65,7 @@
         <report_drilldown/>
         <report_source/>
         <roles>x_76760_iot_agent</roles>
-        <row>affected_ci</row>
+        <row>active</row>
         <sc_groupby_item_id/>
         <sc_groupby_variable_id/>
         <sc_stackby_item_id/>
@@ -88,17 +88,17 @@
         <sys_created_on>2017-01-26 13:37:22</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>7cc744f11364fa00fd79b90a6144b0f5</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>IoT EventReport Locations (with Active Requests)</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>IoT Affected Locations (Active Requests)</sys_name>
         <sys_package display_value="IoT Service Management" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</sys_scope>
         <sys_update_name>sys_report_7cc744f11364fa00fd79b90a6144b0f5</sys_update_name>
         <sys_updated_by>admin_kbazanov</sys_updated_by>
-        <sys_updated_on>2017-01-26 14:33:22</sys_updated_on>
-        <table>x_76760_iot_eventreport</table>
-        <title>IoT EventReport Locations (with Active Requests)</title>
+        <sys_updated_on>2017-02-21 09:45:45</sys_updated_on>
+        <table>x_76760_iot_sm_request</table>
+        <title>IoT Affected Locations (Active Requests)</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>

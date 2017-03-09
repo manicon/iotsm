@@ -4,77 +4,47 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>name</element>
-            <list_id display_value="x_76760_iot_thing" element="NULL" name="x_76760_iot_thing" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2088f1361354f600cb273192e144b0da</list_id>
+            <list_id display_value="x_76760_iot_thing" element="NULL" name="x_76760_iot_thing" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">410e018a130db640cb273192e144b0d0</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>admin_kbazanov</sys_created_by>
-            <sys_created_on>2017-01-17 14:08:11</sys_created_on>
-            <sys_id>2488f1361354f600cb273192e144b0da</sys_id>
+            <sys_created_on>2017-02-21 09:54:11</sys_created_on>
+            <sys_id>450e018a130db640cb273192e144b0d0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin_kbazanov</sys_updated_by>
-            <sys_updated_on>2017-01-17 14:08:11</sys_updated_on>
+            <sys_updated_on>2017-02-21 09:54:11</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>short_description</element>
-            <list_id display_value="x_76760_iot_thing" element="NULL" name="x_76760_iot_thing" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2088f1361354f600cb273192e144b0da</list_id>
+            <element>model_id</element>
+            <list_id display_value="x_76760_iot_thing" element="NULL" name="x_76760_iot_thing" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">410e018a130db640cb273192e144b0d0</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>admin_kbazanov</sys_created_by>
-            <sys_created_on>2017-01-17 14:08:11</sys_created_on>
-            <sys_id>a488f1361354f600cb273192e144b0da</sys_id>
+            <sys_created_on>2017-02-21 09:54:12</sys_created_on>
+            <sys_id>c50e018a130db640cb273192e144b0d0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin_kbazanov</sys_updated_by>
-            <sys_updated_on>2017-01-17 14:08:11</sys_updated_on>
+            <sys_updated_on>2017-02-21 09:54:12</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>thing_type</element>
-            <list_id display_value="x_76760_iot_thing" element="NULL" name="x_76760_iot_thing" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2088f1361354f600cb273192e144b0da</list_id>
+            <element>location</element>
+            <list_id display_value="x_76760_iot_thing" element="NULL" name="x_76760_iot_thing" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">410e018a130db640cb273192e144b0d0</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>admin_kbazanov</sys_created_by>
-            <sys_created_on>2017-01-17 14:08:11</sys_created_on>
-            <sys_id>2888f1361354f600cb273192e144b0da</sys_id>
+            <sys_created_on>2017-02-21 09:54:12</sys_created_on>
+            <sys_id>490e018a130db640cb273192e144b0d0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin_kbazanov</sys_updated_by>
-            <sys_updated_on>2017-01-17 14:08:11</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>location</element>
-            <list_id display_value="x_76760_iot_thing" element="NULL" name="x_76760_iot_thing" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2088f1361354f600cb273192e144b0da</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>3</position>
-            <sum>false</sum>
-            <sys_created_by>admin_kbazanov</sys_created_by>
-            <sys_created_on>2017-01-17 14:08:11</sys_created_on>
-            <sys_id>a888f1361354f600cb273192e144b0da</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin_kbazanov</sys_updated_by>
-            <sys_updated_on>2017-01-17 14:08:11</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>install_status</element>
-            <list_id display_value="x_76760_iot_thing" element="NULL" name="x_76760_iot_thing" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2088f1361354f600cb273192e144b0da</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>4</position>
-            <sum>false</sum>
-            <sys_created_by>admin_kbazanov</sys_created_by>
-            <sys_created_on>2017-01-17 14:08:11</sys_created_on>
-            <sys_id>2c88f1361354f600cb273192e144b0da</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin_kbazanov</sys_updated_by>
-            <sys_updated_on>2017-01-17 14:08:11</sys_updated_on>
+            <sys_updated_on>2017-02-21 09:54:12</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -88,11 +58,11 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin_kbazanov</sys_created_by>
-            <sys_created_on>2017-01-24 12:53:23</sys_created_on>
+            <sys_created_on>2017-02-21 09:54:11</sys_created_on>
             <sys_customer_update>true</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>c18aa9c113ac7a00cb273192e144b02c</sys_id>
+            <sys_id>410e018a130db640cb273192e144b0d0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_76760_iot_thing</sys_name>
             <sys_package display_value="IoT Service Management" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
@@ -101,8 +71,8 @@
             <sys_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</sys_scope>
             <sys_update_name>sys_ui_list_x_76760_iot_thing_null</sys_update_name>
             <sys_updated_by>admin_kbazanov</sys_updated_by>
-            <sys_updated_on>2017-01-24 12:53:23</sys_updated_on>
-            <sys_user display_value="Kostyantyn Bazanov (Admin)">2aaa7fcf13cb2200cb273192e144b0cd</sys_user>
+            <sys_updated_on>2017-02-21 09:54:11</sys_updated_on>
+            <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
         </sys_ui_list>

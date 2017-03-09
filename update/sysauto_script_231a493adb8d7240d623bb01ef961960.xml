@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>IoT Refill Stocks</name>
+        <run_as display_value="Kostyantyn Bazanov (Admin)">2aaa7fcf13cb2200cb273192e144b0cd</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2017-02-23 17:32:35</run_start>
+        <run_time>1969-12-31 23:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[
+checkStock(20, 30, 'Robot Arm', 'Central Warehouse Erfurt', 'Hardware');
+checkStock(20, 30, 'Welding Robot Clamp Holder', 'Central Warehouse Erfurt', 'Hardware');
+
+function checkStock(minStock, maxStock, model, stockrooom, category) {
+
+  var currentStock = getStockCount(model, stockrooom);
+  if( currentStock < minStock) {
+    gs.debug('Restock (' + currentStock + ') needed of ' + model + ' in ' + stockrooom);
+
+    for(var i = currentStock; i < maxStock; i++) {
+      createAssetInStock(model, category, stockrooom);
+    }
+
+  } else {
+    gs.debug('Stock ' + stockrooom + ' is full enough (' + currentStock + ')');
+  }
+
+}
+
+function getStockCount(model, stockroom) {
+  var answer = 0;
+  var gr = new GlideRecord('alm_hardware');
+  gr.addQuery('model.name', '=', model);
+  gr.addQuery('stockroom.name', '=', stockroom);
+  gr.query();
+
+  while(gr.next()) {
+    answer++;
+  }
+
+  return answer;
+}
+
+function createAssetInStock(model, category, stockroom) {
+  var gr = new GlideRecord('alm_hardware');
+  gr.initialize();
+  gr.setDisplayValue('model', model);
+  gr.setDisplayValue('model_category', category);
+  gr.setDisplayValue('stockroom', stockroom);
+  gr.setValue('install_status', 6);
+  gr.setValue('substatus', 'available');
+  gr.insert();
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin_kbazanov</sys_created_by>
+        <sys_created_on>2017-02-23 17:32:52</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>231a493adb8d7240d623bb01ef961960</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IoT Refill Stocks</sys_name>
+        <sys_package display_value="IoT Service Management" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</sys_scope>
+        <sys_update_name>sysauto_script_231a493adb8d7240d623bb01ef961960</sys_update_name>
+        <sys_updated_by>admin_kbazanov</sys_updated_by>
+        <sys_updated_on>2017-02-23 17:32:52</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_instance_table">
+    <sp_instance_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field/>
+        <field_list>name,model_id,install_status,location,default_gateway,short_description</field_list>
+        <filter/>
+        <glyph/>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>0</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">33ac31db13e43640cb273192e144b0f3</sp_column>
+        <sp_page display_value="thing_profile">54e5fd5b13a43640cb273192e144b0a5</sp_page>
+        <sp_widget display_value="Data Table from Instance Definition">38058ff1cb11020000f8d856634c9c8c</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>admin_kbazanov</sys_created_by>
+        <sys_created_on>2017-01-31 14:56:29</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>68d9061313683640cb273192e144b067</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Things</sys_name>
+        <sys_package display_value="IoT Service Management" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</sys_scope>
+        <sys_update_name>sp_instance_table_68d9061313683640cb273192e144b067</sys_update_name>
+        <sys_updated_by>admin_kbazanov</sys_updated_by>
+        <sys_updated_on>2017-01-31 14:58:24</sys_updated_on>
+        <table>x_76760_iot_thing</table>
+        <title>Things</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+</record_update>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<record_update node_type="sys_portal_page" unload_date="2017-01-27 14:24:33">
+<record_update node_type="sys_portal_page" unload_date="2017-03-09 09:47:58">
     <sys_portal_page action="INSERT_OR_UPDATE">
         <layout display_value="layout_2_across">f6defafa0a0a0b12000d5016bd12ff06</layout>
         <order>850</order>
@@ -29,128 +29,183 @@
         <related_items_node>
             <sys_portal action="INSERT_OR_UPDATE">
                 <dropzone>dropzone1</dropzone>
-                <offset>2</offset>
+                <offset>0</offset>
                 <page display_value="IoT Service Management Overview">4a84817edb103200c5df7befbf961954</page>
                 <summary/>
                 <sys_created_by>admin_kbazanov</sys_created_by>
-                <sys_created_on>2017-01-26 13:39:00</sys_created_on>
-                <sys_id>2428c8f11364fa00fd79b90a6144b0a5</sys_id>
+                <sys_created_on>2017-03-06 11:02:20</sys_created_on>
+                <sys_id>164ad41e13913600cb273192e144b0be</sys_id>
                 <sys_mod_count>0</sys_mod_count>
                 <sys_updated_by>admin_kbazanov</sys_updated_by>
-                <sys_updated_on>2017-01-26 13:39:00</sys_updated_on>
+                <sys_updated_on>2017-03-06 11:02:20</sys_updated_on>
                 <related_items_node>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>renderer</name>
-                        <portal_section display_value="Created 26.01.2017 14:39:00">2428c8f11364fa00fd79b90a6144b0a5</portal_section>
-                        <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-01-26 13:39:00</sys_created_on>
-                        <sys_id>2828c8f11364fa00fd79b90a6144b0a5</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-01-26 13:39:00</sys_updated_on>
-                        <value>com.glide.ui.portal.RenderDashboard</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>sys_id</name>
-                        <portal_section display_value="Created 26.01.2017 14:39:00">2428c8f11364fa00fd79b90a6144b0a5</portal_section>
-                        <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-01-26 13:39:00</sys_created_on>
-                        <sys_id>6428c8f11364fa00fd79b90a6144b0a5</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-01-26 13:39:00</sys_updated_on>
-                        <value>4684817edb103200c5df7befbf96191d</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>title</name>
-                        <portal_section display_value="Created 26.01.2017 14:39:00">2428c8f11364fa00fd79b90a6144b0a5</portal_section>
+                        <portal_section display_value="Created 06.03.2017 12:02:20">164ad41e13913600cb273192e144b0be</portal_section>
                         <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-01-26 13:39:00</sys_created_on>
-                        <sys_id>ac28c8f11364fa00fd79b90a6144b0a5</sys_id>
+                        <sys_created_on>2017-03-06 11:02:20</sys_created_on>
+                        <sys_id>164ad41e13913600cb273192e144b0bf</sys_id>
                         <sys_mod_count>0</sys_mod_count>
                         <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-01-26 13:39:00</sys_updated_on>
-                        <value>IoT Service Requests</value>
+                        <sys_updated_on>2017-03-06 11:02:20</sys_updated_on>
+                        <value>IoT Requests Unassigned</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 06.03.2017 12:02:20">164ad41e13913600cb273192e144b0be</portal_section>
+                        <sys_created_by>admin_kbazanov</sys_created_by>
+                        <sys_created_on>2017-03-06 11:02:20</sys_created_on>
+                        <sys_id>1a4ad41e13913600cb273192e144b0be</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin_kbazanov</sys_updated_by>
+                        <sys_updated_on>2017-03-06 11:02:20</sys_updated_on>
+                        <value>report_widget_description</value>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>can_subscribe</name>
-                        <portal_section display_value="Created 26.01.2017 14:39:00">2428c8f11364fa00fd79b90a6144b0a5</portal_section>
+                        <portal_section display_value="Created 06.03.2017 12:02:20">164ad41e13913600cb273192e144b0be</portal_section>
                         <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-01-26 13:39:00</sys_created_on>
-                        <sys_id>e828c8f11364fa00fd79b90a6144b0a5</sys_id>
+                        <sys_created_on>2017-03-06 11:02:20</sys_created_on>
+                        <sys_id>524ad41e13913600cb273192e144b0bf</sys_id>
                         <sys_mod_count>0</sys_mod_count>
                         <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-01-26 13:39:00</sys_updated_on>
+                        <sys_updated_on>2017-03-06 11:02:20</sys_updated_on>
                         <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 06.03.2017 12:02:20">164ad41e13913600cb273192e144b0be</portal_section>
+                        <sys_created_by>admin_kbazanov</sys_created_by>
+                        <sys_created_on>2017-03-06 11:02:20</sys_created_on>
+                        <sys_id>564ad41e13913600cb273192e144b0be</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin_kbazanov</sys_updated_by>
+                        <sys_updated_on>2017-03-06 11:02:20</sys_updated_on>
+                        <value>008fa3d4db457e00d623bb01ef9619d7</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 06.03.2017 12:02:20">164ad41e13913600cb273192e144b0be</portal_section>
+                        <sys_created_by>admin_kbazanov</sys_created_by>
+                        <sys_created_on>2017-03-06 11:02:20</sys_created_on>
+                        <sys_id>9e4ad41e13913600cb273192e144b0be</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin_kbazanov</sys_updated_by>
+                        <sys_updated_on>2017-03-06 11:02:20</sys_updated_on>
+                        <value>list</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 06.03.2017 12:02:20">164ad41e13913600cb273192e144b0be</portal_section>
+                        <sys_created_by>admin_kbazanov</sys_created_by>
+                        <sys_created_on>2017-03-06 11:02:20</sys_created_on>
+                        <sys_id>d64ad41e13913600cb273192e144b0bf</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin_kbazanov</sys_updated_by>
+                        <sys_updated_on>2017-03-06 11:02:20</sys_updated_on>
+                        <value>4a84817edb103200c5df7befbf961954</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 06.03.2017 12:02:20">164ad41e13913600cb273192e144b0be</portal_section>
+                        <sys_created_by>admin_kbazanov</sys_created_by>
+                        <sys_created_on>2017-03-06 11:02:20</sys_created_on>
+                        <sys_id>da4ad41e13913600cb273192e144b0be</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin_kbazanov</sys_updated_by>
+                        <sys_updated_on>2017-03-06 11:02:20</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
                     </sys_portal_preferences>
                 </related_items_node>
             </sys_portal>
             <sys_portal action="INSERT_OR_UPDATE">
-                <dropzone>dropzone2</dropzone>
-                <offset>3</offset>
+                <dropzone>dropzone1</dropzone>
+                <offset>2</offset>
                 <page display_value="IoT Service Management Overview">4a84817edb103200c5df7befbf961954</page>
                 <summary/>
                 <sys_created_by>admin_kbazanov</sys_created_by>
-                <sys_created_on>2017-01-26 13:39:00</sys_created_on>
-                <sys_id>2c28c8f11364fa00fd79b90a6144b0a9</sys_id>
+                <sys_created_on>2017-03-06 11:02:21</sys_created_on>
+                <sys_id>164ad41e13913600cb273192e144b0c1</sys_id>
                 <sys_mod_count>0</sys_mod_count>
                 <sys_updated_by>admin_kbazanov</sys_updated_by>
-                <sys_updated_on>2017-01-26 13:39:00</sys_updated_on>
+                <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
                 <related_items_node>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>renderer</name>
-                        <portal_section display_value="Created 26.01.2017 14:39:00">2c28c8f11364fa00fd79b90a6144b0a9</portal_section>
-                        <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-01-26 13:39:00</sys_created_on>
-                        <sys_id>3028c8f11364fa00fd79b90a6144b0aa</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-01-26 13:39:00</sys_updated_on>
-                        <value>com.glide.ui.portal.RenderDashboard</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>sys_id</name>
-                        <portal_section display_value="Created 26.01.2017 14:39:00">2c28c8f11364fa00fd79b90a6144b0a9</portal_section>
-                        <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-01-26 13:39:00</sys_created_on>
-                        <sys_id>6c28c8f11364fa00fd79b90a6144b0a9</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-01-26 13:39:00</sys_updated_on>
-                        <value>8a84817edb103200c5df7befbf961940</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>title</name>
-                        <portal_section display_value="Created 26.01.2017 14:39:00">2c28c8f11364fa00fd79b90a6144b0a9</portal_section>
+                        <portal_section display_value="Created 06.03.2017 12:02:21">164ad41e13913600cb273192e144b0c1</portal_section>
                         <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-01-26 13:39:00</sys_created_on>
-                        <sys_id>7828c8f11364fa00fd79b90a6144b0aa</sys_id>
+                        <sys_created_on>2017-03-06 11:02:21</sys_created_on>
+                        <sys_id>164ad41e13913600cb273192e144b0c2</sys_id>
                         <sys_mod_count>0</sys_mod_count>
                         <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-01-26 13:39:00</sys_updated_on>
-                        <value>IoT Service Group Usage</value>
+                        <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
+                        <value>Created IoT Requests Last 30 Days</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 06.03.2017 12:02:21">164ad41e13913600cb273192e144b0c1</portal_section>
+                        <sys_created_by>admin_kbazanov</sys_created_by>
+                        <sys_created_on>2017-03-06 11:02:20</sys_created_on>
+                        <sys_id>1a4ad41e13913600cb273192e144b0c1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin_kbazanov</sys_updated_by>
+                        <sys_updated_on>2017-03-06 11:02:20</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>can_subscribe</name>
-                        <portal_section display_value="Created 26.01.2017 14:39:00">2c28c8f11364fa00fd79b90a6144b0a9</portal_section>
+                        <portal_section display_value="Created 06.03.2017 12:02:21">164ad41e13913600cb273192e144b0c1</portal_section>
                         <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-01-26 13:39:00</sys_created_on>
-                        <sys_id>b428c8f11364fa00fd79b90a6144b0aa</sys_id>
+                        <sys_created_on>2017-03-06 11:02:21</sys_created_on>
+                        <sys_id>524ad41e13913600cb273192e144b0c2</sys_id>
                         <sys_mod_count>0</sys_mod_count>
                         <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-01-26 13:39:00</sys_updated_on>
+                        <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
                         <value>true</value>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>can_publish</name>
-                        <portal_section display_value="Created 26.01.2017 14:39:00">2c28c8f11364fa00fd79b90a6144b0a9</portal_section>
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 06.03.2017 12:02:21">164ad41e13913600cb273192e144b0c1</portal_section>
                         <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-01-26 13:39:00</sys_created_on>
-                        <sys_id>f028c8f11364fa00fd79b90a6144b0aa</sys_id>
+                        <sys_created_on>2017-03-06 11:02:20</sys_created_on>
+                        <sys_id>564ad41e13913600cb273192e144b0c1</sys_id>
                         <sys_mod_count>0</sys_mod_count>
                         <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-01-26 13:39:00</sys_updated_on>
-                        <value>true</value>
+                        <sys_updated_on>2017-03-06 11:02:20</sys_updated_on>
+                        <value>6b1548b11364fa00fd79b90a6144b03f</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 06.03.2017 12:02:21">164ad41e13913600cb273192e144b0c1</portal_section>
+                        <sys_created_by>admin_kbazanov</sys_created_by>
+                        <sys_created_on>2017-03-06 11:02:21</sys_created_on>
+                        <sys_id>9e4ad41e13913600cb273192e144b0c1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin_kbazanov</sys_updated_by>
+                        <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
+                        <value>area</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 06.03.2017 12:02:21">164ad41e13913600cb273192e144b0c1</portal_section>
+                        <sys_created_by>admin_kbazanov</sys_created_by>
+                        <sys_created_on>2017-03-06 11:02:21</sys_created_on>
+                        <sys_id>d64ad41e13913600cb273192e144b0c2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin_kbazanov</sys_updated_by>
+                        <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
+                        <value>4a84817edb103200c5df7befbf961954</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 06.03.2017 12:02:21">164ad41e13913600cb273192e144b0c1</portal_section>
+                        <sys_created_by>admin_kbazanov</sys_created_by>
+                        <sys_created_on>2017-03-06 11:02:21</sys_created_on>
+                        <sys_id>da4ad41e13913600cb273192e144b0c1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin_kbazanov</sys_updated_by>
+                        <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
+                        <value>report_widget_description</value>
                     </sys_portal_preferences>
                 </related_items_node>
             </sys_portal>
@@ -160,215 +215,88 @@
                 <page display_value="IoT Service Management Overview">4a84817edb103200c5df7befbf961954</page>
                 <summary/>
                 <sys_created_by>admin_kbazanov</sys_created_by>
-                <sys_created_on>2017-01-26 13:39:00</sys_created_on>
-                <sys_id>6428c8f11364fa00fd79b90a6144b0a4</sys_id>
+                <sys_created_on>2017-03-06 11:02:20</sys_created_on>
+                <sys_id>1e4ad41e13913600cb273192e144b0bf</sys_id>
                 <sys_mod_count>0</sys_mod_count>
                 <sys_updated_by>admin_kbazanov</sys_updated_by>
-                <sys_updated_on>2017-01-26 13:39:00</sys_updated_on>
+                <sys_updated_on>2017-03-06 11:02:20</sys_updated_on>
                 <related_items_node>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>can_subscribe</name>
-                        <portal_section display_value="Created 26.01.2017 14:39:00">6428c8f11364fa00fd79b90a6144b0a4</portal_section>
-                        <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-01-26 13:39:00</sys_created_on>
-                        <sys_id>2c28c8f11364fa00fd79b90a6144b0a4</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-01-26 13:39:00</sys_updated_on>
-                        <value>true</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>renderer</name>
-                        <portal_section display_value="Created 26.01.2017 14:39:00">6428c8f11364fa00fd79b90a6144b0a4</portal_section>
-                        <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-01-26 13:39:00</sys_created_on>
-                        <sys_id>6828c8f11364fa00fd79b90a6144b0a4</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-01-26 13:39:00</sys_updated_on>
-                        <value>com.glide.ui.portal.RenderDashboard</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>sys_id</name>
-                        <portal_section display_value="Created 26.01.2017 14:39:00">6428c8f11364fa00fd79b90a6144b0a4</portal_section>
-                        <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-01-26 13:39:00</sys_created_on>
-                        <sys_id>a428c8f11364fa00fd79b90a6144b0a4</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-01-26 13:39:00</sys_updated_on>
-                        <value>c284817edb103200c5df7befbf961934</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>title</name>
-                        <portal_section display_value="Created 26.01.2017 14:39:00">6428c8f11364fa00fd79b90a6144b0a4</portal_section>
-                        <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-01-26 13:39:00</sys_created_on>
-                        <sys_id>ec28c8f11364fa00fd79b90a6144b0a4</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-01-26 13:39:00</sys_updated_on>
-                        <value>IoT Service Requests by Month</value>
-                    </sys_portal_preferences>
-                </related_items_node>
-            </sys_portal>
-            <sys_portal action="INSERT_OR_UPDATE">
-                <dropzone>dropzone1</dropzone>
-                <offset>0</offset>
-                <page display_value="IoT Service Management Overview">4a84817edb103200c5df7befbf961954</page>
-                <summary/>
-                <sys_created_by>admin_kbazanov</sys_created_by>
-                <sys_created_on>2017-01-26 13:39:00</sys_created_on>
-                <sys_id>6c28c8f11364fa00fd79b90a6144b0a2</sys_id>
-                <sys_mod_count>0</sys_mod_count>
-                <sys_updated_by>admin_kbazanov</sys_updated_by>
-                <sys_updated_on>2017-01-26 13:39:00</sys_updated_on>
-                <related_items_node>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>current_page</name>
-                        <portal_section display_value="Created 26.01.2017 14:39:00">6c28c8f11364fa00fd79b90a6144b0a2</portal_section>
-                        <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-01-26 13:39:00</sys_created_on>
-                        <sys_id>2028c8f11364fa00fd79b90a6144b0a4</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-01-26 13:39:00</sys_updated_on>
-                        <value>4a84817edb103200c5df7befbf961954</value>
-                    </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>help_text_window</name>
-                        <portal_section display_value="Created 26.01.2017 14:39:00">6c28c8f11364fa00fd79b90a6144b0a2</portal_section>
+                        <portal_section display_value="Created 06.03.2017 12:02:20">1e4ad41e13913600cb273192e144b0bf</portal_section>
                         <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-01-26 13:39:00</sys_created_on>
-                        <sys_id>2428c8f11364fa00fd79b90a6144b0a3</sys_id>
+                        <sys_created_on>2017-03-06 11:02:20</sys_created_on>
+                        <sys_id>124ad41e13913600cb273192e144b0c0</sys_id>
                         <sys_mod_count>0</sys_mod_count>
                         <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-01-26 13:39:00</sys_updated_on>
+                        <sys_updated_on>2017-03-06 11:02:20</sys_updated_on>
                         <value>report_widget_description</value>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>renderer</name>
-                        <portal_section display_value="Created 26.01.2017 14:39:00">6c28c8f11364fa00fd79b90a6144b0a2</portal_section>
-                        <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-01-26 13:39:00</sys_created_on>
-                        <sys_id>6028c8f11364fa00fd79b90a6144b0a3</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-01-26 13:39:00</sys_updated_on>
-                        <value>com.glide.ui.portal.RenderReport</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>title</name>
-                        <portal_section display_value="Created 26.01.2017 14:39:00">6c28c8f11364fa00fd79b90a6144b0a2</portal_section>
+                        <portal_section display_value="Created 06.03.2017 12:02:20">1e4ad41e13913600cb273192e144b0bf</portal_section>
                         <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-01-26 13:39:00</sys_created_on>
-                        <sys_id>6c28c8f11364fa00fd79b90a6144b0a3</sys_id>
+                        <sys_created_on>2017-03-06 11:02:20</sys_created_on>
+                        <sys_id>1e4ad41e13913600cb273192e144b0c0</sys_id>
                         <sys_mod_count>0</sys_mod_count>
                         <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-01-26 13:39:00</sys_updated_on>
-                        <value>IoT EventReport Areas</value>
+                        <sys_updated_on>2017-03-06 11:02:20</sys_updated_on>
+                        <value>IoT Requests Assigned</value>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>can_subscribe</name>
-                        <portal_section display_value="Created 26.01.2017 14:39:00">6c28c8f11364fa00fd79b90a6144b0a2</portal_section>
+                        <portal_section display_value="Created 06.03.2017 12:02:20">1e4ad41e13913600cb273192e144b0bf</portal_section>
                         <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-01-26 13:39:00</sys_created_on>
-                        <sys_id>a828c8f11364fa00fd79b90a6144b0a3</sys_id>
+                        <sys_created_on>2017-03-06 11:02:20</sys_created_on>
+                        <sys_id>5a4ad41e13913600cb273192e144b0c0</sys_id>
                         <sys_mod_count>0</sys_mod_count>
                         <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-01-26 13:39:00</sys_updated_on>
+                        <sys_updated_on>2017-03-06 11:02:20</sys_updated_on>
                         <value>true</value>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>sys_id</name>
-                        <portal_section display_value="Created 26.01.2017 14:39:00">6c28c8f11364fa00fd79b90a6144b0a2</portal_section>
+                        <portal_section display_value="Created 06.03.2017 12:02:20">1e4ad41e13913600cb273192e144b0bf</portal_section>
                         <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-01-26 13:39:00</sys_created_on>
-                        <sys_id>ac28c8f11364fa00fd79b90a6144b0a2</sys_id>
+                        <sys_created_on>2017-03-06 11:02:20</sys_created_on>
+                        <sys_id>5e4ad41e13913600cb273192e144b0bf</sys_id>
                         <sys_mod_count>0</sys_mod_count>
                         <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-01-26 13:39:00</sys_updated_on>
-                        <value>14a7ee4513ec7a00cb273192e144b047</value>
+                        <sys_updated_on>2017-03-06 11:02:20</sys_updated_on>
+                        <value>7331f946134db640cb273192e144b0cc</value>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>report_type</name>
-                        <portal_section display_value="Created 26.01.2017 14:39:00">6c28c8f11364fa00fd79b90a6144b0a2</portal_section>
+                        <portal_section display_value="Created 06.03.2017 12:02:20">1e4ad41e13913600cb273192e144b0bf</portal_section>
                         <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-01-26 13:39:00</sys_created_on>
-                        <sys_id>e428c8f11364fa00fd79b90a6144b0a3</sys_id>
+                        <sys_created_on>2017-03-06 11:02:20</sys_created_on>
+                        <sys_id>964ad41e13913600cb273192e144b0c0</sys_id>
                         <sys_mod_count>0</sys_mod_count>
                         <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-01-26 13:39:00</sys_updated_on>
-                        <value>area</value>
-                    </sys_portal_preferences>
-                </related_items_node>
-            </sys_portal>
-            <sys_portal action="INSERT_OR_UPDATE">
-                <dropzone>dropzone2</dropzone>
-                <offset>2</offset>
-                <page display_value="IoT Service Management Overview">4a84817edb103200c5df7befbf961954</page>
-                <summary/>
-                <sys_created_by>admin_kbazanov</sys_created_by>
-                <sys_created_on>2017-01-26 13:39:00</sys_created_on>
-                <sys_id>a828c8f11364fa00fd79b90a6144b0a8</sys_id>
-                <sys_mod_count>0</sys_mod_count>
-                <sys_updated_by>admin_kbazanov</sys_updated_by>
-                <sys_updated_on>2017-01-26 13:39:00</sys_updated_on>
-                <related_items_node>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>can_subscribe</name>
-                        <portal_section display_value="Created 26.01.2017 14:39:00">a828c8f11364fa00fd79b90a6144b0a8</portal_section>
-                        <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-01-26 13:39:00</sys_created_on>
-                        <sys_id>2428c8f11364fa00fd79b90a6144b0a9</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-01-26 13:39:00</sys_updated_on>
-                        <value>true</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>can_publish</name>
-                        <portal_section display_value="Created 26.01.2017 14:39:00">a828c8f11364fa00fd79b90a6144b0a8</portal_section>
-                        <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-01-26 13:39:00</sys_created_on>
-                        <sys_id>6028c8f11364fa00fd79b90a6144b0a9</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-01-26 13:39:00</sys_updated_on>
-                        <value>true</value>
+                        <sys_updated_on>2017-03-06 11:02:20</sys_updated_on>
+                        <value>list</value>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>renderer</name>
-                        <portal_section display_value="Created 26.01.2017 14:39:00">a828c8f11364fa00fd79b90a6144b0a8</portal_section>
+                        <portal_section display_value="Created 06.03.2017 12:02:20">1e4ad41e13913600cb273192e144b0bf</portal_section>
                         <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-01-26 13:39:00</sys_created_on>
-                        <sys_id>ac28c8f11364fa00fd79b90a6144b0a8</sys_id>
+                        <sys_created_on>2017-03-06 11:02:20</sys_created_on>
+                        <sys_id>d24ad41e13913600cb273192e144b0c0</sys_id>
                         <sys_mod_count>0</sys_mod_count>
                         <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-01-26 13:39:00</sys_updated_on>
-                        <value>com.glide.ui.portal.RenderDashboard</value>
+                        <sys_updated_on>2017-03-06 11:02:20</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>title</name>
-                        <portal_section display_value="Created 26.01.2017 14:39:00">a828c8f11364fa00fd79b90a6144b0a8</portal_section>
+                        <name>current_page</name>
+                        <portal_section display_value="Created 06.03.2017 12:02:20">1e4ad41e13913600cb273192e144b0bf</portal_section>
                         <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-01-26 13:39:00</sys_created_on>
-                        <sys_id>e428c8f11364fa00fd79b90a6144b0a9</sys_id>
+                        <sys_created_on>2017-03-06 11:02:20</sys_created_on>
+                        <sys_id>de4ad41e13913600cb273192e144b0c0</sys_id>
                         <sys_mod_count>0</sys_mod_count>
                         <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-01-26 13:39:00</sys_updated_on>
-                        <value>IoT Service Catalog Usage</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>sys_id</name>
-                        <portal_section display_value="Created 26.01.2017 14:39:00">a828c8f11364fa00fd79b90a6144b0a8</portal_section>
-                        <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-01-26 13:39:00</sys_created_on>
-                        <sys_id>e828c8f11364fa00fd79b90a6144b0a8</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-01-26 13:39:00</sys_updated_on>
-                        <value>0e84817edb103200c5df7befbf96192c</value>
+                        <sys_updated_on>2017-03-06 11:02:20</sys_updated_on>
+                        <value>4a84817edb103200c5df7befbf961954</value>
                     </sys_portal_preferences>
                 </related_items_node>
             </sys_portal>
@@ -378,88 +306,187 @@
                 <page display_value="IoT Service Management Overview">4a84817edb103200c5df7befbf961954</page>
                 <summary/>
                 <sys_created_by>admin_kbazanov</sys_created_by>
-                <sys_created_on>2017-01-26 13:39:00</sys_created_on>
-                <sys_id>e028c8f11364fa00fd79b90a6144b0a6</sys_id>
+                <sys_created_on>2017-03-06 11:02:21</sys_created_on>
+                <sys_id>1e4ad41e13913600cb273192e144b0c2</sys_id>
                 <sys_mod_count>0</sys_mod_count>
                 <sys_updated_by>admin_kbazanov</sys_updated_by>
-                <sys_updated_on>2017-01-26 13:39:00</sys_updated_on>
+                <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
                 <related_items_node>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>report_type</name>
-                        <portal_section display_value="Created 26.01.2017 14:39:00">e028c8f11364fa00fd79b90a6144b0a6</portal_section>
+                        <name>title_align</name>
+                        <portal_section display_value="Created 06.03.2017 12:02:21">1e4ad41e13913600cb273192e144b0c2</portal_section>
                         <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-01-26 13:39:00</sys_created_on>
-                        <sys_id>2028c8f11364fa00fd79b90a6144b0a7</sys_id>
+                        <sys_created_on>2017-03-06 11:02:21</sys_created_on>
+                        <sys_id>124ad41e13913600cb273192e144b0c3</sys_id>
                         <sys_mod_count>0</sys_mod_count>
                         <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-01-26 13:39:00</sys_updated_on>
-                        <value>map</value>
+                        <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
+                        <value>left</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 06.03.2017 12:02:21">1e4ad41e13913600cb273192e144b0c2</portal_section>
+                        <sys_created_by>admin_kbazanov</sys_created_by>
+                        <sys_created_on>2017-03-06 11:02:21</sys_created_on>
+                        <sys_id>164ad41e13913600cb273192e144b0c5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin_kbazanov</sys_updated_by>
+                        <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
+                        <value>true</value>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>sys_id</name>
-                        <portal_section display_value="Created 26.01.2017 14:39:00">e028c8f11364fa00fd79b90a6144b0a6</portal_section>
+                        <portal_section display_value="Created 06.03.2017 12:02:21">1e4ad41e13913600cb273192e144b0c2</portal_section>
                         <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-01-26 13:39:00</sys_created_on>
-                        <sys_id>2428c8f11364fa00fd79b90a6144b0a6</sys_id>
+                        <sys_created_on>2017-03-06 11:02:21</sys_created_on>
+                        <sys_id>1a4ad41e13913600cb273192e144b0c4</sys_id>
                         <sys_mod_count>0</sys_mod_count>
                         <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-01-26 13:39:00</sys_updated_on>
+                        <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
                         <value>7cc744f11364fa00fd79b90a6144b0f5</value>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>can_subscribe</name>
-                        <portal_section display_value="Created 26.01.2017 14:39:00">e028c8f11364fa00fd79b90a6144b0a6</portal_section>
+                        <name>show_border</name>
+                        <portal_section display_value="Created 06.03.2017 12:02:21">1e4ad41e13913600cb273192e144b0c2</portal_section>
                         <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-01-26 13:39:00</sys_created_on>
-                        <sys_id>6c28c8f11364fa00fd79b90a6144b0a6</sys_id>
+                        <sys_created_on>2017-03-06 11:02:21</sys_created_on>
+                        <sys_id>1e4ad41e13913600cb273192e144b0c3</sys_id>
                         <sys_mod_count>0</sys_mod_count>
                         <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-01-26 13:39:00</sys_updated_on>
+                        <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
                         <value>true</value>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>current_page</name>
-                        <portal_section display_value="Created 26.01.2017 14:39:00">e028c8f11364fa00fd79b90a6144b0a6</portal_section>
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 06.03.2017 12:02:21">1e4ad41e13913600cb273192e144b0c2</portal_section>
                         <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-01-26 13:39:00</sys_created_on>
-                        <sys_id>a428c8f11364fa00fd79b90a6144b0a7</sys_id>
+                        <sys_created_on>2017-03-06 11:02:21</sys_created_on>
+                        <sys_id>524ad41e13913600cb273192e144b0c5</sys_id>
                         <sys_mod_count>0</sys_mod_count>
                         <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-01-26 13:39:00</sys_updated_on>
-                        <value>4a84817edb103200c5df7befbf961954</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>help_text_window</name>
-                        <portal_section display_value="Created 26.01.2017 14:39:00">e028c8f11364fa00fd79b90a6144b0a6</portal_section>
-                        <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-01-26 13:39:00</sys_created_on>
-                        <sys_id>a828c8f11364fa00fd79b90a6144b0a6</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-01-26 13:39:00</sys_updated_on>
-                        <value>report_widget_description</value>
+                        <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
+                        <value/>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>title</name>
-                        <portal_section display_value="Created 26.01.2017 14:39:00">e028c8f11364fa00fd79b90a6144b0a6</portal_section>
+                        <portal_section display_value="Created 06.03.2017 12:02:21">1e4ad41e13913600cb273192e144b0c2</portal_section>
                         <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-01-26 13:39:00</sys_created_on>
-                        <sys_id>e028c8f11364fa00fd79b90a6144b0a7</sys_id>
+                        <sys_created_on>2017-03-06 11:02:21</sys_created_on>
+                        <sys_id>564ad41e13913600cb273192e144b0c4</sys_id>
                         <sys_mod_count>0</sys_mod_count>
                         <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-01-26 13:39:00</sys_updated_on>
-                        <value>IoT EventReport Locations (with Active Requests)</value>
+                        <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
+                        <value>IoT Affected Locations (Active Requests)</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 06.03.2017 12:02:21">1e4ad41e13913600cb273192e144b0c2</portal_section>
+                        <sys_created_by>admin_kbazanov</sys_created_by>
+                        <sys_created_on>2017-03-06 11:02:21</sys_created_on>
+                        <sys_id>5a4ad41e13913600cb273192e144b0c3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin_kbazanov</sys_updated_by>
+                        <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
+                        <value/>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>renderer</name>
-                        <portal_section display_value="Created 26.01.2017 14:39:00">e028c8f11364fa00fd79b90a6144b0a6</portal_section>
+                        <portal_section display_value="Created 06.03.2017 12:02:21">1e4ad41e13913600cb273192e144b0c2</portal_section>
                         <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-01-26 13:39:00</sys_created_on>
-                        <sys_id>e428c8f11364fa00fd79b90a6144b0a6</sys_id>
+                        <sys_created_on>2017-03-06 11:02:21</sys_created_on>
+                        <sys_id>5e4ad41e13913600cb273192e144b0c2</sys_id>
                         <sys_mod_count>0</sys_mod_count>
                         <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-01-26 13:39:00</sys_updated_on>
+                        <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
                         <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 06.03.2017 12:02:21">1e4ad41e13913600cb273192e144b0c2</portal_section>
+                        <sys_created_by>admin_kbazanov</sys_created_by>
+                        <sys_created_on>2017-03-06 11:02:21</sys_created_on>
+                        <sys_id>924ad41e13913600cb273192e144b0c4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin_kbazanov</sys_updated_by>
+                        <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_size</name>
+                        <portal_section display_value="Created 06.03.2017 12:02:21">1e4ad41e13913600cb273192e144b0c2</portal_section>
+                        <sys_created_by>admin_kbazanov</sys_created_by>
+                        <sys_created_on>2017-03-06 11:02:21</sys_created_on>
+                        <sys_id>964ad41e13913600cb273192e144b0c3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin_kbazanov</sys_updated_by>
+                        <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
+                        <value>10pt</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 06.03.2017 12:02:21">1e4ad41e13913600cb273192e144b0c2</portal_section>
+                        <sys_created_by>admin_kbazanov</sys_created_by>
+                        <sys_created_on>2017-03-06 11:02:21</sys_created_on>
+                        <sys_id>9a4ad41e13913600cb273192e144b0c5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin_kbazanov</sys_updated_by>
+                        <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
+                        <value>4a84817edb103200c5df7befbf961954</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 06.03.2017 12:02:21">1e4ad41e13913600cb273192e144b0c2</portal_section>
+                        <sys_created_by>admin_kbazanov</sys_created_by>
+                        <sys_created_on>2017-03-06 11:02:21</sys_created_on>
+                        <sys_id>9e4ad41e13913600cb273192e144b0c4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin_kbazanov</sys_updated_by>
+                        <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 06.03.2017 12:02:21">1e4ad41e13913600cb273192e144b0c2</portal_section>
+                        <sys_created_by>admin_kbazanov</sys_created_by>
+                        <sys_created_on>2017-03-06 11:02:21</sys_created_on>
+                        <sys_id>d24ad41e13913600cb273192e144b0c3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin_kbazanov</sys_updated_by>
+                        <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>widget_height</name>
+                        <portal_section display_value="Created 06.03.2017 12:02:21">1e4ad41e13913600cb273192e144b0c2</portal_section>
+                        <sys_created_by>admin_kbazanov</sys_created_by>
+                        <sys_created_on>2017-03-06 11:02:21</sys_created_on>
+                        <sys_id>d64ad41e13913600cb273192e144b0c5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin_kbazanov</sys_updated_by>
+                        <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 06.03.2017 12:02:21">1e4ad41e13913600cb273192e144b0c2</portal_section>
+                        <sys_created_by>admin_kbazanov</sys_created_by>
+                        <sys_created_on>2017-03-06 11:02:21</sys_created_on>
+                        <sys_id>da4ad41e13913600cb273192e144b0c4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin_kbazanov</sys_updated_by>
+                        <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 06.03.2017 12:02:21">1e4ad41e13913600cb273192e144b0c2</portal_section>
+                        <sys_created_by>admin_kbazanov</sys_created_by>
+                        <sys_created_on>2017-03-06 11:02:21</sys_created_on>
+                        <sys_id>de4ad41e13913600cb273192e144b0c3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin_kbazanov</sys_updated_by>
+                        <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
+                        <value>map</value>
                     </sys_portal_preferences>
                 </related_items_node>
             </sys_portal>
@@ -469,55 +496,88 @@
                 <page display_value="IoT Service Management Overview">4a84817edb103200c5df7befbf961954</page>
                 <summary/>
                 <sys_created_by>admin_kbazanov</sys_created_by>
-                <sys_created_on>2017-01-26 13:39:00</sys_created_on>
-                <sys_id>e828c8f11364fa00fd79b90a6144b0a7</sys_id>
+                <sys_created_on>2017-03-06 11:02:21</sys_created_on>
+                <sys_id>de4ad41e13913600cb273192e144b0c5</sys_id>
                 <sys_mod_count>0</sys_mod_count>
                 <sys_updated_by>admin_kbazanov</sys_updated_by>
-                <sys_updated_on>2017-01-26 13:39:00</sys_updated_on>
+                <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
                 <related_items_node>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>sys_id</name>
-                        <portal_section display_value="Created 26.01.2017 14:39:00">e828c8f11364fa00fd79b90a6144b0a7</portal_section>
+                        <portal_section display_value="Created 06.03.2017 12:02:21">de4ad41e13913600cb273192e144b0c5</portal_section>
                         <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-01-26 13:39:00</sys_created_on>
-                        <sys_id>2c28c8f11364fa00fd79b90a6144b0a7</sys_id>
+                        <sys_created_on>2017-03-06 11:02:21</sys_created_on>
+                        <sys_id>124ad41e13913600cb273192e144b0c6</sys_id>
                         <sys_mod_count>0</sys_mod_count>
                         <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-01-26 13:39:00</sys_updated_on>
-                        <value>8a84817edb103200c5df7befbf961943</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>title</name>
-                        <portal_section display_value="Created 26.01.2017 14:39:00">e828c8f11364fa00fd79b90a6144b0a7</portal_section>
-                        <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-01-26 13:39:00</sys_created_on>
-                        <sys_id>6428c8f11364fa00fd79b90a6144b0a8</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-01-26 13:39:00</sys_updated_on>
-                        <value>IoT Service Tasks</value>
+                        <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
+                        <value>bf51fd46134db640cb273192e144b079</value>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>can_subscribe</name>
-                        <portal_section display_value="Created 26.01.2017 14:39:00">e828c8f11364fa00fd79b90a6144b0a7</portal_section>
+                        <portal_section display_value="Created 06.03.2017 12:02:21">de4ad41e13913600cb273192e144b0c5</portal_section>
                         <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-01-26 13:39:00</sys_created_on>
-                        <sys_id>a028c8f11364fa00fd79b90a6144b0a8</sys_id>
+                        <sys_created_on>2017-03-06 11:02:21</sys_created_on>
+                        <sys_id>1e4ad41e13913600cb273192e144b0c6</sys_id>
                         <sys_mod_count>0</sys_mod_count>
                         <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-01-26 13:39:00</sys_updated_on>
+                        <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
                         <value>true</value>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>renderer</name>
-                        <portal_section display_value="Created 26.01.2017 14:39:00">e828c8f11364fa00fd79b90a6144b0a7</portal_section>
+                        <name>report_type</name>
+                        <portal_section display_value="Created 06.03.2017 12:02:21">de4ad41e13913600cb273192e144b0c5</portal_section>
                         <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-01-26 13:39:00</sys_created_on>
-                        <sys_id>ec28c8f11364fa00fd79b90a6144b0a7</sys_id>
+                        <sys_created_on>2017-03-06 11:02:21</sys_created_on>
+                        <sys_id>5a4ad41e13913600cb273192e144b0c6</sys_id>
                         <sys_mod_count>0</sys_mod_count>
                         <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-01-26 13:39:00</sys_updated_on>
-                        <value>com.glide.ui.portal.RenderDashboard</value>
+                        <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
+                        <value>list</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 06.03.2017 12:02:21">de4ad41e13913600cb273192e144b0c5</portal_section>
+                        <sys_created_by>admin_kbazanov</sys_created_by>
+                        <sys_created_on>2017-03-06 11:02:21</sys_created_on>
+                        <sys_id>924ad41e13913600cb273192e144b0c7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin_kbazanov</sys_updated_by>
+                        <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
+                        <value>4a84817edb103200c5df7befbf961954</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 06.03.2017 12:02:21">de4ad41e13913600cb273192e144b0c5</portal_section>
+                        <sys_created_by>admin_kbazanov</sys_created_by>
+                        <sys_created_on>2017-03-06 11:02:21</sys_created_on>
+                        <sys_id>964ad41e13913600cb273192e144b0c6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin_kbazanov</sys_updated_by>
+                        <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 06.03.2017 12:02:21">de4ad41e13913600cb273192e144b0c5</portal_section>
+                        <sys_created_by>admin_kbazanov</sys_created_by>
+                        <sys_created_on>2017-03-06 11:02:21</sys_created_on>
+                        <sys_id>d24ad41e13913600cb273192e144b0c6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin_kbazanov</sys_updated_by>
+                        <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 06.03.2017 12:02:21">de4ad41e13913600cb273192e144b0c5</portal_section>
+                        <sys_created_by>admin_kbazanov</sys_created_by>
+                        <sys_created_on>2017-03-06 11:02:21</sys_created_on>
+                        <sys_id>de4ad41e13913600cb273192e144b0c6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin_kbazanov</sys_updated_by>
+                        <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
+                        <value>IoT Requests Work in Progress</value>
                     </sys_portal_preferences>
                 </related_items_node>
             </sys_portal>

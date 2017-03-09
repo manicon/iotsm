@@ -3,31 +3,45 @@
     <sys_ui_related sys_domain="global" table="x_76760_iot_thing" version="2" view="">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Thing - Default view" name="x_76760_iot_thing" related_list="NULL" sys_domain="global" view="Default view">b8e912f813a87a00fd79b90a6144b04a</list_id>
+            <list_id display_value="Thing - Default view" name="x_76760_iot_thing" related_list="NULL" sys_domain="global" view="Default view">38bc419b13643640fd79b90a6144b04b</list_id>
             <order_by/>
             <position>0</position>
-            <related_list>cmdb_ci_outage.cmdb_ci</related_list>
+            <related_list>x_76760_iot_eventreport_affectedthing.thing</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
-            <sys_created_by>admin_kbazanov</sys_created_by>
-            <sys_created_on>2017-01-23 21:41:53</sys_created_on>
-            <sys_id>fce912f813a87a00fd79b90a6144b04a</sys_id>
+            <sys_created_by>admin_stwilhelm</sys_created_by>
+            <sys_created_on>2017-01-31 10:29:28</sys_created_on>
+            <sys_id>3cbc419b13643640fd79b90a6144b04b</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin_kbazanov</sys_updated_by>
-            <sys_updated_on>2017-01-23 21:41:53</sys_updated_on>
+            <sys_updated_by>admin_stwilhelm</sys_updated_by>
+            <sys_updated_on>2017-01-31 10:29:28</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Thing - Default view" name="x_76760_iot_thing" related_list="NULL" sys_domain="global" view="Default view">b8e912f813a87a00fd79b90a6144b04a</list_id>
+            <list_id display_value="Thing - Default view" name="x_76760_iot_thing" related_list="NULL" sys_domain="global" view="Default view">38bc419b13643640fd79b90a6144b04b</list_id>
             <order_by/>
             <position>1</position>
-            <related_list>x_76760_iot_eventreport_affectedthing.thing</related_list>
+            <related_list>x_76760_iot_sm_request.cmdb_ci</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
-            <sys_created_by>admin_kbazanov</sys_created_by>
-            <sys_created_on>2017-01-23 21:41:53</sys_created_on>
-            <sys_id>b0e912f813a87a00fd79b90a6144b04b</sys_id>
+            <sys_created_by>admin_stwilhelm</sys_created_by>
+            <sys_created_on>2017-01-31 10:29:28</sys_created_on>
+            <sys_id>fcbc419b13643640fd79b90a6144b04b</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin_kbazanov</sys_updated_by>
-            <sys_updated_on>2017-01-23 21:41:53</sys_updated_on>
+            <sys_updated_by>admin_stwilhelm</sys_updated_by>
+            <sys_updated_on>2017-01-31 10:29:28</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Thing - Default view" name="x_76760_iot_thing" related_list="NULL" sys_domain="global" view="Default view">38bc419b13643640fd79b90a6144b04b</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>incident.cmdb_ci</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin_stwilhelm</sys_created_by>
+            <sys_created_on>2017-01-31 10:29:28</sys_created_on>
+            <sys_id>b0bc419b13643640fd79b90a6144b04c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin_stwilhelm</sys_updated_by>
+            <sys_updated_on>2017-01-31 10:29:28</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
             <calculated_name>Thing - Default view</calculated_name>
@@ -37,12 +51,12 @@
             <position/>
             <related_list/>
             <sys_class_name>sys_ui_related_list</sys_class_name>
-            <sys_created_by>admin_kbazanov</sys_created_by>
-            <sys_created_on>2017-01-23 21:41:53</sys_created_on>
+            <sys_created_by>admin_stwilhelm</sys_created_by>
+            <sys_created_on>2017-01-31 10:29:28</sys_created_on>
             <sys_customer_update>true</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>b8e912f813a87a00fd79b90a6144b04a</sys_id>
+            <sys_id>38bc419b13643640fd79b90a6144b04b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Thing - Default view</sys_name>
             <sys_package display_value="IoT Service Management" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
@@ -50,8 +64,8 @@
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</sys_scope>
             <sys_update_name>sys_ui_related_x_76760_iot_thing_null</sys_update_name>
-            <sys_updated_by>admin_kbazanov</sys_updated_by>
-            <sys_updated_on>2017-01-23 21:41:53</sys_updated_on>
+            <sys_updated_by>admin_stwilhelm</sys_updated_by>
+            <sys_updated_on>2017-01-31 10:29:28</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

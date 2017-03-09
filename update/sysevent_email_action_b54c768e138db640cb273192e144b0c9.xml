@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <collection>x_76760_iot_sm_task</collection>
+        <condition table="x_76760_iot_sm_task">assigned_toISNOTEMPTY^assigned_toVALCHANGES^EQ<item endquery="false" field="assigned_to" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="false" field="assigned_to" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>multipart/mixed</content_type>
+        <description/>
+        <event_name>approval.cancelled</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>&nbsp;</p>
+<div class="WordSection1" lang="DE" style="tab-interval: 36.0pt;">
+<div align="center">
+<table class="MsoTableGrid" style="width: 100.0%; background: black; mso-shading: black; mso-shading-themecolor: text1; mso-pattern: solid black; border-collapse: collapse; mso-yfti-tbllook: 1184; mso-padding-alt: 0cm 0cm 0cm 0cm;" border="0" width="100%" cellspacing="0" cellpadding="0">
+<tbody>
+<tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes; mso-yfti-lastrow: yes; height: 1.0cm;">
+<td style="width: 100.0%; padding: 0cm 0cm 0cm 0cm; height: 1.0cm;" valign="bottom" width="100%">
+<div align="center">
+<table class="MsoTableGrid" style="background: white; mso-background-themecolor: background1; border-collapse: collapse; mso-table-layout-alt: fixed; mso-yfti-tbllook: 1184; mso-padding-alt: 11.35pt 0cm 11.35pt 0cm;" border="0" width="529" cellspacing="0" cellpadding="0">
+<tbody>
+<tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes; mso-yfti-lastrow: yes; height: 1.0cm;">
+<td style="width: 529px; background: black;" width="529px">
+<div align="center">
+<h4 style="color: white; font-family: verdana;">IoT Lab Germany</h4>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div align="center">
+<table class="MsoTableGrid" style="width: 100.0%; background: #F2F2F2; mso-background-themecolor: background1; mso-background-themeshade: 242; border-collapse: collapse; mso-yfti-tbllook: 1184; mso-padding-alt: 5.65pt 5.65pt 5.65pt 5.65pt;" border="0" width="545" cellspacing="0" cellpadding="0">
+<tbody>
+<tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes;">
+<td style="width: 408.8pt; padding: 5.65pt 5.65pt 5.65pt 5.65pt;" valign="top" width="545">&nbsp;</td>
+</tr>
+<tr style="mso-yfti-irow: 1;">
+<td style="width: 408.8pt; padding: 5.65pt 5.65pt 5.65pt 5.65pt;" valign="top" width="545">
+<div align="center">
+<table class="MsoTableGrid" style="border-collapse: collapse; height: 106px;" border="0" width="524" cellspacing="0" cellpadding="0">
+<tbody>
+<tr style="mso-yfti-irow: 1; mso-yfti-lastrow: yes;">
+<td style="background: white; width: 14.0cm; padding: 14.2pt 22.7pt 14.2pt 22.7pt; height: 2.0cm; font-size: 22px;" width="529">
+<div align="center">
+<h4 style="font-family: verdana;">IoT Service&nbsp;Task</h4>
+<h4 style="font-family: verdana;">${template.product_catalog_item.category}</h4>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr style="mso-yfti-irow: 2;">
+<td style="width: 408.8pt; padding: 5.65pt 5.65pt 5.65pt 5.65pt;" valign="top" width="545">
+<div align="center">
+<table class="MsoTableGrid" style="background: white; mso-background-themecolor: background1; border-collapse: collapse; mso-table-layout-alt: fixed; mso-yfti-tbllook: 1184; mso-padding-alt: 14.2pt 22.7pt 14.2pt 22.7pt;" border="0" width="529" cellspacing="0" cellpadding="0">
+<tbody>
+<tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes; mso-yfti-lastrow: yes; height: 2.0cm;">
+<td style="width: 14.0cm; padding: 14.2pt 22.7pt 14.2pt 22.7pt; height: 2.0cm;" valign="top" width="529">
+<p style="font-family: verdana;">A <strong>${template.product_catalog_item.category}</strong> Service Task&nbsp;was assigned to you. Please review and accept as soon as possible:</p>
+<p style="font-family: verdana;">Short description: ${short_description}</p>
+<p style="font-family: verdana;"><strong>Number</strong>:&nbsp;${URI_REF}<br /><strong>Affected CI</strong>: ${cmdb_ci}<br /><strong>Location</strong>: ${location}<br /><strong>Template</strong>: ${template}<br /><strong>Dispatch group: ${dispatch_group}<br />Assignment group: ${assignment_group}<br />Assigned to: ${assigned_to}<br /><br />Description</strong>: ${description}&nbsp;</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr style="mso-yfti-irow: 3; mso-yfti-lastrow: yes;">
+<td style="width: 408.8pt; padding: 5.65pt 5.65pt 5.65pt 5.65pt;" valign="top" width="545">
+<div align="center">
+<table class="MsoTableGrid" style="background: white; mso-background-themecolor: background1; border-collapse: collapse; mso-table-layout-alt: fixed; mso-yfti-tbllook: 1184; mso-padding-alt: 14.2pt 22.7pt 14.2pt 22.7pt;" border="0" width="529" cellspacing="0" cellpadding="0">
+<tbody>
+<tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes; mso-yfti-lastrow: yes; height: 42.55pt;">
+<td style="width: 14.0cm; padding: 14.2pt 22.7pt 14.2pt 22.7pt; height: 42.55pt;" width="529">
+<p style="font-family: verdana;">Affected CI summary</p>
+<p style="font-family: verdana;">${cmdb_ci.name}</p>
+<p style="font-family: verdana;"><strong>Model:</strong> ${cmdb_ci.model_id}<br /><strong>Location:&nbsp;</strong>${cmdb_ci.location}<br /><strong>Asset tag</strong>: ${cmdb_ci.asset_tag}<br /><strong>Manufacturer</strong>: ${cmdb_ci.manufacturer}<br /><strong>Serial number</strong>: ${cmdb_ci.serial_number}<br /><strong>Owned by</strong>: ${cmdb_ci.owned_by}<br /><strong>Support group</strong>: ${cmdb_ci.support_group}<br /><strong>Description</strong>: ${cmdb_ci.short_description}</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="Statustext"><font face="verdana,geneva">&nbsp;</font></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="MsoNormal"><font face="verdana,geneva"><span style="mso-ansi-language: DE;">&nbsp;</span></font></p>
+</div>
+<p>&nbsp;</p>]]></message_html>
+        <message_list>a1d9d2d213c1f640cb273192e144b0a4</message_list>
+        <message_text/>
+        <name>IoT Service Task assigned</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>assigned_to</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>IoT Service Task assigned to you</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin_kbazanov</sys_created_by>
+        <sys_created_on>2017-02-21 17:55:56</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b54c768e138db640cb273192e144b0c9</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>IoT Service Task assigned</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IoT Service Management" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</sys_scope>
+        <sys_update_name>sysevent_email_action_b54c768e138db640cb273192e144b0c9</sys_update_name>
+        <sys_updated_by>admin_kbazanov</sys_updated_by>
+        <sys_updated_on>2017-02-22 14:36:51</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

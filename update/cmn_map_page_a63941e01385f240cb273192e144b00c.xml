@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="cmn_map_page">
+    <cmn_map_page action="INSERT_OR_UPDATE">
+        <center_address>Germany</center_address>
+        <center_latitude>51.165691</center_latitude>
+        <center_longitude>10.451526</center_longitude>
+        <controls_size>large</controls_size>
+        <initial_zoom>4</initial_zoom>
+        <name>IoT Service Dispatch Map</name>
+        <overview>true</overview>
+        <refresh_on_zoom>false</refresh_on_zoom>
+        <script><![CDATA[//get the instances url so we can link back to it
+var uri = gs.getProperty("glide.servlet.uri");
+
+addPendingWorkOrderTasks();
+
+function addPendingWorkOrderTasks() {
+    //get the service orders that are pending dispatch
+    var gr = new GlideRecord('x_76760_iot_sm_task');
+    var q = gr.addQuery('state', '10');
+    q.addOrCondition('state', '16');
+    q.addOrCondition('state', '17');
+    q.addOrCondition('state', '18');
+    gr.addQuery('active', 'true');
+    gr.query();
+    
+    while (gr.next()) {
+        //get the current record's location
+        var loc = gr.location;
+        
+        //create new map item for this service order
+        var item = map.addItem(gr);
+        //set lat/long from the location record
+        item.latitude = loc.latitude;
+        item.longitude = loc.longitude;
+        
+        //build the html value to be displayed when you click the map icon
+        item.html = _buildWOTHTML(gr, loc);
+        
+        //link to the icon image
+        if (gr.state == '10') {
+            if (gr.priority <= '2')
+                item.icon = "images/red-circle.pngx";
+            else
+                item.icon = "images/dark-red-circle.pngx";
+        } else if (gr.state == '16') {
+            item.icon = "images/blue-circle.pngx";
+        } else if (gr.state == '17') {
+            item.icon = "images/green-circle.pngx";
+        } else {
+            item.icon = "images/dark-green-circle.pngx";
+            
+        }
+        //set the size of the icon
+        item.icon_width = 12;
+        item.icon_height = 12;
+    }
+}
+
+/*
+ *
+ * Example to add user locations if you create a table for their location coordinates
+ * This is an example only the table referenced does not exist
+ *
+ */
+function addAgentLocations() {
+    var gr = new GlideRecord('wm_user_location');
+    if (!gr.isValid())
+        return;
+    
+    gr.addQuery("status", "!=", "not_available");
+    gr.query();
+    while (gr.next()) {
+        //create new map item for this agent
+        var item = map.addItem(gr);
+        //set lat/long
+        item.latitude = gr.latitude;
+        item.longitude = gr.longitude;
+        
+        //build the html value to be displayed when you click the map icon
+        item.html = _buildAgentHTML(gr, loc);
+        
+        //link to the icon
+        if (gr.status == "on_site")
+            item.icon = "images/blue-circle.pngx";
+        else if (gr.status == "in_transit")
+            item.icon = "images/green-circle.pngx";
+        else
+            item.icon = "images/dark-green-circle.pngx";
+        
+        //set the size of the icon
+        item.icon_width = 12;
+        item.icon_height = 12;
+    }
+}
+
+function _buildWOTHTML(gr, loc) {
+    var s = [];
+    s.push("<a href='/nav_to.do?uri=wm_task.do?sys_id=" + gr.sys_id + "' target='_blank'>" + gr.number + "</a>");
+    s.push("<b>" + gr.short_description + "</b>");
+    s.push("");
+    s.push("Assigned to: <b>"+ gr.assigned_to.name + "</b>");
+    s.push("");
+    s.push("Customers Address: <b>");
+    if (loc.street)
+        s.push(loc.street + '');
+    
+    var a = "";
+    if (loc.city)
+        a += loc.city + '';
+    
+    if (loc.state) {
+        if (a)
+            a += ", ";
+        
+        a += loc.state + '';
+    }
+    
+    if (loc.zip) {
+        if (a)
+            a += " ";
+        
+        a += loc.zip + '';
+    }
+    if (a)
+        s.push(a + "</b>");
+    
+    return s.join("<br/>");
+}
+
+function _buildAgentHTML(gr) {
+    var s = [];
+    s.push("<b>" + gr.name + "</b>");
+    s.push(gr.status.getDisplayValue());
+    return s.join("<br/>");
+}]]></script>
+        <show_device_location>true</show_device_location>
+        <suffix>iot_service_dispatch_map</suffix>
+        <sys_class_name>cmn_map_page</sys_class_name>
+        <sys_created_by>admin_kbazanov</sys_created_by>
+        <sys_created_on>2017-02-16 17:42:22</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>a63941e01385f240cb273192e144b00c</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>IoT Service Dispatch Map</sys_name>
+        <sys_package display_value="IoT Service Management" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</sys_scope>
+        <sys_update_name>cmn_map_page_a63941e01385f240cb273192e144b00c</sys_update_name>
+        <sys_updated_by>admin_kbazanov</sys_updated_by>
+        <sys_updated_on>2017-02-16 17:46:25</sys_updated_on>
+        <type>normal</type>
+        <type_selection>menu</type_selection>
+    </cmn_map_page>
+</record_update>

@@ -15,7 +15,7 @@
         <mobile_title>EventCode Definitions</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_76760_iot_eventcode_definition</name>
-        <order>10020</order>
+        <order>1020</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c87e0589136c7a00cb273192e144b061</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>EventCode Definitions</sys_name>
         <sys_overrides/>
         <sys_package display_value="IoT Service Management" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
@@ -38,7 +38,7 @@
         <sys_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</sys_scope>
         <sys_update_name>sys_app_module_c87e0589136c7a00cb273192e144b061</sys_update_name>
         <sys_updated_by>admin_stwilhelm</sys_updated_by>
-        <sys_updated_on>2017-01-26 10:55:07</sys_updated_on>
+        <sys_updated_on>2017-02-02 09:26:46</sys_updated_on>
         <timeline_page/>
         <title>EventCode Definitions</title>
         <uncancelable>false</uncancelable>

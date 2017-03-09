@@ -5,13 +5,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin_kbazanov</sys_created_by>
-            <sys_created_on>2017-01-24 12:49:55</sys_created_on>
-            <sys_id>dab965c113ac7a00cb273192e144b079</sys_id>
+            <sys_created_on>2017-02-17 16:26:05</sys_created_on>
+            <sys_id>7251c6fc13093640cb273192e144b0ad</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_76760_iot_eventreport" sys_domain="global" view="Default view">8af53c7813287a00fd79b90a6144b0e9</sys_ui_section>
             <sys_updated_by>admin_kbazanov</sys_updated_by>
-            <sys_updated_on>2017-01-24 12:49:55</sys_updated_on>
+            <sys_updated_on>2017-02-17 16:26:05</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,13 +19,13 @@
             <element>.begin_split</element>
             <position>1</position>
             <sys_created_by>admin_kbazanov</sys_created_by>
-            <sys_created_on>2017-01-24 12:49:55</sys_created_on>
-            <sys_id>5eb965c113ac7a00cb273192e144b079</sys_id>
+            <sys_created_on>2017-02-17 16:26:05</sys_created_on>
+            <sys_id>f251c6fc13093640cb273192e144b0ad</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_76760_iot_eventreport" sys_domain="global" view="Default view">8af53c7813287a00fd79b90a6144b0e9</sys_ui_section>
             <sys_updated_by>admin_kbazanov</sys_updated_by>
-            <sys_updated_on>2017-01-24 12:49:55</sys_updated_on>
+            <sys_updated_on>2017-02-17 16:26:05</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -33,13 +33,13 @@
             <element>eventcode</element>
             <position>2</position>
             <sys_created_by>admin_kbazanov</sys_created_by>
-            <sys_created_on>2017-01-24 12:49:55</sys_created_on>
-            <sys_id>deb965c113ac7a00cb273192e144b079</sys_id>
+            <sys_created_on>2017-02-17 16:26:05</sys_created_on>
+            <sys_id>7651c6fc13093640cb273192e144b0ad</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_76760_iot_eventreport" sys_domain="global" view="Default view">8af53c7813287a00fd79b90a6144b0e9</sys_ui_section>
             <sys_updated_by>admin_kbazanov</sys_updated_by>
-            <sys_updated_on>2017-01-24 12:49:55</sys_updated_on>
+            <sys_updated_on>2017-02-17 16:26:05</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -47,13 +47,13 @@
             <element>eventname</element>
             <position>3</position>
             <sys_created_by>admin_kbazanov</sys_created_by>
-            <sys_created_on>2017-01-24 12:49:55</sys_created_on>
-            <sys_id>52b965c113ac7a00cb273192e144b07a</sys_id>
+            <sys_created_on>2017-02-17 16:26:05</sys_created_on>
+            <sys_id>f651c6fc13093640cb273192e144b0ad</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_76760_iot_eventreport" sys_domain="global" view="Default view">8af53c7813287a00fd79b90a6144b0e9</sys_ui_section>
             <sys_updated_by>admin_kbazanov</sys_updated_by>
-            <sys_updated_on>2017-01-24 12:49:55</sys_updated_on>
+            <sys_updated_on>2017-02-17 16:26:05</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -61,13 +61,13 @@
             <element>eventmessage</element>
             <position>4</position>
             <sys_created_by>admin_kbazanov</sys_created_by>
-            <sys_created_on>2017-01-24 12:49:55</sys_created_on>
-            <sys_id>d2b965c113ac7a00cb273192e144b07a</sys_id>
+            <sys_created_on>2017-02-17 16:26:05</sys_created_on>
+            <sys_id>7a51c6fc13093640cb273192e144b0ad</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_76760_iot_eventreport" sys_domain="global" view="Default view">8af53c7813287a00fd79b90a6144b0e9</sys_ui_section>
             <sys_updated_by>admin_kbazanov</sys_updated_by>
-            <sys_updated_on>2017-01-24 12:49:55</sys_updated_on>
+            <sys_updated_on>2017-02-17 16:26:05</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -75,13 +75,13 @@
             <element>eventprovider</element>
             <position>5</position>
             <sys_created_by>admin_kbazanov</sys_created_by>
-            <sys_created_on>2017-01-24 12:49:55</sys_created_on>
-            <sys_id>56b965c113ac7a00cb273192e144b07a</sys_id>
+            <sys_created_on>2017-02-17 16:26:05</sys_created_on>
+            <sys_id>fa51c6fc13093640cb273192e144b0ad</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_76760_iot_eventreport" sys_domain="global" view="Default view">8af53c7813287a00fd79b90a6144b0e9</sys_ui_section>
             <sys_updated_by>admin_kbazanov</sys_updated_by>
-            <sys_updated_on>2017-01-24 12:49:55</sys_updated_on>
+            <sys_updated_on>2017-02-17 16:26:05</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -89,13 +89,13 @@
             <element>eventstack</element>
             <position>6</position>
             <sys_created_by>admin_kbazanov</sys_created_by>
-            <sys_created_on>2017-01-24 12:49:55</sys_created_on>
-            <sys_id>d6b965c113ac7a00cb273192e144b07a</sys_id>
+            <sys_created_on>2017-02-17 16:26:05</sys_created_on>
+            <sys_id>7e51c6fc13093640cb273192e144b0ad</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_76760_iot_eventreport" sys_domain="global" view="Default view">8af53c7813287a00fd79b90a6144b0e9</sys_ui_section>
             <sys_updated_by>admin_kbazanov</sys_updated_by>
-            <sys_updated_on>2017-01-24 12:49:55</sys_updated_on>
+            <sys_updated_on>2017-02-17 16:26:05</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -103,13 +103,13 @@
             <element>eventexternalid</element>
             <position>7</position>
             <sys_created_by>admin_kbazanov</sys_created_by>
-            <sys_created_on>2017-01-24 12:49:55</sys_created_on>
-            <sys_id>5ab965c113ac7a00cb273192e144b07a</sys_id>
+            <sys_created_on>2017-02-17 16:26:05</sys_created_on>
+            <sys_id>fe51c6fc13093640cb273192e144b0ad</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_76760_iot_eventreport" sys_domain="global" view="Default view">8af53c7813287a00fd79b90a6144b0e9</sys_ui_section>
             <sys_updated_by>admin_kbazanov</sys_updated_by>
-            <sys_updated_on>2017-01-24 12:49:55</sys_updated_on>
+            <sys_updated_on>2017-02-17 16:26:05</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -117,13 +117,13 @@
             <element>eventtimestamp</element>
             <position>8</position>
             <sys_created_by>admin_kbazanov</sys_created_by>
-            <sys_created_on>2017-01-24 12:49:55</sys_created_on>
-            <sys_id>dab965c113ac7a00cb273192e144b07a</sys_id>
+            <sys_created_on>2017-02-17 16:26:05</sys_created_on>
+            <sys_id>7251c6fc13093640cb273192e144b0ae</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_76760_iot_eventreport" sys_domain="global" view="Default view">8af53c7813287a00fd79b90a6144b0e9</sys_ui_section>
             <sys_updated_by>admin_kbazanov</sys_updated_by>
-            <sys_updated_on>2017-01-24 12:49:55</sys_updated_on>
+            <sys_updated_on>2017-02-17 16:26:05</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -131,13 +131,13 @@
             <element>.split</element>
             <position>9</position>
             <sys_created_by>admin_kbazanov</sys_created_by>
-            <sys_created_on>2017-01-24 12:49:55</sys_created_on>
-            <sys_id>5eb965c113ac7a00cb273192e144b07a</sys_id>
+            <sys_created_on>2017-02-17 16:26:05</sys_created_on>
+            <sys_id>f251c6fc13093640cb273192e144b0ae</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_76760_iot_eventreport" sys_domain="global" view="Default view">8af53c7813287a00fd79b90a6144b0e9</sys_ui_section>
             <sys_updated_by>admin_kbazanov</sys_updated_by>
-            <sys_updated_on>2017-01-24 12:49:55</sys_updated_on>
+            <sys_updated_on>2017-02-17 16:26:05</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -145,13 +145,13 @@
             <element>target_record</element>
             <position>10</position>
             <sys_created_by>admin_kbazanov</sys_created_by>
-            <sys_created_on>2017-01-24 12:49:55</sys_created_on>
-            <sys_id>deb965c113ac7a00cb273192e144b07a</sys_id>
+            <sys_created_on>2017-02-17 16:26:05</sys_created_on>
+            <sys_id>7651c6fc13093640cb273192e144b0ae</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_76760_iot_eventreport" sys_domain="global" view="Default view">8af53c7813287a00fd79b90a6144b0e9</sys_ui_section>
             <sys_updated_by>admin_kbazanov</sys_updated_by>
-            <sys_updated_on>2017-01-24 12:49:55</sys_updated_on>
+            <sys_updated_on>2017-02-17 16:26:05</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -159,13 +159,13 @@
             <element>affected_ci</element>
             <position>11</position>
             <sys_created_by>admin_kbazanov</sys_created_by>
-            <sys_created_on>2017-01-24 12:49:55</sys_created_on>
-            <sys_id>52b965c113ac7a00cb273192e144b07b</sys_id>
+            <sys_created_on>2017-02-17 16:26:05</sys_created_on>
+            <sys_id>f651c6fc13093640cb273192e144b0ae</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_76760_iot_eventreport" sys_domain="global" view="Default view">8af53c7813287a00fd79b90a6144b0e9</sys_ui_section>
             <sys_updated_by>admin_kbazanov</sys_updated_by>
-            <sys_updated_on>2017-01-24 12:49:55</sys_updated_on>
+            <sys_updated_on>2017-02-17 16:26:05</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -173,13 +173,13 @@
             <element>predicitvetimestamp</element>
             <position>12</position>
             <sys_created_by>admin_kbazanov</sys_created_by>
-            <sys_created_on>2017-01-24 12:49:55</sys_created_on>
-            <sys_id>d2b965c113ac7a00cb273192e144b07b</sys_id>
+            <sys_created_on>2017-02-17 16:26:05</sys_created_on>
+            <sys_id>7a51c6fc13093640cb273192e144b0ae</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_76760_iot_eventreport" sys_domain="global" view="Default view">8af53c7813287a00fd79b90a6144b0e9</sys_ui_section>
             <sys_updated_by>admin_kbazanov</sys_updated_by>
-            <sys_updated_on>2017-01-24 12:49:55</sys_updated_on>
+            <sys_updated_on>2017-02-17 16:26:05</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -187,13 +187,13 @@
             <element>ispredictive</element>
             <position>13</position>
             <sys_created_by>admin_kbazanov</sys_created_by>
-            <sys_created_on>2017-01-24 12:49:55</sys_created_on>
-            <sys_id>56b965c113ac7a00cb273192e144b07b</sys_id>
+            <sys_created_on>2017-02-17 16:26:05</sys_created_on>
+            <sys_id>fa51c6fc13093640cb273192e144b0ae</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_76760_iot_eventreport" sys_domain="global" view="Default view">8af53c7813287a00fd79b90a6144b0e9</sys_ui_section>
             <sys_updated_by>admin_kbazanov</sys_updated_by>
-            <sys_updated_on>2017-01-24 12:49:55</sys_updated_on>
+            <sys_updated_on>2017-02-17 16:26:05</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -201,13 +201,13 @@
             <element>.end_split</element>
             <position>14</position>
             <sys_created_by>admin_kbazanov</sys_created_by>
-            <sys_created_on>2017-01-24 12:49:55</sys_created_on>
-            <sys_id>d6b965c113ac7a00cb273192e144b07b</sys_id>
+            <sys_created_on>2017-02-17 16:26:05</sys_created_on>
+            <sys_id>7e51c6fc13093640cb273192e144b0ae</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_76760_iot_eventreport" sys_domain="global" view="Default view">8af53c7813287a00fd79b90a6144b0e9</sys_ui_section>
             <sys_updated_by>admin_kbazanov</sys_updated_by>
-            <sys_updated_on>2017-01-24 12:49:55</sys_updated_on>
+            <sys_updated_on>2017-02-17 16:26:05</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
@@ -215,13 +215,13 @@
             <element>thingstatepayload</element>
             <position>15</position>
             <sys_created_by>admin_kbazanov</sys_created_by>
-            <sys_created_on>2017-01-24 12:49:55</sys_created_on>
-            <sys_id>5ab965c113ac7a00cb273192e144b07b</sys_id>
+            <sys_created_on>2017-02-17 16:26:05</sys_created_on>
+            <sys_id>fe51c6fc13093640cb273192e144b0ae</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_76760_iot_eventreport" sys_domain="global" view="Default view">8af53c7813287a00fd79b90a6144b0e9</sys_ui_section>
             <sys_updated_by>admin_kbazanov</sys_updated_by>
-            <sys_updated_on>2017-01-24 12:49:55</sys_updated_on>
+            <sys_updated_on>2017-02-17 16:26:05</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -229,13 +229,13 @@
             <element>affectedthingpayload</element>
             <position>16</position>
             <sys_created_by>admin_kbazanov</sys_created_by>
-            <sys_created_on>2017-01-24 12:49:55</sys_created_on>
-            <sys_id>dab965c113ac7a00cb273192e144b07b</sys_id>
+            <sys_created_on>2017-02-17 16:26:05</sys_created_on>
+            <sys_id>7251c6fc13093640cb273192e144b0af</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_76760_iot_eventreport" sys_domain="global" view="Default view">8af53c7813287a00fd79b90a6144b0e9</sys_ui_section>
             <sys_updated_by>admin_kbazanov</sys_updated_by>
-            <sys_updated_on>2017-01-24 12:49:55</sys_updated_on>
+            <sys_updated_on>2017-02-17 16:26:05</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -243,15 +243,29 @@
             <element>eventpayload</element>
             <position>17</position>
             <sys_created_by>admin_kbazanov</sys_created_by>
-            <sys_created_on>2017-01-24 16:06:06</sys_created_on>
-            <sys_id>84a69a0113ec7a00cb273192e144b038</sys_id>
+            <sys_created_on>2017-02-17 16:26:05</sys_created_on>
+            <sys_id>f251c6fc13093640cb273192e144b0af</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_76760_iot_eventreport" sys_domain="global" view="Default view">8af53c7813287a00fd79b90a6144b0e9</sys_ui_section>
             <sys_updated_by>admin_kbazanov</sys_updated_by>
-            <sys_updated_on>2017-01-24 16:06:06</sys_updated_on>
+            <sys_updated_on>2017-02-17 16:26:05</sys_updated_on>
             <sys_user/>
             <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>12M.x_76760_iot_eventreport.x_76760_iot_replace_component.eventreport</element>
+            <position>18</position>
+            <sys_created_by>admin_kbazanov</sys_created_by>
+            <sys_created_on>2017-02-17 16:26:05</sys_created_on>
+            <sys_id>7651c6fc13093640cb273192e144b0af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_76760_iot_eventreport" sys_domain="global" view="Default view">8af53c7813287a00fd79b90a6144b0e9</sys_ui_section>
+            <sys_updated_by>admin_kbazanov</sys_updated_by>
+            <sys_updated_on>2017-02-17 16:26:05</sys_updated_on>
+            <sys_user/>
+            <type>list</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>

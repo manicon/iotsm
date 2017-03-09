@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_76760_iot.IoTThing</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>IoTThing</name>
+        <script><![CDATA[var IoTThing = Class.create();
+IoTThing.prototype = {
+    initialize: function() {
+    },
+
+	/**
+	 * Get the sys_id of the IoTThing (CI) by given param
+	 * @param String
+	 * @return String, sys_id or empty
+	**/
+	getThingByOID: function(param) {
+		var answer = '';
+		
+		gs.info('getThingByOID(' + param + ')');
+		
+		if(param !== undefined && param !== null) {
+			var gr = new GlideRecord(this.record.getTableName());
+			gr.addQuery('correlation_id', '=', param);
+			gr.setLimit(1);
+			gr.query();
+
+			if(gr.next()) {
+				answer = gr.getValue('sys_id');
+			}
+		}
+		
+		return answer;
+	},
+	
+	setField: function(name, value) {
+		if(name !== undefined && name !== null && name != '') {
+			if(value !== undefined) {
+				this.record.setValue(name, value);
+			}
+		}
+	},
+	
+	insert: function() {
+		this.record.insert();
+		return this.record.getValue('sys_id');
+	},
+	
+	record: new GlideRecord('x_76760_iot_thing'),
+
+    type: 'IoTThing'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin_kbazanov</sys_created_by>
+        <sys_created_on>2017-02-02 14:19:06</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>f5f258c41374b640fd79b90a6144b0cc</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>IoTThing</sys_name>
+        <sys_package display_value="IoT Service Management" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</sys_scope>
+        <sys_update_name>sys_script_include_f5f258c41374b640fd79b90a6144b0cc</sys_update_name>
+        <sys_updated_by>admin_kbazanov</sys_updated_by>
+        <sys_updated_on>2017-02-06 15:06:15</sys_updated_on>
+    </sys_script_include>
+</record_update>

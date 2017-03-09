@@ -13,7 +13,7 @@
         <barcode/>
         <billable>false</billable>
         <bundle>false</bundle>
-        <category display_value="Machine Relocation and Shutdown">2ef517c3131cf600cb273192e144b031</category>
+        <category display_value="Machine Relocation and Disposal">2ef517c3131cf600cb273192e144b031</category>
         <certified>false</certified>
         <checklist_template/>
         <cmdb_ci_class/>
@@ -31,15 +31,13 @@
         <manufacturer/>
         <model_number/>
         <name>Machine Relocation</name>
-        <order_description>- Verify space availability
-- Move machine
-- Check functionality of machine</order_description>
+        <order_description/>
         <order_skills/>
         <owner/>
         <picture/>
         <power_consumption/>
         <priority>4</priority>
-        <product_catalog_item display_value="Machine relocation">a57e802713503a00fd79b90a6144b0fc</product_catalog_item>
+        <product_catalog_item display_value="Machine Relocation">a57e802713503a00fd79b90a6144b0fc</product_catalog_item>
         <qualification_group/>
         <rack_units>1</rack_units>
         <salvage_value>0.00</salvage_value>
@@ -51,9 +49,9 @@
         <sys_created_by>admin_kbazanov</sys_created_by>
         <sys_created_on>2017-01-19 14:20:19</sys_created_on>
         <sys_id>257e802713503a00fd79b90a6144b0fc</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin_stwilhelm</sys_updated_by>
-        <sys_updated_on>2017-01-24 11:12:43</sys_updated_on>
+        <sys_updated_on>2017-02-02 15:34:32</sys_updated_on>
         <type>Generic</type>
         <weight/>
         <workflow/>
@@ -84,7 +82,7 @@
         <sys_created_on>2017-01-19 14:20:19</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>e17e442713503a00fd79b90a6144b087</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Machine Relocation</sys_name>
         <sys_package display_value="IoT Service Management" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
         <sys_policy/>
@@ -92,7 +90,7 @@
         <sys_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</sys_scope>
         <sys_update_name>sys_metadata_link_e17e442713503a00fd79b90a6144b087</sys_update_name>
         <sys_updated_by>admin_stwilhelm</sys_updated_by>
-        <sys_updated_on>2017-01-24 11:12:43</sys_updated_on>
+        <sys_updated_on>2017-02-02 15:34:32</sys_updated_on>
         <tablename>x_76760_iot_sm_request_template</tablename>
     </sys_metadata_link>
 </record_update>

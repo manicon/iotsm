@@ -4,28 +4,42 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>product_catalog_item</element>
             <position>0</position>
-            <sys_created_by>admin_stwilhelm</sys_created_by>
-            <sys_created_on>2017-01-23 15:13:50</sys_created_on>
-            <sys_id>681141fc13287a00fd79b90a6144b036</sys_id>
+            <sys_created_by>admin_kbazanov</sys_created_by>
+            <sys_created_on>2017-02-07 15:44:40</sys_created_on>
+            <sys_id>d2f716a113f83e40fd79b90a6144b0b3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Product Catalog" display_value="Product Catalog" name="x_76760_iot_thing_product_model" sys_domain="global" view="Default view">35f0cdbc13287a00fd79b90a6144b05a</sys_ui_section>
-            <sys_updated_by>admin_stwilhelm</sys_updated_by>
-            <sys_updated_on>2017-01-23 15:13:50</sys_updated_on>
+            <sys_updated_by>admin_kbazanov</sys_updated_by>
+            <sys_updated_on>2017-02-07 15:44:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>picture</element>
+            <position>1</position>
+            <sys_created_by>admin_kbazanov</sys_created_by>
+            <sys_created_on>2017-02-07 15:44:40</sys_created_on>
+            <sys_id>56f716a113f83e40fd79b90a6144b0b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Product Catalog" display_value="Product Catalog" name="x_76760_iot_thing_product_model" sys_domain="global" view="Default view">35f0cdbc13287a00fd79b90a6144b05a</sys_ui_section>
+            <sys_updated_by>admin_kbazanov</sys_updated_by>
+            <sys_updated_on>2017-02-07 15:44:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>description</element>
-            <position>1</position>
-            <sys_created_by>admin_stwilhelm</sys_created_by>
-            <sys_created_on>2017-01-23 15:13:50</sys_created_on>
-            <sys_id>e81141fc13287a00fd79b90a6144b036</sys_id>
+            <position>2</position>
+            <sys_created_by>admin_kbazanov</sys_created_by>
+            <sys_created_on>2017-02-07 15:44:40</sys_created_on>
+            <sys_id>e6f716a113f83e40fd79b90a6144b0b3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Product Catalog" display_value="Product Catalog" name="x_76760_iot_thing_product_model" sys_domain="global" view="Default view">35f0cdbc13287a00fd79b90a6144b05a</sys_ui_section>
-            <sys_updated_by>admin_stwilhelm</sys_updated_by>
-            <sys_updated_on>2017-01-23 15:13:50</sys_updated_on>
+            <sys_updated_by>admin_kbazanov</sys_updated_by>
+            <sys_updated_on>2017-02-07 15:44:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

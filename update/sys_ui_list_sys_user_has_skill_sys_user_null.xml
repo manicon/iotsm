@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="sys_user" relationship="" sys_domain="global" table="sys_user_has_skill" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>skill</element>
+            <list_id display_value="sys_user_has_skill" element="NULL" name="sys_user_has_skill" parent="sys_user" relationship="NULL" sys_domain="global" view="Default view">4d2702efc0a8018b33238894132292bd</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>dariusz.maint</sys_created_by>
+            <sys_created_on>2010-03-11 12:15:54</sys_created_on>
+            <sys_id>4d270321c0a8018b050f6c6cc938e3b8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dariusz.maint</sys_updated_by>
+            <sys_updated_on>2010-03-11 12:15:54</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>state</element>
+            <list_id display_value="sys_user_has_skill" element="NULL" name="sys_user_has_skill" parent="sys_user" relationship="NULL" sys_domain="global" view="Default view">4d2702efc0a8018b33238894132292bd</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>dariusz.maint</sys_created_by>
+            <sys_created_on>2010-03-11 12:15:54</sys_created_on>
+            <sys_id>4d270347c0a8018b6846b295ac428c6a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dariusz.maint</sys_updated_by>
+            <sys_updated_on>2010-03-11 12:15:54</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>granted_by</element>
+            <list_id display_value="sys_user_has_skill" element="NULL" name="sys_user_has_skill" parent="sys_user" relationship="NULL" sys_domain="global" view="Default view">4d2702efc0a8018b33238894132292bd</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>dariusz.maint</sys_created_by>
+            <sys_created_on>2010-03-11 12:15:54</sys_created_on>
+            <sys_id>4d270349c0a8018b77a2421839ddfbc7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dariusz.maint</sys_updated_by>
+            <sys_updated_on>2010-03-11 12:15:54</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>inherited</element>
+            <list_id display_value="sys_user_has_skill" element="NULL" name="sys_user_has_skill" parent="sys_user" relationship="NULL" sys_domain="global" view="Default view">4d2702efc0a8018b33238894132292bd</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>dariusz.maint</sys_created_by>
+            <sys_created_on>2010-03-11 12:15:54</sys_created_on>
+            <sys_id>4d27034bc0a8018b03f962ee3e38159d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dariusz.maint</sys_updated_by>
+            <sys_updated_on>2010-03-11 12:15:54</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>sys_user_has_skill</name>
+            <parent>sys_user</parent>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin_stwilhelm</sys_created_by>
+            <sys_created_on>2017-02-03 14:16:05</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0e5d1d98137cb640fd79b90a6144b074</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sys_user_has_skill</sys_name>
+            <sys_package display_value="IoT Service Management" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</sys_scope>
+            <sys_update_name>sys_ui_list_sys_user_has_skill_sys_user_null</sys_update_name>
+            <sys_updated_by>admin_stwilhelm</sys_updated_by>
+            <sys_updated_on>2017-02-03 14:16:05</sys_updated_on>
+            <sys_user display_value="Stephan Wilhelm">728bb303130f2200cb273192e144b0df</sys_user>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

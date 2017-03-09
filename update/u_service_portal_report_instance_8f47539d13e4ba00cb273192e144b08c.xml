@@ -10,23 +10,23 @@
         <order>0</order>
         <short_description/>
         <size>md</size>
-        <sp_column display_value="1">a9d218a713503a00fd79b90a6144b047</sp_column>
+        <sp_column display_value="1">22d9090a130db640cb273192e144b0a0</sp_column>
         <sp_widget display_value="ChartJS Report">eed0c91adbf32600b808ff4e0f961920</sp_widget>
         <sys_class_name>u_service_portal_report_instance</sys_class_name>
         <sys_created_by>admin_kbazanov</sys_created_by>
         <sys_created_on>2017-01-25 15:27:08</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>8f47539d13e4ba00cb273192e144b08c</sys_id>
-        <sys_mod_count>9</sys_mod_count>
-        <sys_name/>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Requets by Location</sys_name>
         <sys_package display_value="IoT Service Management" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</sys_scope>
         <sys_update_name>u_service_portal_report_instance_8f47539d13e4ba00cb273192e144b08c</sys_update_name>
         <sys_updated_by>admin_kbazanov</sys_updated_by>
-        <sys_updated_on>2017-01-25 16:05:15</sys_updated_on>
-        <title/>
+        <sys_updated_on>2017-02-21 09:39:49</sys_updated_on>
+        <title>Requets by Location</title>
         <u_counts/>
         <u_enable_record_watch>true</u_enable_record_watch>
         <u_enable_role_check>false</u_enable_role_check>
@@ -37,7 +37,7 @@
         <u_panel_color/>
         <u_panel_header_color/>
         <u_panel_header_text_color/>
-        <u_record_watch_type>update</u_record_watch_type>
+        <u_record_watch_type>insert_update</u_record_watch_type>
         <u_report display_value="IoT Service Requests">f984817edb103200c5df7befbf96191b</u_report>
         <u_report_title/>
         <u_show_grid>false</u_show_grid>

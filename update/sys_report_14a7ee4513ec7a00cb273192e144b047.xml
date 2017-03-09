@@ -34,7 +34,7 @@
         <exp_report_attrs>true</exp_report_attrs>
         <field>affected_ci</field>
         <field_list/>
-        <filter table="x_76760_iot_eventreport">sys_created_onONThis week@javascript:gs.beginningOfThisWeek()@javascript:gs.endOfThisWeek()^EQ^GROUPBYaffected_ci^TRENDBYsys_created_on,dayofweek<item endquery="false" field="sys_created_on" goto="false" newquery="false" operator="ON" or="false" value="This week@javascript:gs.beginningOfThisWeek()@javascript:gs.endOfThisWeek()"/>
+        <filter table="x_76760_iot_eventreport">sys_created_onONLast 30 days@javascript:gs.daysAgoStart(30)@javascript:gs.daysAgoEnd(0)^EQ^GROUPBYaffected_ci^TRENDBYsys_created_on,dayofweek<item endquery="false" field="sys_created_on" goto="false" newquery="false" operator="ON" or="false" value="Last 30 days@javascript:gs.daysAgoStart(30)@javascript:gs.daysAgoEnd(0)"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
             <item endquery="false" field="" goto="false" newquery="false" operator="GROUPBY" or="false" value="affected_ci"/>
             <item endquery="false" field="" goto="false" newquery="false" operator="TRENDBY" or="false" value="sys_created_on,dayofweek"/>
@@ -88,17 +88,17 @@
         <sys_created_on>2017-01-24 17:20:23</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>14a7ee4513ec7a00cb273192e144b047</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>IoT EventReport by Affected CI (Created this Week)</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>IoT EventReport by Affected CI (Last 30 Days)</sys_name>
         <sys_package display_value="IoT Service Management" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</sys_scope>
         <sys_update_name>sys_report_14a7ee4513ec7a00cb273192e144b047</sys_update_name>
         <sys_updated_by>admin_kbazanov</sys_updated_by>
-        <sys_updated_on>2017-01-26 13:41:10</sys_updated_on>
+        <sys_updated_on>2017-02-06 10:47:01</sys_updated_on>
         <table>x_76760_iot_eventreport</table>
-        <title>IoT EventReport by Affected CI (Created this Week)</title>
+        <title>IoT EventReport by Affected CI (Last 30 Days)</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>

@@ -4,100 +4,114 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.begin_split</element>
             <position>0</position>
-            <sys_created_by>admin_stwilhelm</sys_created_by>
-            <sys_created_on>2017-01-24 16:28:25</sys_created_on>
-            <sys_id>76bb9e0913ec7a00fd79b90a6144b01b</sys_id>
+            <sys_created_by>admin_kbazanov</sys_created_by>
+            <sys_created_on>2017-02-17 16:10:48</sys_created_on>
+            <sys_id>badd71bc13093640cb273192e144b024</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_76760_iot_eventcode_definition" sys_domain="global" view="Default view">1cdec989136c7a00cb273192e144b0c4</sys_ui_section>
-            <sys_updated_by>admin_stwilhelm</sys_updated_by>
-            <sys_updated_on>2017-01-24 16:28:25</sys_updated_on>
+            <sys_updated_by>admin_kbazanov</sys_updated_by>
+            <sys_updated_on>2017-02-17 16:10:48</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>eventcode</element>
             <position>1</position>
-            <sys_created_by>admin_stwilhelm</sys_created_by>
-            <sys_created_on>2017-01-24 16:28:25</sys_created_on>
-            <sys_id>f6bb9e0913ec7a00fd79b90a6144b01b</sys_id>
+            <sys_created_by>admin_kbazanov</sys_created_by>
+            <sys_created_on>2017-02-17 16:10:48</sys_created_on>
+            <sys_id>3edd71bc13093640cb273192e144b024</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_76760_iot_eventcode_definition" sys_domain="global" view="Default view">1cdec989136c7a00cb273192e144b0c4</sys_ui_section>
-            <sys_updated_by>admin_stwilhelm</sys_updated_by>
-            <sys_updated_on>2017-01-24 16:28:25</sys_updated_on>
+            <sys_updated_by>admin_kbazanov</sys_updated_by>
+            <sys_updated_on>2017-02-17 16:10:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>description</element>
             <position>2</position>
-            <sys_created_by>admin_stwilhelm</sys_created_by>
-            <sys_created_on>2017-01-24 16:28:25</sys_created_on>
-            <sys_id>7abb9e0913ec7a00fd79b90a6144b01b</sys_id>
+            <sys_created_by>admin_kbazanov</sys_created_by>
+            <sys_created_on>2017-02-17 16:10:48</sys_created_on>
+            <sys_id>bedd71bc13093640cb273192e144b024</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_76760_iot_eventcode_definition" sys_domain="global" view="Default view">1cdec989136c7a00cb273192e144b0c4</sys_ui_section>
-            <sys_updated_by>admin_stwilhelm</sys_updated_by>
-            <sys_updated_on>2017-01-24 16:28:25</sys_updated_on>
+            <sys_updated_by>admin_kbazanov</sys_updated_by>
+            <sys_updated_on>2017-02-17 16:10:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
             <position>3</position>
-            <sys_created_by>admin_stwilhelm</sys_created_by>
-            <sys_created_on>2017-01-24 16:28:25</sys_created_on>
-            <sys_id>fabb9e0913ec7a00fd79b90a6144b01b</sys_id>
+            <sys_created_by>admin_kbazanov</sys_created_by>
+            <sys_created_on>2017-02-17 16:10:48</sys_created_on>
+            <sys_id>32dd71bc13093640cb273192e144b025</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_76760_iot_eventcode_definition" sys_domain="global" view="Default view">1cdec989136c7a00cb273192e144b0c4</sys_ui_section>
-            <sys_updated_by>admin_stwilhelm</sys_updated_by>
-            <sys_updated_on>2017-01-24 16:28:25</sys_updated_on>
+            <sys_updated_by>admin_kbazanov</sys_updated_by>
+            <sys_updated_on>2017-02-17 16:10:48</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>template</element>
             <position>4</position>
-            <sys_created_by>admin_stwilhelm</sys_created_by>
-            <sys_created_on>2017-01-24 16:28:25</sys_created_on>
-            <sys_id>7ebb9e0913ec7a00fd79b90a6144b01b</sys_id>
+            <sys_created_by>admin_kbazanov</sys_created_by>
+            <sys_created_on>2017-02-17 16:10:48</sys_created_on>
+            <sys_id>b2dd71bc13093640cb273192e144b025</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_76760_iot_eventcode_definition" sys_domain="global" view="Default view">1cdec989136c7a00cb273192e144b0c4</sys_ui_section>
-            <sys_updated_by>admin_stwilhelm</sys_updated_by>
-            <sys_updated_on>2017-01-24 16:28:25</sys_updated_on>
+            <sys_updated_by>admin_kbazanov</sys_updated_by>
+            <sys_updated_on>2017-02-17 16:10:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>skills</element>
             <position>5</position>
-            <sys_created_by>admin_stwilhelm</sys_created_by>
-            <sys_created_on>2017-01-24 16:28:25</sys_created_on>
-            <sys_id>febb9e0913ec7a00fd79b90a6144b01b</sys_id>
+            <sys_created_by>admin_kbazanov</sys_created_by>
+            <sys_created_on>2017-02-17 16:10:48</sys_created_on>
+            <sys_id>36dd71bc13093640cb273192e144b025</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_76760_iot_eventcode_definition" sys_domain="global" view="Default view">1cdec989136c7a00cb273192e144b0c4</sys_ui_section>
-            <sys_updated_by>admin_stwilhelm</sys_updated_by>
-            <sys_updated_on>2017-01-24 16:28:25</sys_updated_on>
+            <sys_updated_by>admin_kbazanov</sys_updated_by>
+            <sys_updated_on>2017-02-17 16:10:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
             <position>6</position>
-            <sys_created_by>admin_stwilhelm</sys_created_by>
-            <sys_created_on>2017-01-24 16:28:25</sys_created_on>
-            <sys_id>72bb9e0913ec7a00fd79b90a6144b01c</sys_id>
+            <sys_created_by>admin_kbazanov</sys_created_by>
+            <sys_created_on>2017-02-17 16:10:48</sys_created_on>
+            <sys_id>b6dd71bc13093640cb273192e144b025</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_76760_iot_eventcode_definition" sys_domain="global" view="Default view">1cdec989136c7a00cb273192e144b0c4</sys_ui_section>
-            <sys_updated_by>admin_stwilhelm</sys_updated_by>
-            <sys_updated_on>2017-01-24 16:28:25</sys_updated_on>
+            <sys_updated_by>admin_kbazanov</sys_updated_by>
+            <sys_updated_on>2017-02-17 16:10:48</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>auto_dispatch</element>
+            <position>7</position>
+            <sys_created_by>admin_kbazanov</sys_created_by>
+            <sys_created_on>2017-02-17 16:10:48</sys_created_on>
+            <sys_id>3add71bc13093640cb273192e144b025</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_76760_iot_eventcode_definition" sys_domain="global" view="Default view">1cdec989136c7a00cb273192e144b0c4</sys_ui_section>
+            <sys_updated_by>admin_kbazanov</sys_updated_by>
+            <sys_updated_on>2017-02-17 16:10:48</sys_updated_on>
+            <sys_user/>
+            <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>

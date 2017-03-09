@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_instance_table">
+    <sp_instance_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field>attribute</display_field>
+        <field_list>attribute,unit,value</field_list>
+        <filter/>
+        <glyph/>
+        <id>thing-profile-thing-states</id>
+        <maximum_entries>5</maximum_entries>
+        <order>0</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">8f6c8fc0db8dfa00d623bb01ef96192c</sp_column>
+        <sp_page display_value="form">ed5f8ec347730200ba13a5554ee49046</sp_page>
+        <sp_widget display_value="Data Table IoT Thing States">f7b60abb13783240cb273192e144b096</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>admin_kbazanov</sys_created_by>
+        <sys_created_on>2017-02-14 14:57:36</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>5d5056ff13b83240cb273192e144b0ca</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Thing States</sys_name>
+        <sys_package display_value="IoT Service Management" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</sys_scope>
+        <sys_update_name>sp_instance_table_5d5056ff13b83240cb273192e144b0ca</sys_update_name>
+        <sys_updated_by>admin_kbazanov</sys_updated_by>
+        <sys_updated_on>2017-02-20 11:42:37</sys_updated_on>
+        <table>x_76760_iot_thing_state</table>
+        <title>Thing States</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+</record_update>

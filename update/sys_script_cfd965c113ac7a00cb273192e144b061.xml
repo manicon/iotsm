@@ -34,19 +34,30 @@
 	var affectedThingParsed = JSON.parse(current.getValue('affectedthingpayload'));
 	
 	// Lookup affected thing
+	var affectedThing_sysid = '';
+	var thing = new IoTThing();
+	affectedThing_sysid = thing.getThingByOID(affectedThingParsed.OID);
 	
-	// Based on OID
-	var gr = new GlideRecord('x_76760_iot_thing');
-	gr.addQuery('correlation_id', '=', affectedThingParsed.OID);
-	gr.setLimit(1);
-	gr.query();
-	
-	if(gr.next()) {
-		current.setValue('affected_ci', gr.getValue('sys_id'));
+	if(affectedThing_sysid == '' && gs.getProperty('eventreport.create_new_thing') == true) {
+		thing.setField('correlation_id', affectedThingParsed.OID);
+		thing.setField('name', affectedThingParsed.name);
+		thing.setField('serial_number', affectedThingParsed.serialNumber);
+		thing.setField('location', affectedThingParsed.location);
+		thing.setField('owner', affectedThingParsed.owner);
+		thing.setField('vendor', affectedThingParsed.vendor);
+		thing.setField('vendorContact', affectedThingParsed.vendorContact);
+		thing.setField('technicalContact', affectedThingParsed.vendor);
+		thing.setField('vendor', affectedThingParsed.technicalContact);
+		
+		affectedThing_sysid = thing.insert();
 	}
 	
+	if(affectedThing_sysid != '') {
+		current.setValue('affected_ci', affectedThing_sysid);
+	}
 
-})(current, previous);]]></script>
+})(current, previous);
+]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin_kbazanov</sys_created_by>
         <sys_created_on>2017-01-24 13:02:29</sys_created_on>
@@ -54,7 +65,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>cfd965c113ac7a00cb273192e144b061</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>IoT Lookup Affected CI</sys_name>
         <sys_overrides/>
         <sys_package display_value="IoT Service Management" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
@@ -63,7 +74,7 @@
         <sys_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</sys_scope>
         <sys_update_name>sys_script_cfd965c113ac7a00cb273192e144b061</sys_update_name>
         <sys_updated_by>admin_kbazanov</sys_updated_by>
-        <sys_updated_on>2017-01-24 13:02:29</sys_updated_on>
+        <sys_updated_on>2017-02-02 14:35:34</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

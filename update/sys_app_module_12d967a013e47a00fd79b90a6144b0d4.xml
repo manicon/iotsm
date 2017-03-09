@@ -15,7 +15,7 @@
         <mobile_title>Things</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_76760_iot_alm_thing</name>
-        <order>930</order>
+        <order>730</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>12d967a013e47a00fd79b90a6144b0d4</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Thing Assets</sys_name>
         <sys_overrides/>
         <sys_package display_value="IoT Service Management" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
@@ -38,7 +38,7 @@
         <sys_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</sys_scope>
         <sys_update_name>sys_app_module_12d967a013e47a00fd79b90a6144b0d4</sys_update_name>
         <sys_updated_by>admin_stwilhelm</sys_updated_by>
-        <sys_updated_on>2017-01-26 10:56:04</sys_updated_on>
+        <sys_updated_on>2017-02-02 09:26:28</sys_updated_on>
         <timeline_page/>
         <title>Thing Assets</title>
         <uncancelable>false</uncancelable>

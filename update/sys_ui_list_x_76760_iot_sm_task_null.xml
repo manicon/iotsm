@@ -103,11 +103,11 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin_stwilhelm</sys_created_by>
-            <sys_created_on>2017-01-27 09:39:34</sys_created_on>
+            <sys_created_on>2017-02-09 16:54:05</sys_created_on>
             <sys_customer_update>true</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>43ea100e13a83e00fd79b90a6144b016</sys_id>
+            <sys_id>b60bfc1a13bc3a00cb273192e144b0d5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_76760_iot_sm_task</sys_name>
             <sys_package display_value="IoT Service Management" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
@@ -116,8 +116,8 @@
             <sys_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</sys_scope>
             <sys_update_name>sys_ui_list_x_76760_iot_sm_task_null</sys_update_name>
             <sys_updated_by>admin_stwilhelm</sys_updated_by>
-            <sys_updated_on>2017-01-27 09:39:34</sys_updated_on>
-            <sys_user/>
+            <sys_updated_on>2017-02-09 16:54:05</sys_updated_on>
+            <sys_user display_value="Stephan Wilhelm">728bb303130f2200cb273192e144b0df</sys_user>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
         </sys_ui_list>

@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <client_script><![CDATA[function ($scope, $element, $window, $location, $rootScope, $timeout, snAttachmentHandler, $http, spUtil) {
+	
+	// Many of these fields are more configuration-type fields than profile fields. We still want to display
+	// these to a user who is configuring their 'settings', but we shouldn't show them on a user profile page.
+	// We need to handle this better.
+	var fieldExcludes = {
+		x_76760_iot_thing: []
+	}
+	
+	$scope.displayField = function(tableName, field, isHeader) {
+		if (!isHeader && fieldExcludes[tableName].indexOf(field) > -1) return false;
+		
+		if (models[tableName][field] && models[tableName][field].type === "boolean") return false;
+		
+		if ($scope.data.isLoggedInUsersProfile) {
+			if (models[tableName][field] && models[tableName][field].readonly)
+				return models[tableName][field].displayValue;
+			else
+				return models[tableName][field];
+		} else {
+			return models[tableName][field] && models[tableName][field].displayValue;
+		}
+	}
+	
+	$scope.avatarPicture = "";
+	
+	$http.get('/' + $scope.data.picture).then(function (response) {
+		if (response.data.result){
+			var avatarPicture = response.data.result;
+			$scope.avatarPicture = {
+				'background-image': "url('" + avatarPicture + "')",
+				'color': 'transparent'
+			};
+		}
+	});
+	
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.list-group-item {
+  border: none;
+}
+
+
+.select2-container.select2-allowclear .select2-choice .select2-chosen {
+  margin-right: 60px;
+}
+
+.mia i {
+  font-size: 6rem;
+}
+
+.mia {
+  color: #808080;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>thing-profile</id>
+        <internal>false</internal>
+        <link/>
+        <name>Thing Profile</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[// populate the 'data' object
+// e.g., data.table = $sp.getValue('table');
+data.thing_sys_id = $sp.getParameter("sys_id");
+if (data.thing_sys_id) {
+	var thingCI = new GlideRecord("x_76760_iot_thing");
+	data.thingCIexists = thingCI.get(data.thing_sys_id); 
+
+	if (data.thingCIexists) {
+		data.name = thingCI.getValue("name");
+		data.location = thingCI.getDisplayValue("location");
+		data.model_id = thingCI.getDisplayValue("model_id");
+		data.asset_tag = thingCI.getValue("asset_tag");
+		data.manufacturer = thingCI.getDisplayValue("manufacturer");
+		data.serial_number = thingCI.getValue("serial_number");
+		data.owned_by = thingCI.getDisplayValue("owned_by");
+		data.support_group = thingCI.getDisplayValue("support_group");
+		data.short_description = thingCI.getValue("short_description");
+		
+		//get model
+		var grModel = new GlideRecord('x_76760_iot_thing_product_model');
+		if(grModel.get(thingCI.model_id)) {
+			data.picture = grModel.getDisplayValue('picture');// grModel.picture;
+			if(data.picture) {
+				data.pictureExists = true;
+			}
+		}
+		
+		var loggedInSysUserID = gs.getUser().getID();
+
+		var sysThingForm = $sp.getForm("x_76760_iot_thing", data.thing_sys_id);
+		data.sysThingView = sysThingForm._view;
+		data.sysThingModel = sysThingForm._fields;
+		data.sysThingModelList = [];
+
+		for (var i = 0; i < data.sysThingView.length; i++) {
+			data.sysThingModelList.push(data.sysThingModel[data.sysThingView[i].name]);
+		}
+		
+		// Get Business Services
+		data.affectedBusinessServiceList = [];
+		var utils = new global.CIUtils();
+		var bsList = utils.servicesAffectedByCI(data.thing_sys_id);
+		
+		// Get business service data
+		for(var i = 0; i < bsList.length; i++) {
+			var bsGR = new GlideRecord('cmdb_ci_service');
+			if(bsGR.get(bsList[i])) {
+				var bs = {};
+				bs.sys_id = bsGR.getValue('sys_id');
+				bs.name = bsGR.getDisplayValue('name');
+				bs.busines_criticality = bsGR.getDisplayValue('busines_criticality');
+				bs.operational_status = bsGR.getDisplayValue('operational_status');
+				data.affectedBusinessServiceList.push(bs);
+			}
+		}
+		
+		// Get Knowledge Articles
+		data.knowledge = [];
+		var kbCI = new GlideRecord('m2m_kb_ci');
+		kbCI.addQuery('cmdb_ci', data.thing_sys_id);
+		kbCI.query();
+		
+		while(kbCI.next()) {
+			var kbGR = new GlideRecord('kb_knowledge');
+			if(kbGR.get(kbCI.getValue('kb_knowledge'))) {
+				var article = {};
+				article.sys_id = kbGR.getValue('sys_id');
+				article.number = kbGR.getValue('number');
+				article.short_description = kbGR.getValue('short_description');
+				data.knowledge.push(article);
+			}
+		}
+		
+	}
+}
+
+function buildThing(thingGR) {
+	return {
+		sys_id: thingGR.getValue("sys_id"),
+		location: thingGR.getValue("location")
+	}
+}]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin_kbazanov</sys_created_by>
+        <sys_created_on>2017-01-31 13:34:29</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>a3077d5313e43640cb273192e144b0be</sys_id>
+        <sys_mod_count>130</sys_mod_count>
+        <sys_name>Thing Profile</sys_name>
+        <sys_package display_value="IoT Service Management" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</sys_scope>
+        <sys_update_name>sp_widget_a3077d5313e43640cb273192e144b0be</sys_update_name>
+        <sys_updated_by>admin_kbazanov</sys_updated_by>
+        <sys_updated_on>2017-02-22 23:17:24</sys_updated_on>
+        <template><![CDATA[<div>
+  <div ng-if="data.thingCIexists">
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <div class="row">
+
+          <div class="col-xs-12 col-sm-4 text-center">
+              <!-- picture -->
+            <div class="col-xs-12 col-sm-12" class="avatar-extra-large avatar-container" style="cursor:default;">
+              <div ng-if="data.pictureExists" >	
+                  <img src="{{data.picture}}" style="width:90%; height:90%; max-width:200px"/>
+              </div>
+
+              <div ng-if="!data.pictureExists" >	
+              	<div class="avatar soloAvatar bottom">
+                	<div class="sub-avatar mia" ng-style="avatarPicture"><i class="fa fa-cog"></i></div>
+             	</div>
+              </div>
+            </div>
+            
+            
+            <!-- Knowledge Article -->
+            <div ng-if="data.knowledge.length > 0" >
+              <h4>${Knowledeg articles}</h4>
+              <span ng-repeat="article in data.knowledge"><a href="kb_view.do?sys_kb_id={{article.sys_id}}">{{article.short_description}}</a></span>
+          	</div>
+          </div>
+          
+          <div class="col-xs-12 col-sm-8">
+            
+            <!-- meta data -->
+            <div class="col-xs-12 col-sm-12">
+              <h2>{{data.name}}</h2>
+              <div class="col-xs-12 col-sm-8">
+                <h4>{{data.model_id}} <strong class="pad-right">at</strong> {{data.location}}</h4>
+                <p><strong class="pad-right">${Asset tag}</strong> {{data.asset_tag}}</p>
+                <p><strong class="pad-right">${Manufacturer}</strong> {{data.manufacturer}}</p>
+                <p><strong class="pad-right">${Serial number}</strong> {{data.serial_number}}</p>
+                <p><strong class="pad-right">${Owned by}</strong> {{data.owned_by}}</p>
+                <p><strong class="pad-right">${Support group}</strong> {{data.support_group}}</p>
+                <p><strong class="pad-right">${Description}</strong> {{data.short_description}}</p>
+              </div>
+              
+              
+              <div class="col-xs-12 col-sm-4">
+              <!-- Business Services -->
+              	<div ng-if="data.affectedBusinessServiceList.length > 0" >	
+                  <h4>${Services running by device}</h4>
+                  
+                  <ul ng-if="data.affectedBusinessServiceList.length > 0">
+                    <li ng-repeat="service in data.affectedBusinessServiceList"><a href="/iot?id=service_status&service={{service.sys_id}}">{{service.name}}</a></li>
+                  </ul>
+                  
+              	</div>
+                
+                <!-- CMDB tools -->
+                <h4>${Configuration tools}</h4>
+                <div>
+              		<a id="bsm_view" title="" class="btn btn-default icon-tree" ng-click="alert()" target="_blank" data-original-title="Show dependency views" href="$ngbsm.do?id={{data.thing_sys_id}}" target="_blank">BSM View</a>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div ng-if="!data.thingCIexists" >
+    <div class="panel panel-default">
+      <div class="panel-heading"><h4 class="panel-title">${Thing not found}</h4></div>
+      <div class="panel-body wrapper">
+        <p>${This thing does not exist}</p>
+        <p>${Suggestions}:</p>
+        <ul>
+          <li>${Contact your portal administrator}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

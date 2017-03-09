@@ -49,7 +49,7 @@
         <sys_created_on>2017-01-17 10:21:07</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>d684817edb103200c5df7befbf96198b</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name>IoT SM</sys_name>
         <sys_package display_value="IoT Service Management" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
         <sys_policy/>
@@ -57,7 +57,7 @@
         <sys_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</sys_scope>
         <sys_update_name>sm_config_d684817edb103200c5df7befbf96198b</sys_update_name>
         <sys_updated_by>admin_stwilhelm</sys_updated_by>
-        <sys_updated_on>2017-01-27 13:45:24</sys_updated_on>
+        <sys_updated_on>2017-02-06 18:24:29</sys_updated_on>
         <task_activities>true</task_activities>
         <task_dispatch_method>auto</task_dispatch_method>
         <task_dispatch_workflow display_value="Assignment Workflow for SM">e1865971d7132100bbc783e80e610365</task_dispatch_workflow>
@@ -71,7 +71,7 @@
         <use_consistent_assignment>false</use_consistent_assignment>
         <use_follow_the_sun>false</use_follow_the_sun>
         <use_location>true</use_location>
-        <use_schedule>true</use_schedule>
+        <use_schedule>false</use_schedule>
         <use_sf>true</use_sf>
         <use_skill>all</use_skill>
         <use_timezone>false</use_timezone>

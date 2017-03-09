@@ -19,7 +19,7 @@
         <cost>0.00</cost>
         <depreciation/>
         <description/>
-        <dispatch_group/>
+        <dispatch_group display_value="IoT Dispatcher Germany" name="IoT Dispatcher Germany">d964c93edb103200c5df7befbf961962</dispatch_group>
         <display_name>Accompany Removal &amp; Prepare Area</display_name>
         <expenditure_type/>
         <flow_rate/>
@@ -43,9 +43,9 @@
         <sys_created_by>admin_stwilhelm</sys_created_by>
         <sys_created_on>2017-01-25 18:35:20</sys_created_on>
         <sys_id>be9fc30be9b300be936a0be979a0be9f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin_stwilhelm</sys_updated_by>
-        <sys_updated_on>2017-01-25 18:35:20</sys_updated_on>
+        <sys_updated_on>2017-02-02 15:33:36</sys_updated_on>
         <task_description>- Verify machine to be removed
 - Accompany the removal process
 - Prepare/ clean area if needed</task_description>
@@ -80,7 +80,7 @@
         <sys_created_on>2017-01-25 18:35:20</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>fb524ca51368ba00fd79b90a6144b081</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Accompany Removal &amp; Prepare Area</sys_name>
         <sys_package display_value="IoT Service Management" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
         <sys_policy/>
@@ -88,7 +88,7 @@
         <sys_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</sys_scope>
         <sys_update_name>sys_metadata_link_fb524ca51368ba00fd79b90a6144b081</sys_update_name>
         <sys_updated_by>admin_stwilhelm</sys_updated_by>
-        <sys_updated_on>2017-01-25 18:35:20</sys_updated_on>
+        <sys_updated_on>2017-02-02 15:33:36</sys_updated_on>
         <tablename>x_76760_iot_sm_task_template</tablename>
     </sys_metadata_link>
 </record_update>

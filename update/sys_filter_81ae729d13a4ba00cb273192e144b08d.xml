@@ -6,7 +6,7 @@
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
         <group/>
-        <last_used>2017-01-25 13:41:21</last_used>
+        <last_used>2017-01-30 10:12:13</last_used>
         <mobile>true</mobile>
         <roles/>
         <sys_class_name>sys_filter</sys_class_name>
@@ -16,7 +16,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>81ae729d13a4ba00cb273192e144b08d</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>mobile</sys_name>
         <sys_package display_value="IoT Service Management" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
         <sys_policy/>
@@ -24,7 +24,7 @@
         <sys_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</sys_scope>
         <sys_update_name>sys_filter_81ae729d13a4ba00cb273192e144b08d</sys_update_name>
         <sys_updated_by>admin_kbazanov</sys_updated_by>
-        <sys_updated_on>2017-01-25 13:41:21</sys_updated_on>
+        <sys_updated_on>2017-01-30 10:12:13</sys_updated_on>
         <table>x_76760_iot_thing</table>
         <title>mobile</title>
         <user display_value="Kostyantyn Bazanov (Admin)">2aaa7fcf13cb2200cb273192e144b0cd</user>

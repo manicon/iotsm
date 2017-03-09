@@ -3,7 +3,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Restart Machine">7726017013687a00fd79b90a6144b062</cat_item>
+        <cat_item display_value="Restart Machine">d7f8a88013b4b640fd79b90a6144b012</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -59,7 +59,7 @@
         <sys_created_on>2017-01-25 09:09:13</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>e990065d13e0ba00fd79b90a6144b023</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Reason for Restart (Description)</sys_name>
         <sys_package display_value="IoT Service Management" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
         <sys_policy/>
@@ -67,7 +67,7 @@
         <sys_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</sys_scope>
         <sys_update_name>item_option_new_e990065d13e0ba00fd79b90a6144b023</sys_update_name>
         <sys_updated_by>admin_stwilhelm</sys_updated_by>
-        <sys_updated_on>2017-01-25 09:49:27</sys_updated_on>
+        <sys_updated_on>2017-02-02 15:52:09</sys_updated_on>
         <table/>
         <tooltip/>
         <type>2</type>

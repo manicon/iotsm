@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_script">
+    <sys_ui_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <global>false</global>
+        <name>x_76760_iot.jquery.qrcode.js</name>
+        <script><![CDATA[(function( $ ){
+	$.fn.qrcode = function(options) {
+		// if options is string, 
+		if( typeof options === 'string' ){
+			options	= { text: options };
+		}
+
+		// set default values
+		// typeNumber < 1 for automatic calculation
+		options	= $.extend( {}, {
+			render		: "canvas",
+			width		: 256,
+			height		: 256,
+			typeNumber	: -1,
+			correctLevel	: QRErrorCorrectLevel.H,
+                        background      : "#ffffff",
+                        foreground      : "#000000"
+		}, options);
+
+		var createCanvas	= function(){
+			// create the qrcode itself
+			var qrcode	= new QRCode(options.typeNumber, options.correctLevel);
+			qrcode.addData(options.text);
+			qrcode.make();
+
+			// create canvas element
+			var canvas	= document.createElement('canvas');
+			canvas.width	= options.width;
+			canvas.height	= options.height;
+			var ctx		= canvas.getContext('2d');
+
+			// compute tileW/tileH based on options.width/options.height
+			var tileW	= options.width  / qrcode.getModuleCount();
+			var tileH	= options.height / qrcode.getModuleCount();
+
+			// draw in the canvas
+			for( var row = 0; row < qrcode.getModuleCount(); row++ ){
+				for( var col = 0; col < qrcode.getModuleCount(); col++ ){
+					ctx.fillStyle = qrcode.isDark(row, col) ? options.foreground : options.background;
+					var w = (Math.ceil((col+1)*tileW) - Math.floor(col*tileW));
+					var h = (Math.ceil((row+1)*tileW) - Math.floor(row*tileW));
+					ctx.fillRect(Math.round(col*tileW),Math.round(row*tileH), w, h);  
+				}	
+			}
+			// return just built canvas
+			return canvas;
+		}
+
+		// from Jon-Carlos Rivera (https://github.com/imbcmdth)
+		var createTable	= function(){
+			// create the qrcode itself
+			var qrcode	= new QRCode(options.typeNumber, options.correctLevel);
+			qrcode.addData(options.text);
+			qrcode.make();
+			
+			// create table element
+			var $table	= $('<table></table>')
+				.css("width", options.width+"px")
+				.css("height", options.height+"px")
+				.css("border", "0px")
+				.css("border-collapse", "collapse")
+				.css('background-color', options.background);
+		  
+			// compute tileS percentage
+			var tileW	= options.width / qrcode.getModuleCount();
+			var tileH	= options.height / qrcode.getModuleCount();
+
+			// draw in the table
+			for(var row = 0; row < qrcode.getModuleCount(); row++ ){
+				var $row = $('<tr></tr>').css('height', tileH+"px").appendTo($table);
+				
+				for(var col = 0; col < qrcode.getModuleCount(); col++ ){
+					$('<td></td>')
+						.css('width', tileW+"px")
+						.css('background-color', qrcode.isDark(row, col) ? options.foreground : options.background)
+						.appendTo($row);
+				}	
+			}
+			// return just built canvas
+			return $table;
+		}
+  
+
+		return this.each(function(){
+			var element	= options.render == "canvas" ? createCanvas() : createTable();
+			$(element).appendTo(this);
+		});
+	};
+})( jQuery );]]></script>
+        <script_name>jquery.qrcode.js</script_name>
+        <sys_class_name>sys_ui_script</sys_class_name>
+        <sys_created_by>admin_kbazanov</sys_created_by>
+        <sys_created_on>2017-02-22 12:27:35</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>c68a32de13c1f640cb273192e144b0b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_76760_iot.jquery.qrcode.js</sys_name>
+        <sys_package display_value="IoT Service Management" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</sys_scope>
+        <sys_update_name>sys_ui_script_c68a32de13c1f640cb273192e144b0b4</sys_update_name>
+        <sys_updated_by>admin_kbazanov</sys_updated_by>
+        <sys_updated_on>2017-02-22 12:27:35</sys_updated_on>
+        <use_scoped_format>false</use_scoped_format>
+    </sys_ui_script>
+</record_update>
