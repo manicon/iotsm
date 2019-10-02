@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_profile">
+    <oauth_entity_profile action="INSERT_OR_UPDATE">
+        <default>true</default>
+        <grant_type>password</grant_type>
+        <jwt_provider/>
+        <name>Formlabs default_profile</name>
+        <oauth_entity display_value="Formlabs">72ee8e03db818700d623bb01ef961964</oauth_entity>
+        <sys_class_name>oauth_entity_profile</sys_class_name>
+        <sys_created_by>admin_kbazanov</sys_created_by>
+        <sys_created_on>2017-09-11 13:23:46</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>b42fce03db818700d623bb01ef961980</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Formlabs default_profile</sys_name>
+        <sys_package display_value="IoT Service Management" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</sys_scope>
+        <sys_update_name>oauth_entity_profile_b42fce03db818700d623bb01ef961980</sys_update_name>
+        <sys_updated_by>admin_kbazanov</sys_updated_by>
+        <sys_updated_on>2017-09-11 13:35:31</sys_updated_on>
+    </oauth_entity_profile>
+</record_update>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_security_acl">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
     <sys_security_acl action="INSERT_OR_UPDATE">
         <active>true</active>
         <admin_overrides>true</admin_overrides>
@@ -12,7 +11,7 @@
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin_kbazanov</sys_created_by>
         <sys_created_on>2017-01-24 10:50:43</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>147e0989136c7a00cb273192e144b095</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_76760_iot_eventcode_definition</sys_name>

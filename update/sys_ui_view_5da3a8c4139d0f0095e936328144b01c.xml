@@ -1,25 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_ui_view">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
     <sys_ui_view action="INSERT_OR_UPDATE">
         <group/>
         <hidden>false</hidden>
-        <name>cmdb_dashboard</name>
+        <name>sys_popup,RPT7331f946134db640cb273192e144b0cc</name>
         <roles/>
         <sys_class_name>sys_ui_view</sys_class_name>
         <sys_created_by>admin_kbazanov</sys_created_by>
-        <sys_created_on>2017-02-21 15:21:48</sys_created_on>
+        <sys_created_on>2017-09-14 08:08:03</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
-        <sys_id>04095ec2138db640cb273192e144b0b7</sys_id>
+        <sys_id>5da3a8c4139d0f0095e936328144b01c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Cmdb_dashboard</sys_name>
+        <sys_name>Sys_popup,rpt7331f946134db640cb273192e144b0cc</sys_name>
         <sys_package display_value="IoT Service Management" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</sys_scope>
-        <sys_update_name>sys_ui_view_04095ec2138db640cb273192e144b0b7</sys_update_name>
+        <sys_update_name>sys_ui_view_5da3a8c4139d0f0095e936328144b01c</sys_update_name>
         <sys_updated_by>admin_kbazanov</sys_updated_by>
-        <sys_updated_on>2017-02-21 15:21:48</sys_updated_on>
-        <title>Cmdb_dashboard</title>
+        <sys_updated_on>2017-09-14 08:08:03</sys_updated_on>
+        <title>Sys_popup,rpt7331f946134db640cb273192e144b0cc</title>
         <user/>
     </sys_ui_view>
 </record_update>

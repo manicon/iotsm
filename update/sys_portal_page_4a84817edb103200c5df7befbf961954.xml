@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update node_type="sys_portal_page" unload_date="2017-03-09 09:47:58">
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2019-10-02 09:08:47">
     <sys_portal_page action="INSERT_OR_UPDATE">
         <layout display_value="layout_2_across">f6defafa0a0a0b12000d5016bd12ff06</layout>
         <order>850</order>
@@ -29,183 +28,92 @@
         <related_items_node>
             <sys_portal action="INSERT_OR_UPDATE">
                 <dropzone>dropzone1</dropzone>
-                <offset>0</offset>
-                <page display_value="IoT Service Management Overview">4a84817edb103200c5df7befbf961954</page>
-                <summary/>
-                <sys_created_by>admin_kbazanov</sys_created_by>
-                <sys_created_on>2017-03-06 11:02:20</sys_created_on>
-                <sys_id>164ad41e13913600cb273192e144b0be</sys_id>
-                <sys_mod_count>0</sys_mod_count>
-                <sys_updated_by>admin_kbazanov</sys_updated_by>
-                <sys_updated_on>2017-03-06 11:02:20</sys_updated_on>
-                <related_items_node>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>title</name>
-                        <portal_section display_value="Created 06.03.2017 12:02:20">164ad41e13913600cb273192e144b0be</portal_section>
-                        <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-03-06 11:02:20</sys_created_on>
-                        <sys_id>164ad41e13913600cb273192e144b0bf</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-03-06 11:02:20</sys_updated_on>
-                        <value>IoT Requests Unassigned</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>help_text_window</name>
-                        <portal_section display_value="Created 06.03.2017 12:02:20">164ad41e13913600cb273192e144b0be</portal_section>
-                        <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-03-06 11:02:20</sys_created_on>
-                        <sys_id>1a4ad41e13913600cb273192e144b0be</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-03-06 11:02:20</sys_updated_on>
-                        <value>report_widget_description</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>can_subscribe</name>
-                        <portal_section display_value="Created 06.03.2017 12:02:20">164ad41e13913600cb273192e144b0be</portal_section>
-                        <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-03-06 11:02:20</sys_created_on>
-                        <sys_id>524ad41e13913600cb273192e144b0bf</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-03-06 11:02:20</sys_updated_on>
-                        <value>true</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>sys_id</name>
-                        <portal_section display_value="Created 06.03.2017 12:02:20">164ad41e13913600cb273192e144b0be</portal_section>
-                        <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-03-06 11:02:20</sys_created_on>
-                        <sys_id>564ad41e13913600cb273192e144b0be</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-03-06 11:02:20</sys_updated_on>
-                        <value>008fa3d4db457e00d623bb01ef9619d7</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>report_type</name>
-                        <portal_section display_value="Created 06.03.2017 12:02:20">164ad41e13913600cb273192e144b0be</portal_section>
-                        <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-03-06 11:02:20</sys_created_on>
-                        <sys_id>9e4ad41e13913600cb273192e144b0be</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-03-06 11:02:20</sys_updated_on>
-                        <value>list</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>current_page</name>
-                        <portal_section display_value="Created 06.03.2017 12:02:20">164ad41e13913600cb273192e144b0be</portal_section>
-                        <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-03-06 11:02:20</sys_created_on>
-                        <sys_id>d64ad41e13913600cb273192e144b0bf</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-03-06 11:02:20</sys_updated_on>
-                        <value>4a84817edb103200c5df7befbf961954</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>renderer</name>
-                        <portal_section display_value="Created 06.03.2017 12:02:20">164ad41e13913600cb273192e144b0be</portal_section>
-                        <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-03-06 11:02:20</sys_created_on>
-                        <sys_id>da4ad41e13913600cb273192e144b0be</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-03-06 11:02:20</sys_updated_on>
-                        <value>com.glide.ui.portal.RenderReport</value>
-                    </sys_portal_preferences>
-                </related_items_node>
-            </sys_portal>
-            <sys_portal action="INSERT_OR_UPDATE">
-                <dropzone>dropzone1</dropzone>
                 <offset>2</offset>
                 <page display_value="IoT Service Management Overview">4a84817edb103200c5df7befbf961954</page>
                 <summary/>
-                <sys_created_by>admin_kbazanov</sys_created_by>
-                <sys_created_on>2017-03-06 11:02:21</sys_created_on>
-                <sys_id>164ad41e13913600cb273192e144b0c1</sys_id>
+                <sys_created_by>mschallwig@deloitte.com</sys_created_by>
+                <sys_created_on>2017-05-16 13:50:07</sys_created_on>
+                <sys_id>00996ac5db36ba00d623bb01ef96198f</sys_id>
                 <sys_mod_count>0</sys_mod_count>
-                <sys_updated_by>admin_kbazanov</sys_updated_by>
-                <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
+                <sys_updated_by>mschallwig@deloitte.com</sys_updated_by>
+                <sys_updated_on>2017-05-16 13:50:07</sys_updated_on>
                 <related_items_node>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>title</name>
-                        <portal_section display_value="Created 06.03.2017 12:02:21">164ad41e13913600cb273192e144b0c1</portal_section>
-                        <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-03-06 11:02:21</sys_created_on>
-                        <sys_id>164ad41e13913600cb273192e144b0c2</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
-                        <value>Created IoT Requests Last 30 Days</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>renderer</name>
-                        <portal_section display_value="Created 06.03.2017 12:02:21">164ad41e13913600cb273192e144b0c1</portal_section>
-                        <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-03-06 11:02:20</sys_created_on>
-                        <sys_id>1a4ad41e13913600cb273192e144b0c1</sys_id>
+                        <portal_section display_value="Created 05-16-2017 15:50:07">00996ac5db36ba00d623bb01ef96198f</portal_section>
+                        <sys_created_by>mschallwig@deloitte.com</sys_created_by>
+                        <sys_created_on>2017-05-16 13:50:07</sys_created_on>
+                        <sys_id>00996ac5db36ba00d623bb01ef961990</sys_id>
                         <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-03-06 11:02:20</sys_updated_on>
+                        <sys_updated_by>mschallwig@deloitte.com</sys_updated_by>
+                        <sys_updated_on>2017-05-16 13:50:07</sys_updated_on>
                         <value>com.glide.ui.portal.RenderReport</value>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>can_subscribe</name>
-                        <portal_section display_value="Created 06.03.2017 12:02:21">164ad41e13913600cb273192e144b0c1</portal_section>
-                        <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-03-06 11:02:21</sys_created_on>
-                        <sys_id>524ad41e13913600cb273192e144b0c2</sys_id>
+                        <portal_section display_value="Created 05-16-2017 15:50:07">00996ac5db36ba00d623bb01ef96198f</portal_section>
+                        <sys_created_by>mschallwig@deloitte.com</sys_created_by>
+                        <sys_created_on>2017-05-16 13:50:07</sys_created_on>
+                        <sys_id>0c996ac5db36ba00d623bb01ef961990</sys_id>
                         <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
+                        <sys_updated_by>mschallwig@deloitte.com</sys_updated_by>
+                        <sys_updated_on>2017-05-16 13:50:07</sys_updated_on>
                         <value>true</value>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>sys_id</name>
-                        <portal_section display_value="Created 06.03.2017 12:02:21">164ad41e13913600cb273192e144b0c1</portal_section>
-                        <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-03-06 11:02:20</sys_created_on>
-                        <sys_id>564ad41e13913600cb273192e144b0c1</sys_id>
+                        <portal_section display_value="Created 05-16-2017 15:50:07">00996ac5db36ba00d623bb01ef96198f</portal_section>
+                        <sys_created_by>mschallwig@deloitte.com</sys_created_by>
+                        <sys_created_on>2017-05-16 13:50:07</sys_created_on>
+                        <sys_id>80996ac5db36ba00d623bb01ef96198f</sys_id>
                         <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-03-06 11:02:20</sys_updated_on>
-                        <value>6b1548b11364fa00fd79b90a6144b03f</value>
+                        <sys_updated_by>mschallwig@deloitte.com</sys_updated_by>
+                        <sys_updated_on>2017-05-16 13:50:07</sys_updated_on>
+                        <value>7331f946134db640cb273192e144b0cc</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 05-16-2017 15:50:07">00996ac5db36ba00d623bb01ef96198f</portal_section>
+                        <sys_created_by>mschallwig@deloitte.com</sys_created_by>
+                        <sys_created_on>2017-05-16 13:50:07</sys_created_on>
+                        <sys_id>80996ac5db36ba00d623bb01ef961991</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mschallwig@deloitte.com</sys_updated_by>
+                        <sys_updated_on>2017-05-16 13:50:07</sys_updated_on>
+                        <value>IoT Requests Assigned</value>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>report_type</name>
-                        <portal_section display_value="Created 06.03.2017 12:02:21">164ad41e13913600cb273192e144b0c1</portal_section>
-                        <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-03-06 11:02:21</sys_created_on>
-                        <sys_id>9e4ad41e13913600cb273192e144b0c1</sys_id>
+                        <portal_section display_value="Created 05-16-2017 15:50:07">00996ac5db36ba00d623bb01ef96198f</portal_section>
+                        <sys_created_by>mschallwig@deloitte.com</sys_created_by>
+                        <sys_created_on>2017-05-16 13:50:07</sys_created_on>
+                        <sys_id>84996ac5db36ba00d623bb01ef961990</sys_id>
                         <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
-                        <value>area</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>current_page</name>
-                        <portal_section display_value="Created 06.03.2017 12:02:21">164ad41e13913600cb273192e144b0c1</portal_section>
-                        <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-03-06 11:02:21</sys_created_on>
-                        <sys_id>d64ad41e13913600cb273192e144b0c2</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
-                        <value>4a84817edb103200c5df7befbf961954</value>
+                        <sys_updated_by>mschallwig@deloitte.com</sys_updated_by>
+                        <sys_updated_on>2017-05-16 13:50:07</sys_updated_on>
+                        <value>list</value>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>help_text_window</name>
-                        <portal_section display_value="Created 06.03.2017 12:02:21">164ad41e13913600cb273192e144b0c1</portal_section>
-                        <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-03-06 11:02:21</sys_created_on>
-                        <sys_id>da4ad41e13913600cb273192e144b0c1</sys_id>
+                        <portal_section display_value="Created 05-16-2017 15:50:07">00996ac5db36ba00d623bb01ef96198f</portal_section>
+                        <sys_created_by>mschallwig@deloitte.com</sys_created_by>
+                        <sys_created_on>2017-05-16 13:50:07</sys_created_on>
+                        <sys_id>88996ac5db36ba00d623bb01ef96198f</sys_id>
                         <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
+                        <sys_updated_by>mschallwig@deloitte.com</sys_updated_by>
+                        <sys_updated_on>2017-05-16 13:50:07</sys_updated_on>
                         <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 05-16-2017 15:50:07">00996ac5db36ba00d623bb01ef96198f</portal_section>
+                        <sys_created_by>mschallwig@deloitte.com</sys_created_by>
+                        <sys_created_on>2017-05-16 13:50:07</sys_created_on>
+                        <sys_id>88996ac5db36ba00d623bb01ef961991</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mschallwig@deloitte.com</sys_updated_by>
+                        <sys_updated_on>2017-05-16 13:50:07</sys_updated_on>
+                        <value>4a84817edb103200c5df7befbf961954</value>
                     </sys_portal_preferences>
                 </related_items_node>
             </sys_portal>
@@ -214,89 +122,89 @@
                 <offset>1</offset>
                 <page display_value="IoT Service Management Overview">4a84817edb103200c5df7befbf961954</page>
                 <summary/>
-                <sys_created_by>admin_kbazanov</sys_created_by>
-                <sys_created_on>2017-03-06 11:02:20</sys_created_on>
-                <sys_id>1e4ad41e13913600cb273192e144b0bf</sys_id>
+                <sys_created_by>mschallwig@deloitte.com</sys_created_by>
+                <sys_created_on>2017-05-16 13:50:07</sys_created_on>
+                <sys_id>4c996ac5db36ba00d623bb01ef96198b</sys_id>
                 <sys_mod_count>0</sys_mod_count>
-                <sys_updated_by>admin_kbazanov</sys_updated_by>
-                <sys_updated_on>2017-03-06 11:02:20</sys_updated_on>
+                <sys_updated_by>mschallwig@deloitte.com</sys_updated_by>
+                <sys_updated_on>2017-05-16 13:50:07</sys_updated_on>
                 <related_items_node>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>help_text_window</name>
-                        <portal_section display_value="Created 06.03.2017 12:02:20">1e4ad41e13913600cb273192e144b0bf</portal_section>
-                        <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-03-06 11:02:20</sys_created_on>
-                        <sys_id>124ad41e13913600cb273192e144b0c0</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-03-06 11:02:20</sys_updated_on>
-                        <value>report_widget_description</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>title</name>
-                        <portal_section display_value="Created 06.03.2017 12:02:20">1e4ad41e13913600cb273192e144b0bf</portal_section>
-                        <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-03-06 11:02:20</sys_created_on>
-                        <sys_id>1e4ad41e13913600cb273192e144b0c0</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-03-06 11:02:20</sys_updated_on>
-                        <value>IoT Requests Assigned</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>can_subscribe</name>
-                        <portal_section display_value="Created 06.03.2017 12:02:20">1e4ad41e13913600cb273192e144b0bf</portal_section>
-                        <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-03-06 11:02:20</sys_created_on>
-                        <sys_id>5a4ad41e13913600cb273192e144b0c0</sys_id>
+                        <portal_section display_value="Created 05-16-2017 15:50:07">4c996ac5db36ba00d623bb01ef96198b</portal_section>
+                        <sys_created_by>mschallwig@deloitte.com</sys_created_by>
+                        <sys_created_on>2017-05-16 13:50:07</sys_created_on>
+                        <sys_id>48996ac5db36ba00d623bb01ef96198d</sys_id>
                         <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-03-06 11:02:20</sys_updated_on>
+                        <sys_updated_by>mschallwig@deloitte.com</sys_updated_by>
+                        <sys_updated_on>2017-05-16 13:50:07</sys_updated_on>
                         <value>true</value>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>sys_id</name>
-                        <portal_section display_value="Created 06.03.2017 12:02:20">1e4ad41e13913600cb273192e144b0bf</portal_section>
-                        <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-03-06 11:02:20</sys_created_on>
-                        <sys_id>5e4ad41e13913600cb273192e144b0bf</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-03-06 11:02:20</sys_updated_on>
-                        <value>7331f946134db640cb273192e144b0cc</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>report_type</name>
-                        <portal_section display_value="Created 06.03.2017 12:02:20">1e4ad41e13913600cb273192e144b0bf</portal_section>
-                        <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-03-06 11:02:20</sys_created_on>
-                        <sys_id>964ad41e13913600cb273192e144b0c0</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-03-06 11:02:20</sys_updated_on>
-                        <value>list</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>renderer</name>
-                        <portal_section display_value="Created 06.03.2017 12:02:20">1e4ad41e13913600cb273192e144b0bf</portal_section>
-                        <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-03-06 11:02:20</sys_created_on>
-                        <sys_id>d24ad41e13913600cb273192e144b0c0</sys_id>
+                        <portal_section display_value="Created 05-16-2017 15:50:07">4c996ac5db36ba00d623bb01ef96198b</portal_section>
+                        <sys_created_by>mschallwig@deloitte.com</sys_created_by>
+                        <sys_created_on>2017-05-16 13:50:07</sys_created_on>
+                        <sys_id>4c996ac5db36ba00d623bb01ef96198c</sys_id>
                         <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-03-06 11:02:20</sys_updated_on>
+                        <sys_updated_by>mschallwig@deloitte.com</sys_updated_by>
+                        <sys_updated_on>2017-05-16 13:50:07</sys_updated_on>
                         <value>com.glide.ui.portal.RenderReport</value>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>current_page</name>
-                        <portal_section display_value="Created 06.03.2017 12:02:20">1e4ad41e13913600cb273192e144b0bf</portal_section>
-                        <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-03-06 11:02:20</sys_created_on>
-                        <sys_id>de4ad41e13913600cb273192e144b0c0</sys_id>
+                        <name>report_type</name>
+                        <portal_section display_value="Created 05-16-2017 15:50:07">4c996ac5db36ba00d623bb01ef96198b</portal_section>
+                        <sys_created_by>mschallwig@deloitte.com</sys_created_by>
+                        <sys_created_on>2017-05-16 13:50:07</sys_created_on>
+                        <sys_id>c0996ac5db36ba00d623bb01ef96198d</sys_id>
                         <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-03-06 11:02:20</sys_updated_on>
+                        <sys_updated_by>mschallwig@deloitte.com</sys_updated_by>
+                        <sys_updated_on>2017-05-16 13:50:07</sys_updated_on>
+                        <value>list</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 05-16-2017 15:50:07">4c996ac5db36ba00d623bb01ef96198b</portal_section>
+                        <sys_created_by>mschallwig@deloitte.com</sys_created_by>
+                        <sys_created_on>2017-05-16 13:50:07</sys_created_on>
+                        <sys_id>c4996ac5db36ba00d623bb01ef96198c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mschallwig@deloitte.com</sys_updated_by>
+                        <sys_updated_on>2017-05-16 13:50:07</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 05-16-2017 15:50:07">4c996ac5db36ba00d623bb01ef96198b</portal_section>
+                        <sys_created_by>mschallwig@deloitte.com</sys_created_by>
+                        <sys_created_on>2017-05-16 13:50:07</sys_created_on>
+                        <sys_id>c4996ac5db36ba00d623bb01ef96198e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mschallwig@deloitte.com</sys_updated_by>
+                        <sys_updated_on>2017-05-16 13:50:07</sys_updated_on>
                         <value>4a84817edb103200c5df7befbf961954</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 05-16-2017 15:50:07">4c996ac5db36ba00d623bb01ef96198b</portal_section>
+                        <sys_created_by>mschallwig@deloitte.com</sys_created_by>
+                        <sys_created_on>2017-05-16 13:50:07</sys_created_on>
+                        <sys_id>cc996ac5db36ba00d623bb01ef96198b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mschallwig@deloitte.com</sys_updated_by>
+                        <sys_updated_on>2017-05-16 13:50:07</sys_updated_on>
+                        <value>664fe9e313d1b600cb273192e144b072</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 05-16-2017 15:50:07">4c996ac5db36ba00d623bb01ef96198b</portal_section>
+                        <sys_created_by>mschallwig@deloitte.com</sys_created_by>
+                        <sys_created_on>2017-05-16 13:50:07</sys_created_on>
+                        <sys_id>cc996ac5db36ba00d623bb01ef96198d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mschallwig@deloitte.com</sys_updated_by>
+                        <sys_updated_on>2017-05-16 13:50:07</sys_updated_on>
+                        <value>Technical Services</value>
                     </sys_portal_preferences>
                 </related_items_node>
             </sys_portal>
@@ -305,188 +213,370 @@
                 <offset>0</offset>
                 <page display_value="IoT Service Management Overview">4a84817edb103200c5df7befbf961954</page>
                 <summary/>
-                <sys_created_by>admin_kbazanov</sys_created_by>
-                <sys_created_on>2017-03-06 11:02:21</sys_created_on>
-                <sys_id>1e4ad41e13913600cb273192e144b0c2</sys_id>
+                <sys_created_by>mschallwig@deloitte.com</sys_created_by>
+                <sys_created_on>2017-05-16 13:50:07</sys_created_on>
+                <sys_id>84996ac5db36ba00d623bb01ef961995</sys_id>
                 <sys_mod_count>0</sys_mod_count>
-                <sys_updated_by>admin_kbazanov</sys_updated_by>
-                <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
+                <sys_updated_by>mschallwig@deloitte.com</sys_updated_by>
+                <sys_updated_on>2017-05-16 13:50:07</sys_updated_on>
                 <related_items_node>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>title_align</name>
-                        <portal_section display_value="Created 06.03.2017 12:02:21">1e4ad41e13913600cb273192e144b0c2</portal_section>
-                        <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-03-06 11:02:21</sys_created_on>
-                        <sys_id>124ad41e13913600cb273192e144b0c3</sys_id>
+                        <name>real_time</name>
+                        <portal_section display_value="Created 05-16-2017 15:50:07">84996ac5db36ba00d623bb01ef961995</portal_section>
+                        <sys_created_by>mschallwig@deloitte.com</sys_created_by>
+                        <sys_created_on>2017-05-16 13:50:07</sys_created_on>
+                        <sys_id>00996ac5db36ba00d623bb01ef961997</sys_id>
                         <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
-                        <value>left</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>show_title</name>
-                        <portal_section display_value="Created 06.03.2017 12:02:21">1e4ad41e13913600cb273192e144b0c2</portal_section>
-                        <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-03-06 11:02:21</sys_created_on>
-                        <sys_id>164ad41e13913600cb273192e144b0c5</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
-                        <value>true</value>
+                        <sys_updated_by>mschallwig@deloitte.com</sys_updated_by>
+                        <sys_updated_on>2017-05-16 13:50:07</sys_updated_on>
+                        <value/>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>sys_id</name>
-                        <portal_section display_value="Created 06.03.2017 12:02:21">1e4ad41e13913600cb273192e144b0c2</portal_section>
-                        <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-03-06 11:02:21</sys_created_on>
-                        <sys_id>1a4ad41e13913600cb273192e144b0c4</sys_id>
+                        <portal_section display_value="Created 05-16-2017 15:50:07">84996ac5db36ba00d623bb01ef961995</portal_section>
+                        <sys_created_by>mschallwig@deloitte.com</sys_created_by>
+                        <sys_created_on>2017-05-16 13:50:07</sys_created_on>
+                        <sys_id>00996ac5db36ba00d623bb01ef961999</sys_id>
                         <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
+                        <sys_updated_by>mschallwig@deloitte.com</sys_updated_by>
+                        <sys_updated_on>2017-05-16 13:50:07</sys_updated_on>
                         <value>7cc744f11364fa00fd79b90a6144b0f5</value>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>show_border</name>
-                        <portal_section display_value="Created 06.03.2017 12:02:21">1e4ad41e13913600cb273192e144b0c2</portal_section>
-                        <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-03-06 11:02:21</sys_created_on>
-                        <sys_id>1e4ad41e13913600cb273192e144b0c3</sys_id>
+                        <name>widget_height</name>
+                        <portal_section display_value="Created 05-16-2017 15:50:07">84996ac5db36ba00d623bb01ef961995</portal_section>
+                        <sys_created_by>mschallwig@deloitte.com</sys_created_by>
+                        <sys_created_on>2017-05-16 13:50:07</sys_created_on>
+                        <sys_id>00996ac5db36ba00d623bb01ef96199b</sys_id>
                         <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
+                        <sys_updated_by>mschallwig@deloitte.com</sys_updated_by>
+                        <sys_updated_on>2017-05-16 13:50:07</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 05-16-2017 15:50:07">84996ac5db36ba00d623bb01ef961995</portal_section>
+                        <sys_created_by>mschallwig@deloitte.com</sys_created_by>
+                        <sys_created_on>2017-05-16 13:50:07</sys_created_on>
+                        <sys_id>04996ac5db36ba00d623bb01ef961996</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mschallwig@deloitte.com</sys_updated_by>
+                        <sys_updated_on>2017-05-16 13:50:07</sys_updated_on>
                         <value>true</value>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>publisher_widget</name>
-                        <portal_section display_value="Created 06.03.2017 12:02:21">1e4ad41e13913600cb273192e144b0c2</portal_section>
-                        <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-03-06 11:02:21</sys_created_on>
-                        <sys_id>524ad41e13913600cb273192e144b0c5</sys_id>
+                        <portal_section display_value="Created 05-16-2017 15:50:07">84996ac5db36ba00d623bb01ef961995</portal_section>
+                        <sys_created_by>mschallwig@deloitte.com</sys_created_by>
+                        <sys_created_on>2017-05-16 13:50:07</sys_created_on>
+                        <sys_id>04996ac5db36ba00d623bb01ef96199a</sys_id>
                         <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
-                        <value/>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>title</name>
-                        <portal_section display_value="Created 06.03.2017 12:02:21">1e4ad41e13913600cb273192e144b0c2</portal_section>
-                        <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-03-06 11:02:21</sys_created_on>
-                        <sys_id>564ad41e13913600cb273192e144b0c4</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
-                        <value>IoT Affected Locations (Active Requests)</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>real_time</name>
-                        <portal_section display_value="Created 06.03.2017 12:02:21">1e4ad41e13913600cb273192e144b0c2</portal_section>
-                        <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-03-06 11:02:21</sys_created_on>
-                        <sys_id>5a4ad41e13913600cb273192e144b0c3</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
+                        <sys_updated_by>mschallwig@deloitte.com</sys_updated_by>
+                        <sys_updated_on>2017-05-16 13:50:07</sys_updated_on>
                         <value/>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>renderer</name>
-                        <portal_section display_value="Created 06.03.2017 12:02:21">1e4ad41e13913600cb273192e144b0c2</portal_section>
-                        <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-03-06 11:02:21</sys_created_on>
-                        <sys_id>5e4ad41e13913600cb273192e144b0c2</sys_id>
+                        <portal_section display_value="Created 05-16-2017 15:50:07">84996ac5db36ba00d623bb01ef961995</portal_section>
+                        <sys_created_by>mschallwig@deloitte.com</sys_created_by>
+                        <sys_created_on>2017-05-16 13:50:07</sys_created_on>
+                        <sys_id>08996ac5db36ba00d623bb01ef961995</sys_id>
                         <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
+                        <sys_updated_by>mschallwig@deloitte.com</sys_updated_by>
+                        <sys_updated_on>2017-05-16 13:50:07</sys_updated_on>
                         <value>com.glide.ui.portal.RenderReport</value>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>can_subscribe</name>
-                        <portal_section display_value="Created 06.03.2017 12:02:21">1e4ad41e13913600cb273192e144b0c2</portal_section>
-                        <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-03-06 11:02:21</sys_created_on>
-                        <sys_id>924ad41e13913600cb273192e144b0c4</sys_id>
+                        <name>title</name>
+                        <portal_section display_value="Created 05-16-2017 15:50:07">84996ac5db36ba00d623bb01ef961995</portal_section>
+                        <sys_created_by>mschallwig@deloitte.com</sys_created_by>
+                        <sys_created_on>2017-05-16 13:50:07</sys_created_on>
+                        <sys_id>08996ac5db36ba00d623bb01ef961998</sys_id>
                         <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
-                        <value>true</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>title_size</name>
-                        <portal_section display_value="Created 06.03.2017 12:02:21">1e4ad41e13913600cb273192e144b0c2</portal_section>
-                        <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-03-06 11:02:21</sys_created_on>
-                        <sys_id>964ad41e13913600cb273192e144b0c3</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
-                        <value>10pt</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>current_page</name>
-                        <portal_section display_value="Created 06.03.2017 12:02:21">1e4ad41e13913600cb273192e144b0c2</portal_section>
-                        <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-03-06 11:02:21</sys_created_on>
-                        <sys_id>9a4ad41e13913600cb273192e144b0c5</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
-                        <value>4a84817edb103200c5df7befbf961954</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>subscriber_widget</name>
-                        <portal_section display_value="Created 06.03.2017 12:02:21">1e4ad41e13913600cb273192e144b0c2</portal_section>
-                        <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-03-06 11:02:21</sys_created_on>
-                        <sys_id>9e4ad41e13913600cb273192e144b0c4</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
-                        <value>true</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>filter_indicator</name>
-                        <portal_section display_value="Created 06.03.2017 12:02:21">1e4ad41e13913600cb273192e144b0c2</portal_section>
-                        <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-03-06 11:02:21</sys_created_on>
-                        <sys_id>d24ad41e13913600cb273192e144b0c3</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
-                        <value>true</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>widget_height</name>
-                        <portal_section display_value="Created 06.03.2017 12:02:21">1e4ad41e13913600cb273192e144b0c2</portal_section>
-                        <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-03-06 11:02:21</sys_created_on>
-                        <sys_id>d64ad41e13913600cb273192e144b0c5</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
-                        <value/>
+                        <sys_updated_by>mschallwig@deloitte.com</sys_updated_by>
+                        <sys_updated_on>2017-05-16 13:50:07</sys_updated_on>
+                        <value>IoT Affected Locations (Active Requests)</value>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>help_text_window</name>
-                        <portal_section display_value="Created 06.03.2017 12:02:21">1e4ad41e13913600cb273192e144b0c2</portal_section>
-                        <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-03-06 11:02:21</sys_created_on>
-                        <sys_id>da4ad41e13913600cb273192e144b0c4</sys_id>
+                        <portal_section display_value="Created 05-16-2017 15:50:07">84996ac5db36ba00d623bb01ef961995</portal_section>
+                        <sys_created_by>mschallwig@deloitte.com</sys_created_by>
+                        <sys_created_on>2017-05-16 13:50:07</sys_created_on>
+                        <sys_id>08996ac5db36ba00d623bb01ef961999</sys_id>
                         <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
+                        <sys_updated_by>mschallwig@deloitte.com</sys_updated_by>
+                        <sys_updated_on>2017-05-16 13:50:07</sys_updated_on>
                         <value>report_widget_description</value>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>report_type</name>
-                        <portal_section display_value="Created 06.03.2017 12:02:21">1e4ad41e13913600cb273192e144b0c2</portal_section>
-                        <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-03-06 11:02:21</sys_created_on>
-                        <sys_id>de4ad41e13913600cb273192e144b0c3</sys_id>
+                        <portal_section display_value="Created 05-16-2017 15:50:07">84996ac5db36ba00d623bb01ef961995</portal_section>
+                        <sys_created_by>mschallwig@deloitte.com</sys_created_by>
+                        <sys_created_on>2017-05-16 13:50:07</sys_created_on>
+                        <sys_id>0c996ac5db36ba00d623bb01ef961997</sys_id>
                         <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
+                        <sys_updated_by>mschallwig@deloitte.com</sys_updated_by>
+                        <sys_updated_on>2017-05-16 13:50:07</sys_updated_on>
                         <value>map</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 05-16-2017 15:50:07">84996ac5db36ba00d623bb01ef961995</portal_section>
+                        <sys_created_by>mschallwig@deloitte.com</sys_created_by>
+                        <sys_created_on>2017-05-16 13:50:07</sys_created_on>
+                        <sys_id>80996ac5db36ba00d623bb01ef961998</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mschallwig@deloitte.com</sys_updated_by>
+                        <sys_updated_on>2017-05-16 13:50:07</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 05-16-2017 15:50:07">84996ac5db36ba00d623bb01ef961995</portal_section>
+                        <sys_created_by>mschallwig@deloitte.com</sys_created_by>
+                        <sys_created_on>2017-05-16 13:50:07</sys_created_on>
+                        <sys_id>84996ac5db36ba00d623bb01ef961997</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mschallwig@deloitte.com</sys_updated_by>
+                        <sys_updated_on>2017-05-16 13:50:07</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 05-16-2017 15:50:07">84996ac5db36ba00d623bb01ef961995</portal_section>
+                        <sys_created_by>mschallwig@deloitte.com</sys_created_by>
+                        <sys_created_on>2017-05-16 13:50:07</sys_created_on>
+                        <sys_id>84996ac5db36ba00d623bb01ef96199b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mschallwig@deloitte.com</sys_updated_by>
+                        <sys_updated_on>2017-05-16 13:50:07</sys_updated_on>
+                        <value>4a84817edb103200c5df7befbf961954</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_size</name>
+                        <portal_section display_value="Created 05-16-2017 15:50:07">84996ac5db36ba00d623bb01ef961995</portal_section>
+                        <sys_created_by>mschallwig@deloitte.com</sys_created_by>
+                        <sys_created_on>2017-05-16 13:50:07</sys_created_on>
+                        <sys_id>88996ac5db36ba00d623bb01ef961996</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mschallwig@deloitte.com</sys_updated_by>
+                        <sys_updated_on>2017-05-16 13:50:07</sys_updated_on>
+                        <value>10pt</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 05-16-2017 15:50:07">84996ac5db36ba00d623bb01ef961995</portal_section>
+                        <sys_created_by>mschallwig@deloitte.com</sys_created_by>
+                        <sys_created_on>2017-05-16 13:50:07</sys_created_on>
+                        <sys_id>88996ac5db36ba00d623bb01ef96199a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mschallwig@deloitte.com</sys_updated_by>
+                        <sys_updated_on>2017-05-16 13:50:07</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 05-16-2017 15:50:07">84996ac5db36ba00d623bb01ef961995</portal_section>
+                        <sys_created_by>mschallwig@deloitte.com</sys_created_by>
+                        <sys_created_on>2017-05-16 13:50:07</sys_created_on>
+                        <sys_id>8c996ac5db36ba00d623bb01ef961995</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mschallwig@deloitte.com</sys_updated_by>
+                        <sys_updated_on>2017-05-16 13:50:07</sys_updated_on>
+                        <value>left</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 05-16-2017 15:50:07">84996ac5db36ba00d623bb01ef961995</portal_section>
+                        <sys_created_by>mschallwig@deloitte.com</sys_created_by>
+                        <sys_created_on>2017-05-16 13:50:07</sys_created_on>
+                        <sys_id>8c996ac5db36ba00d623bb01ef961999</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mschallwig@deloitte.com</sys_updated_by>
+                        <sys_updated_on>2017-05-16 13:50:07</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone1</dropzone>
+                <offset>0</offset>
+                <page display_value="IoT Service Management Overview">4a84817edb103200c5df7befbf961954</page>
+                <summary/>
+                <sys_created_by>mschallwig@deloitte.com</sys_created_by>
+                <sys_created_on>2017-05-16 13:50:07</sys_created_on>
+                <sys_id>88996ac5db36ba00d623bb01ef961988</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>mschallwig@deloitte.com</sys_updated_by>
+                <sys_updated_on>2017-05-16 13:50:07</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 05-16-2017 15:50:07">88996ac5db36ba00d623bb01ef961988</portal_section>
+                        <sys_created_by>mschallwig@deloitte.com</sys_created_by>
+                        <sys_created_on>2017-05-16 13:50:07</sys_created_on>
+                        <sys_id>00996ac5db36ba00d623bb01ef96198a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mschallwig@deloitte.com</sys_updated_by>
+                        <sys_updated_on>2017-05-16 13:50:07</sys_updated_on>
+                        <value>list</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 05-16-2017 15:50:07">88996ac5db36ba00d623bb01ef961988</portal_section>
+                        <sys_created_by>mschallwig@deloitte.com</sys_created_by>
+                        <sys_created_on>2017-05-16 13:50:07</sys_created_on>
+                        <sys_id>04996ac5db36ba00d623bb01ef961989</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mschallwig@deloitte.com</sys_updated_by>
+                        <sys_updated_on>2017-05-16 13:50:07</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 05-16-2017 15:50:07">88996ac5db36ba00d623bb01ef961988</portal_section>
+                        <sys_created_by>mschallwig@deloitte.com</sys_created_by>
+                        <sys_created_on>2017-05-16 13:50:07</sys_created_on>
+                        <sys_id>04996ac5db36ba00d623bb01ef96198b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mschallwig@deloitte.com</sys_updated_by>
+                        <sys_updated_on>2017-05-16 13:50:07</sys_updated_on>
+                        <value>4a84817edb103200c5df7befbf961954</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 05-16-2017 15:50:07">88996ac5db36ba00d623bb01ef961988</portal_section>
+                        <sys_created_by>mschallwig@deloitte.com</sys_created_by>
+                        <sys_created_on>2017-05-16 13:50:07</sys_created_on>
+                        <sys_id>0c996ac5db36ba00d623bb01ef961988</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mschallwig@deloitte.com</sys_updated_by>
+                        <sys_updated_on>2017-05-16 13:50:07</sys_updated_on>
+                        <value>008fa3d4db457e00d623bb01ef9619d7</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 05-16-2017 15:50:07">88996ac5db36ba00d623bb01ef961988</portal_section>
+                        <sys_created_by>mschallwig@deloitte.com</sys_created_by>
+                        <sys_created_on>2017-05-16 13:50:07</sys_created_on>
+                        <sys_id>0c996ac5db36ba00d623bb01ef96198a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mschallwig@deloitte.com</sys_updated_by>
+                        <sys_updated_on>2017-05-16 13:50:07</sys_updated_on>
+                        <value>IoT Requests Unassigned</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 05-16-2017 15:50:07">88996ac5db36ba00d623bb01ef961988</portal_section>
+                        <sys_created_by>mschallwig@deloitte.com</sys_created_by>
+                        <sys_created_on>2017-05-16 13:50:07</sys_created_on>
+                        <sys_id>84996ac5db36ba00d623bb01ef96198a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mschallwig@deloitte.com</sys_updated_by>
+                        <sys_updated_on>2017-05-16 13:50:07</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 05-16-2017 15:50:07">88996ac5db36ba00d623bb01ef961988</portal_section>
+                        <sys_created_by>mschallwig@deloitte.com</sys_created_by>
+                        <sys_created_on>2017-05-16 13:50:07</sys_created_on>
+                        <sys_id>88996ac5db36ba00d623bb01ef961989</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mschallwig@deloitte.com</sys_updated_by>
+                        <sys_updated_on>2017-05-16 13:50:07</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone1</dropzone>
+                <offset>3</offset>
+                <page display_value="IoT Service Management Overview">4a84817edb103200c5df7befbf961954</page>
+                <summary/>
+                <sys_created_by>mschallwig@deloitte.com</sys_created_by>
+                <sys_created_on>2017-05-16 13:50:07</sys_created_on>
+                <sys_id>c0996ac5db36ba00d623bb01ef961992</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>mschallwig@deloitte.com</sys_updated_by>
+                <sys_updated_on>2017-05-16 13:50:07</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 05-16-2017 15:50:07">c0996ac5db36ba00d623bb01ef961992</portal_section>
+                        <sys_created_by>mschallwig@deloitte.com</sys_created_by>
+                        <sys_created_on>2017-05-16 13:50:07</sys_created_on>
+                        <sys_id>44996ac5db36ba00d623bb01ef961992</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mschallwig@deloitte.com</sys_updated_by>
+                        <sys_updated_on>2017-05-16 13:50:07</sys_updated_on>
+                        <value>bf51fd46134db640cb273192e144b079</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 05-16-2017 15:50:07">c0996ac5db36ba00d623bb01ef961992</portal_section>
+                        <sys_created_by>mschallwig@deloitte.com</sys_created_by>
+                        <sys_created_on>2017-05-16 13:50:07</sys_created_on>
+                        <sys_id>44996ac5db36ba00d623bb01ef961994</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mschallwig@deloitte.com</sys_updated_by>
+                        <sys_updated_on>2017-05-16 13:50:07</sys_updated_on>
+                        <value>IoT Requests Work in Progress</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 05-16-2017 15:50:07">c0996ac5db36ba00d623bb01ef961992</portal_section>
+                        <sys_created_by>mschallwig@deloitte.com</sys_created_by>
+                        <sys_created_on>2017-05-16 13:50:07</sys_created_on>
+                        <sys_id>48996ac5db36ba00d623bb01ef961993</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mschallwig@deloitte.com</sys_updated_by>
+                        <sys_updated_on>2017-05-16 13:50:07</sys_updated_on>
+                        <value>list</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 05-16-2017 15:50:07">c0996ac5db36ba00d623bb01ef961992</portal_section>
+                        <sys_created_by>mschallwig@deloitte.com</sys_created_by>
+                        <sys_created_on>2017-05-16 13:50:07</sys_created_on>
+                        <sys_id>4c996ac5db36ba00d623bb01ef961992</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mschallwig@deloitte.com</sys_updated_by>
+                        <sys_updated_on>2017-05-16 13:50:07</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 05-16-2017 15:50:07">c0996ac5db36ba00d623bb01ef961992</portal_section>
+                        <sys_created_by>mschallwig@deloitte.com</sys_created_by>
+                        <sys_created_on>2017-05-16 13:50:07</sys_created_on>
+                        <sys_id>4c996ac5db36ba00d623bb01ef961994</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mschallwig@deloitte.com</sys_updated_by>
+                        <sys_updated_on>2017-05-16 13:50:07</sys_updated_on>
+                        <value>4a84817edb103200c5df7befbf961954</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 05-16-2017 15:50:07">c0996ac5db36ba00d623bb01ef961992</portal_section>
+                        <sys_created_by>mschallwig@deloitte.com</sys_created_by>
+                        <sys_created_on>2017-05-16 13:50:07</sys_created_on>
+                        <sys_id>c0996ac5db36ba00d623bb01ef961993</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mschallwig@deloitte.com</sys_updated_by>
+                        <sys_updated_on>2017-05-16 13:50:07</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 05-16-2017 15:50:07">c0996ac5db36ba00d623bb01ef961992</portal_section>
+                        <sys_created_by>mschallwig@deloitte.com</sys_created_by>
+                        <sys_created_on>2017-05-16 13:50:07</sys_created_on>
+                        <sys_id>cc996ac5db36ba00d623bb01ef961993</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mschallwig@deloitte.com</sys_updated_by>
+                        <sys_updated_on>2017-05-16 13:50:07</sys_updated_on>
+                        <value>true</value>
                     </sys_portal_preferences>
                 </related_items_node>
             </sys_portal>
@@ -495,89 +585,89 @@
                 <offset>1</offset>
                 <page display_value="IoT Service Management Overview">4a84817edb103200c5df7befbf961954</page>
                 <summary/>
-                <sys_created_by>admin_kbazanov</sys_created_by>
-                <sys_created_on>2017-03-06 11:02:21</sys_created_on>
-                <sys_id>de4ad41e13913600cb273192e144b0c5</sys_id>
+                <sys_created_by>mschallwig@deloitte.com</sys_created_by>
+                <sys_created_on>2017-05-16 13:50:07</sys_created_on>
+                <sys_id>cc996ac5db36ba00d623bb01ef96199b</sys_id>
                 <sys_mod_count>0</sys_mod_count>
-                <sys_updated_by>admin_kbazanov</sys_updated_by>
-                <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
+                <sys_updated_by>mschallwig@deloitte.com</sys_updated_by>
+                <sys_updated_on>2017-05-16 13:50:07</sys_updated_on>
                 <related_items_node>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>sys_id</name>
-                        <portal_section display_value="Created 06.03.2017 12:02:21">de4ad41e13913600cb273192e144b0c5</portal_section>
-                        <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-03-06 11:02:21</sys_created_on>
-                        <sys_id>124ad41e13913600cb273192e144b0c6</sys_id>
+                        <portal_section display_value="Created 05-16-2017 15:50:07">cc996ac5db36ba00d623bb01ef96199b</portal_section>
+                        <sys_created_by>mschallwig@deloitte.com</sys_created_by>
+                        <sys_created_on>2017-05-16 13:50:07</sys_created_on>
+                        <sys_id>40996ac5db36ba00d623bb01ef96199c</sys_id>
                         <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
-                        <value>bf51fd46134db640cb273192e144b079</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>can_subscribe</name>
-                        <portal_section display_value="Created 06.03.2017 12:02:21">de4ad41e13913600cb273192e144b0c5</portal_section>
-                        <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-03-06 11:02:21</sys_created_on>
-                        <sys_id>1e4ad41e13913600cb273192e144b0c6</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
-                        <value>true</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>report_type</name>
-                        <portal_section display_value="Created 06.03.2017 12:02:21">de4ad41e13913600cb273192e144b0c5</portal_section>
-                        <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-03-06 11:02:21</sys_created_on>
-                        <sys_id>5a4ad41e13913600cb273192e144b0c6</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
-                        <value>list</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>current_page</name>
-                        <portal_section display_value="Created 06.03.2017 12:02:21">de4ad41e13913600cb273192e144b0c5</portal_section>
-                        <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-03-06 11:02:21</sys_created_on>
-                        <sys_id>924ad41e13913600cb273192e144b0c7</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
-                        <value>4a84817edb103200c5df7befbf961954</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>renderer</name>
-                        <portal_section display_value="Created 06.03.2017 12:02:21">de4ad41e13913600cb273192e144b0c5</portal_section>
-                        <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-03-06 11:02:21</sys_created_on>
-                        <sys_id>964ad41e13913600cb273192e144b0c6</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
-                        <value>com.glide.ui.portal.RenderReport</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>help_text_window</name>
-                        <portal_section display_value="Created 06.03.2017 12:02:21">de4ad41e13913600cb273192e144b0c5</portal_section>
-                        <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-03-06 11:02:21</sys_created_on>
-                        <sys_id>d24ad41e13913600cb273192e144b0c6</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
-                        <value>report_widget_description</value>
+                        <sys_updated_by>mschallwig@deloitte.com</sys_updated_by>
+                        <sys_updated_on>2017-05-16 13:50:07</sys_updated_on>
+                        <value>6b1548b11364fa00fd79b90a6144b03f</value>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>title</name>
-                        <portal_section display_value="Created 06.03.2017 12:02:21">de4ad41e13913600cb273192e144b0c5</portal_section>
-                        <sys_created_by>admin_kbazanov</sys_created_by>
-                        <sys_created_on>2017-03-06 11:02:21</sys_created_on>
-                        <sys_id>de4ad41e13913600cb273192e144b0c6</sys_id>
+                        <portal_section display_value="Created 05-16-2017 15:50:07">cc996ac5db36ba00d623bb01ef96199b</portal_section>
+                        <sys_created_by>mschallwig@deloitte.com</sys_created_by>
+                        <sys_created_on>2017-05-16 13:50:07</sys_created_on>
+                        <sys_id>40996ac5db36ba00d623bb01ef96199e</sys_id>
                         <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin_kbazanov</sys_updated_by>
-                        <sys_updated_on>2017-03-06 11:02:21</sys_updated_on>
-                        <value>IoT Requests Work in Progress</value>
+                        <sys_updated_by>mschallwig@deloitte.com</sys_updated_by>
+                        <sys_updated_on>2017-05-16 13:50:07</sys_updated_on>
+                        <value>Created IoT Requests Last 30 Days</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 05-16-2017 15:50:07">cc996ac5db36ba00d623bb01ef96199b</portal_section>
+                        <sys_created_by>mschallwig@deloitte.com</sys_created_by>
+                        <sys_created_on>2017-05-16 13:50:07</sys_created_on>
+                        <sys_id>44996ac5db36ba00d623bb01ef96199d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mschallwig@deloitte.com</sys_updated_by>
+                        <sys_updated_on>2017-05-16 13:50:07</sys_updated_on>
+                        <value>area</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 05-16-2017 15:50:07">cc996ac5db36ba00d623bb01ef96199b</portal_section>
+                        <sys_created_by>mschallwig@deloitte.com</sys_created_by>
+                        <sys_created_on>2017-05-16 13:50:07</sys_created_on>
+                        <sys_id>48996ac5db36ba00d623bb01ef96199c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mschallwig@deloitte.com</sys_updated_by>
+                        <sys_updated_on>2017-05-16 13:50:07</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 05-16-2017 15:50:07">cc996ac5db36ba00d623bb01ef96199b</portal_section>
+                        <sys_created_by>mschallwig@deloitte.com</sys_created_by>
+                        <sys_created_on>2017-05-16 13:50:07</sys_created_on>
+                        <sys_id>48996ac5db36ba00d623bb01ef96199e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mschallwig@deloitte.com</sys_updated_by>
+                        <sys_updated_on>2017-05-16 13:50:07</sys_updated_on>
+                        <value>4a84817edb103200c5df7befbf961954</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 05-16-2017 15:50:07">cc996ac5db36ba00d623bb01ef96199b</portal_section>
+                        <sys_created_by>mschallwig@deloitte.com</sys_created_by>
+                        <sys_created_on>2017-05-16 13:50:07</sys_created_on>
+                        <sys_id>c8996ac5db36ba00d623bb01ef96199d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mschallwig@deloitte.com</sys_updated_by>
+                        <sys_updated_on>2017-05-16 13:50:07</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 05-16-2017 15:50:07">cc996ac5db36ba00d623bb01ef96199b</portal_section>
+                        <sys_created_by>mschallwig@deloitte.com</sys_created_by>
+                        <sys_created_on>2017-05-16 13:50:07</sys_created_on>
+                        <sys_id>cc996ac5db36ba00d623bb01ef96199c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mschallwig@deloitte.com</sys_updated_by>
+                        <sys_updated_on>2017-05-16 13:50:07</sys_updated_on>
+                        <value>report_widget_description</value>
                     </sys_portal_preferences>
                 </related_items_node>
             </sys_portal>

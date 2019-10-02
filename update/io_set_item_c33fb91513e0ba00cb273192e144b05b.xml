@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="io_set_item">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
     <io_set_item action="INSERT_OR_UPDATE">
         <order>100</order>
         <sc_cat_item display_value="Report an Issue">505a00a313503a00fd79b90a6144b0d8</sc_cat_item>
         <sys_class_name>io_set_item</sys_class_name>
         <sys_created_by>admin_kbazanov</sys_created_by>
         <sys_created_on>2017-01-25 09:02:22</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>c33fb91513e0ba00cb273192e144b05b</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>iot_sm_predictive_maint.Report an Issue</sys_name>

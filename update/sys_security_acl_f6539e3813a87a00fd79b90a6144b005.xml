@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_security_acl">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
     <sys_security_acl action="INSERT_OR_UPDATE">
         <active>true</active>
         <admin_overrides>true</admin_overrides>
@@ -12,7 +11,7 @@
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin_kbazanov</sys_created_by>
         <sys_created_on>2017-01-23 21:13:21</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>f6539e3813a87a00fd79b90a6144b005</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_76760_iot_thing_state</sys_name>

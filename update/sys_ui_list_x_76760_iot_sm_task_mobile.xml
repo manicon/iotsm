@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_list parent="" relationship="" sys_domain="global" table="x_76760_iot_sm_task" version="2" view="Mobile">
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -74,7 +73,7 @@
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin_stwilhelm</sys_created_by>
             <sys_created_on>2017-01-27 09:38:31</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>bbaa18ca13a83e00fd79b90a6144b069</sys_id>

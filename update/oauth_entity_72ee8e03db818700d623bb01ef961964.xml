@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity">
+    <oauth_entity action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <access_token_lifespan>1800</access_token_lifespan>
+        <active>true</active>
+        <auth_code_lifespan>0</auth_code_lifespan>
+        <auth_url/>
+        <certificate_url/>
+        <client_id>UcZrp4xACaYuIK3AyTNpujNmBMCIA1kSWevB7xJS</client_id>
+        <client_secret>Lyolt+8xoRlrnGPDKZtc2bHOSnWgAjmvSOF+q7fCNv8QKBRw/DKc4wdPFzI3b95fdIAN1/V8y+EQ3PoEsu91/M151zV1aQyiXYeL55rneuZro4iQOmin1gphBC2VkEe6RI8MWWm4b3GOYfs1f9LheCc2HpFSGsaeJq8xX09pGo8wvWsQtWcs0Q==</client_secret>
+        <client_uuid>feee8e03db818700d623bb01ef961963</client_uuid>
+        <code_challenge_method>S256</code_challenge_method>
+        <comments/>
+        <default_grant_type>client_credentials</default_grant_type>
+        <id_token_lifespan>0</id_token_lifespan>
+        <logo_url/>
+        <message_signature_lifespan>0</message_signature_lifespan>
+        <name>Formlabs</name>
+        <oauth_api_script display_value="OAuthPasswordGrantType">b77f2ee28f20020026935f2a37bdeef3</oauth_api_script>
+        <protocol_name/>
+        <public_client>false</public_client>
+        <redirect_url>https://deloittegermanydemo1.service-now.com/oauth_redirect.do</redirect_url>
+        <refresh_token_lifespan>8640000</refresh_token_lifespan>
+        <revoke_token_url/>
+        <salt>0</salt>
+        <skip_authorize>false</skip_authorize>
+        <sys_class_name>oauth_entity</sys_class_name>
+        <sys_created_by>admin_kbazanov</sys_created_by>
+        <sys_created_on>2017-09-11 13:23:46</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>72ee8e03db818700d623bb01ef961964</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Formlabs</sys_name>
+        <sys_package display_value="IoT Service Management" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</sys_scope>
+        <sys_update_name>oauth_entity_72ee8e03db818700d623bb01ef961964</sys_update_name>
+        <sys_updated_by>admin_kbazanov</sys_updated_by>
+        <sys_updated_on>2017-09-11 13:33:17</sys_updated_on>
+        <token_url>https://api.formlabs.com/o/token/</token_url>
+        <type>oauth_provider</type>
+        <use_mutual_auth>false</use_mutual_auth>
+        <user/>
+    </oauth_entity>
+</record_update>

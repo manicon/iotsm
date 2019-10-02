@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_metadata_link">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
     <sys_metadata_link action="INSERT_OR_UPDATE">
         <directory>update</directory>
         <documentkey>642a2430642a7fd0642a1a10642a6e10</documentkey>
@@ -76,7 +75,7 @@
         <sys_class_name>sys_metadata_link</sys_class_name>
         <sys_created_by>admin_stwilhelm</sys_created_by>
         <sys_created_on>2017-01-24 10:48:47</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>f7fd0d8d136c7a00fd79b90a6144b06e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Verify space availability</sys_name>

@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sc_cat_item_category">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
     <sc_cat_item_category action="INSERT_OR_UPDATE">
         <sc_cat_item display_value="Restart Machine">d7f8a88013b4b640fd79b90a6144b012</sc_cat_item>
         <sc_category display_value="Service Maintenance">1ad517c3131cf600cb273192e144b02f</sc_category>
         <sys_class_name>sc_cat_item_category</sys_class_name>
         <sys_created_by>admin_stwilhelm</sys_created_by>
         <sys_created_on>2017-02-02 15:48:53</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>eff82c8013b4b640fd79b90a6144b081</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Service Maintenance.Restart Machine</sys_name>

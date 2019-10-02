@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
+<?xml version="1.0" encoding="UTF-8"?><database>
     <element extends="cmdb_serviceorder_product_model" label="IoT Service Request Template" max_length="40" name="x_76760_iot_sm_request_template" type="collection"/>
 </database>

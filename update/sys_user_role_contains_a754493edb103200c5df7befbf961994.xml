@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_user_role_contains">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
     <sys_user_role_contains action="INSERT_OR_UPDATE">
         <contains display_value="x_76760_iot_basic" name="x_76760_iot_basic">9354493edb103200c5df7befbf961971</contains>
         <role display_value="x_76760_iot_agent" name="x_76760_iot_agent">9354493edb103200c5df7befbf96196c</role>

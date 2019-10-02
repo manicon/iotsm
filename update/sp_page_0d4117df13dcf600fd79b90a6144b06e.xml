@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sp_page">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
     <sp_page action="INSERT_OR_UPDATE">
+        <category>custom</category>
         <css>.carousel-row .col-md-12 {&#13;
   padding-left: 0;&#13;
   padding-right: 0;&#13;
@@ -10,6 +10,8 @@
   margin-left: 0;&#13;
   margin-right: 0;&#13;
 }</css>
+        <draft>false</draft>
+        <dynamic_title_structure/>
         <id>iot_sc_home</id>
         <internal>false</internal>
         <public>false</public>
@@ -18,7 +20,7 @@
         <sys_class_name>sp_page</sys_class_name>
         <sys_created_by>admin_kbazanov</sys_created_by>
         <sys_created_on>2017-01-19 09:53:41</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>0d4117df13dcf600fd79b90a6144b06e</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>iot_sc_home</sys_name>
@@ -31,4 +33,5 @@
         <sys_updated_on>2017-01-25 21:59:43</sys_updated_on>
         <title>Service Catalog</title>
     </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=0d4117df13dcf600fd79b90a6144b06e"/>
 </record_update>

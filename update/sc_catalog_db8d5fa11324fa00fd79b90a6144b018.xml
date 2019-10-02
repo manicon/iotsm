@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sc_catalog">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog">
     <sc_catalog action="INSERT_OR_UPDATE">
         <active>true</active>
         <background_color>white</background_color>
@@ -8,11 +7,12 @@
         <desktop_home_page/>
         <desktop_image/>
         <editors/>
+        <enable_wish_list>false</enable_wish_list>
         <manager/>
         <sys_class_name>sc_catalog</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2017-01-26 10:32:57</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>db8d5fa11324fa00fd79b90a6144b018</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>IoT SM Catalog</sys_name>

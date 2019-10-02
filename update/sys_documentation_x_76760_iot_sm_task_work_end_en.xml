@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_documentation element="work_end" label="Actual work end" language="en" table="x_76760_iot_sm_task">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>work_end</element>
@@ -12,7 +11,7 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin_stwilhelm</sys_created_by>
             <sys_created_on>2017-01-25 17:36:15</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_id>5ad47f111368ba00fd79b90a6144b0ac</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Actual work end</sys_name>

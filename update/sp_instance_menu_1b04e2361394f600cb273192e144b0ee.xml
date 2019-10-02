@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sp_instance_menu">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_menu">
     <sp_instance_menu action="INSERT_OR_UPDATE">
         <active>true</active>
         <class_name/>
@@ -8,6 +7,7 @@
         <glyph/>
         <id/>
         <order>1</order>
+        <roles/>
         <short_description/>
         <size>md</size>
         <sp_column/>
@@ -15,7 +15,7 @@
         <sys_class_name>sp_instance_menu</sys_class_name>
         <sys_created_by>admin_kbazanov</sys_created_by>
         <sys_created_on>2017-01-17 17:18:39</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>1b04e2361394f600cb273192e144b0ee</sys_id>
         <sys_mod_count>5</sys_mod_count>
         <sys_name>IoT Header Menu</sys_name>
@@ -30,4 +30,5 @@
         <url/>
         <widget_parameters/>
     </sp_instance_menu>
+    <sys_translated_text action="delete_multiple" query="documentkey=1b04e2361394f600cb273192e144b0ee"/>
 </record_update>

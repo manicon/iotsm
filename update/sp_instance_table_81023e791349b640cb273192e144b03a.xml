@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sp_instance_table">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
     <sp_instance_table action="INSERT_OR_UPDATE">
         <active>true</active>
         <class_name/>
@@ -17,6 +16,7 @@
         <order>1</order>
         <order_by/>
         <order_direction>asc</order_direction>
+        <roles/>
         <short_description/>
         <size>md</size>
         <sp_column display_value="2">d8e1fa791349b640cb273192e144b01d</sp_column>
@@ -25,7 +25,7 @@
         <sys_class_name>sp_instance_table</sys_class_name>
         <sys_created_by>admin_kbazanov</sys_created_by>
         <sys_created_on>2017-02-20 22:32:37</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>81023e791349b640cb273192e144b03a</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>Assigned Tasks</sys_name>
@@ -41,4 +41,5 @@
         <url/>
         <widget_parameters/>
     </sp_instance_table>
+    <sys_translated_text action="delete_multiple" query="documentkey=81023e791349b640cb273192e144b03a"/>
 </record_update>

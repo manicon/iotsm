@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
+<?xml version="1.0" encoding="UTF-8"?><database>
     <element label="EventReport" max_length="40" name="x_76760_iot_eventreport" sizeclass="5218" type="collection">
         <element label="affectedThingPayload" max_length="2014" name="affectedthingpayload" type="string"/>
         <element label="Affected CI" max_length="32" name="affected_ci" reference="x_76760_iot_thing" type="reference"/>

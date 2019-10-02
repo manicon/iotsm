@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sp_rectangle_menu_item">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rectangle_menu_item">
     <sp_rectangle_menu_item action="INSERT_OR_UPDATE">
         <active>true</active>
         <color>default</color>
@@ -25,7 +24,7 @@
         <sys_class_name>sp_rectangle_menu_item</sys_class_name>
         <sys_created_by>admin_kbazanov</sys_created_by>
         <sys_created_on>2017-01-25 21:06:29</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>53d46c2113e8ba00fd79b90a6144b0da</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>Service Catalog</sys_name>
@@ -39,5 +38,7 @@
         <table/>
         <type>sc</type>
         <url/>
+        <url_target/>
     </sp_rectangle_menu_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=53d46c2113e8ba00fd79b90a6144b0da"/>
 </record_update>

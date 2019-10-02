@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="" table="x_76760_iot_sf_sm_request">
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="INSERT_OR_UPDATE" element="" extends="sf_sm_flow" table="x_76760_iot_sf_sm_request">
         <active>true</active>
         <array>false</array>
+        <array_denormalized>false</array_denormalized>
         <attributes>update_synch=true</attributes>
         <audit>false</audit>
         <calculation/>
@@ -25,6 +25,8 @@
         <element/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
         <internal_type display_value="Collection">collection</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>

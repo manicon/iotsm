@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_properties_category_m2m">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m">
     <sys_properties_category_m2m action="INSERT_OR_UPDATE">
         <category display_value="Event Reports">10de40841374b640fd79b90a6144b018</category>
         <order>100</order>
@@ -7,7 +6,7 @@
         <sys_class_name>sys_properties_category_m2m</sys_class_name>
         <sys_created_by>admin_kbazanov</sys_created_by>
         <sys_created_on>2017-02-02 13:55:22</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>7c0f80841374b640fd79b90a6144b00e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_76760_iot.reportevent.create_new_thing.Event Reports</sys_name>

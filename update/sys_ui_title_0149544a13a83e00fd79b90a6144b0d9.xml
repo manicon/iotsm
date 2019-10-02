@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_ui_title">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_title">
     <sys_ui_title action="INSERT_OR_UPDATE">
         <field_list>short_description</field_list>
         <script/>
         <search_fields/>
+        <style_field/>
         <sys_class_name>sys_ui_title</sys_class_name>
         <sys_created_by>admin_stwilhelm</sys_created_by>
         <sys_created_on>2017-01-27 09:32:34</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>0149544a13a83e00fd79b90a6144b0d9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_76760_iot_sm_request</sys_name>

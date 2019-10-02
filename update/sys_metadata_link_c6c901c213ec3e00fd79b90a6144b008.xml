@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_metadata_link">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
     <sys_metadata_link action="INSERT_OR_UPDATE">
         <directory>update</directory>
         <documentkey>d3b7730d3bcf40d3bdc60d3b52b0d3bc</documentkey>
@@ -76,7 +75,7 @@
         <sys_class_name>sys_metadata_link</sys_class_name>
         <sys_created_by>admin_stwilhelm</sys_created_by>
         <sys_created_on>2017-01-27 13:04:18</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>c6c901c213ec3e00fd79b90a6144b008</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Task 1 Mechanic</sys_name>

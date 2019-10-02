@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="io_set_item">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
     <io_set_item action="INSERT_OR_UPDATE">
         <order>100</order>
         <sc_cat_item display_value="Recalibrate Machine">c0b3facd13ec7a00fd79b90a6144b0d2</sc_cat_item>
         <sys_class_name>io_set_item</sys_class_name>
         <sys_created_by>admin_stwilhelm</sys_created_by>
         <sys_created_on>2017-01-24 18:13:54</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>88e3becd13ec7a00fd79b90a6144b0fb</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>iot_sm_predictive_maint.Recalibrate Machine</sys_name>

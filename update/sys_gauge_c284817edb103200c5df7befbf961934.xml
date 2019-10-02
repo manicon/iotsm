@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_gauge">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_gauge">
     <sys_gauge action="INSERT_OR_UPDATE">
         <active>true</active>
         <aggregate>COUNT</aggregate>
@@ -18,7 +17,7 @@
         <sys_class_name>sys_gauge</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-01-17 10:21:06</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>c284817edb103200c5df7befbf961934</sys_id>
         <sys_mod_count>5</sys_mod_count>
         <sys_name>IoT Service Requests by Month</sys_name>

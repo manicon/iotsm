@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sm_template_definition">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sm_template_definition">
     <sm_template_definition action="INSERT_OR_UPDATE">
         <associated_variable/>
         <field>caller</field>
@@ -8,7 +7,7 @@
         <sys_class_name>sm_template_definition</sys_class_name>
         <sys_created_by>admin_stwilhelm</sys_created_by>
         <sys_created_on>2017-01-25 18:58:57</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>b1c784a91368ba00fd79b90a6144b085</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>

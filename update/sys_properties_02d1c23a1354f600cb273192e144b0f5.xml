@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_properties">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
     <sys_properties action="INSERT_OR_UPDATE">
         <choices/>
         <description>Root CMDB CI Class for Affected CI in Service Management record</description>
@@ -11,7 +10,7 @@
         <sys_class_name>sys_properties</sys_class_name>
         <sys_created_by>admin_kbazanov</sys_created_by>
         <sys_created_on>2017-01-17 14:50:23</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>02d1c23a1354f600cb273192e144b0f5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_76760_iot.sm.rootClassAffectedCI</sys_name>

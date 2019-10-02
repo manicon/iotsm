@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
+<?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Thing Template State" max_length="40" name="x_76760_iot_thing_template_state" type="collection">
         <element display="true" label="Attribute" mandatory="true" max_length="40" name="name" type="string"/>
         <element label="Thing Model" mandatory="true" max_length="32" name="thing_model" reference="x_76760_iot_thing_product_model" type="reference"/>

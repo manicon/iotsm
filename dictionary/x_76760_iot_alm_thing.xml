@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
+<?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" extends="alm_asset" label="Thing Asset" max_length="40" name="x_76760_iot_alm_thing" type="collection"/>
 </database>

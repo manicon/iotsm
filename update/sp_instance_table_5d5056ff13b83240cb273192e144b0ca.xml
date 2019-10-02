@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sp_instance_table">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
     <sp_instance_table action="INSERT_OR_UPDATE">
         <active>true</active>
         <class_name/>
@@ -14,6 +13,7 @@
         <order>0</order>
         <order_by/>
         <order_direction>asc</order_direction>
+        <roles/>
         <short_description/>
         <size>md</size>
         <sp_column display_value="2">8f6c8fc0db8dfa00d623bb01ef96192c</sp_column>
@@ -22,7 +22,7 @@
         <sys_class_name>sp_instance_table</sys_class_name>
         <sys_created_by>admin_kbazanov</sys_created_by>
         <sys_created_on>2017-02-14 14:57:36</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>5d5056ff13b83240cb273192e144b0ca</sys_id>
         <sys_mod_count>5</sys_mod_count>
         <sys_name>Thing States</sys_name>
@@ -38,4 +38,5 @@
         <url/>
         <widget_parameters/>
     </sp_instance_table>
+    <sys_translated_text action="delete_multiple" query="documentkey=5d5056ff13b83240cb273192e144b0ca"/>
 </record_update>

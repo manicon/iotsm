@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sp_ng_template">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_ng_template">
     <sp_ng_template action="INSERT_OR_UPDATE">
         <id>iotMenuTemplate</id>
         <sp_widget display_value="IoT Header ">0294a2761394f600cb273192e144b07f</sp_widget>
         <sys_class_name>sp_ng_template</sys_class_name>
         <sys_created_by>admin_kbazanov</sys_created_by>
         <sys_created_on>2017-01-19 09:31:42</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>ae3c8b5f13dcf600fd79b90a6144b094</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>iotMenuTemplate</sys_name>

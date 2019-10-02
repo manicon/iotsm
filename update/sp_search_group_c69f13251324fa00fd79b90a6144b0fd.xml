@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sp_search_group">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_search_group">
     <sp_search_group action="INSERT_OR_UPDATE">
         <active>true</active>
         <condition/>
@@ -11,7 +10,7 @@
         <sys_class_name>sp_search_group</sys_class_name>
         <sys_created_by>admin_kbazanov</sys_created_by>
         <sys_created_on>2017-01-26 10:42:08</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>c69f13251324fa00fd79b90a6144b0fd</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_76760_iot_sm_request</sys_name>
@@ -23,4 +22,5 @@
         <sys_updated_by>admin_kbazanov</sys_updated_by>
         <sys_updated_on>2017-01-26 10:42:08</sys_updated_on>
     </sp_search_group>
+    <sys_translated_text action="delete_multiple" query="documentkey=c69f13251324fa00fd79b90a6144b0fd"/>
 </record_update>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="sys_ui_module">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
     <sys_ui_module action="INSERT_OR_UPDATE">
         <active>true</active>
         <application display_value="IoT SM">b28a1b611324fa00fd79b90a6144b0c5</application>
@@ -12,7 +11,7 @@
         <sys_class_name>sys_ui_module</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2017-01-26 10:19:48</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>368a1b611324fa00fd79b90a6144b0c9</sys_id>

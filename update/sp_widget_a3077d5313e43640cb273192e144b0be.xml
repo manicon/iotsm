@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sp_widget">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
     <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
         <client_script><![CDATA[function ($scope, $element, $window, $location, $rootScope, $timeout, snAttachmentHandler, $http, spUtil) {
 	
 	// Many of these fields are more configuration-type fields than profile fields. We still want to display
@@ -154,7 +154,7 @@ function buildThing(thingGR) {
         <sys_class_name>sp_widget</sys_class_name>
         <sys_created_by>admin_kbazanov</sys_created_by>
         <sys_created_on>2017-01-31 13:34:29</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>a3077d5313e43640cb273192e144b0be</sys_id>
         <sys_mod_count>130</sys_mod_count>
         <sys_name>Thing Profile</sys_name>

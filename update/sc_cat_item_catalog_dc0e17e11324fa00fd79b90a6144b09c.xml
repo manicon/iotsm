@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sc_cat_item_catalog">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
     <sc_cat_item_catalog action="INSERT_OR_UPDATE">
         <sc_cat_item display_value="Error Analysis">be091b07131cf600cb273192e144b04c</sc_cat_item>
         <sc_catalog display_value="IoT SM Catalog">db8d5fa11324fa00fd79b90a6144b018</sc_catalog>
         <sys_class_name>sc_cat_item_catalog</sys_class_name>
         <sys_created_by>admin_stwilhelm</sys_created_by>
         <sys_created_on>2017-01-26 10:34:56</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>dc0e17e11324fa00fd79b90a6144b09c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>IoT SM Catalog.Error Analysis</sys_name>

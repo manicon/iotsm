@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sc_cat_item_category">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
     <sc_cat_item_category action="INSERT_OR_UPDATE">
         <sc_cat_item display_value="Report an Issue">505a00a313503a00fd79b90a6144b0d8</sc_cat_item>
         <sc_category display_value="Service Recovery">80a49f43131cf600cb273192e144b0c0</sc_category>
         <sys_class_name>sc_cat_item_category</sys_class_name>
         <sys_created_by>admin_kbazanov</sys_created_by>
         <sys_created_on>2017-01-19 14:03:10</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>1a8a00a313503a00fd79b90a6144b0e1</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Service Issues.Report an Issue</sys_name>

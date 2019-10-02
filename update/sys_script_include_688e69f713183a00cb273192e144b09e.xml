@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_script_include">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
     <sys_script_include action="INSERT_OR_UPDATE">
         <access>package_private</access>
         <active>true</active>
@@ -68,7 +67,7 @@ IoTEventReport.prototype = {
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin_kbazanov</sys_created_by>
         <sys_created_on>2017-01-20 16:11:08</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>688e69f713183a00cb273192e144b09e</sys_id>
         <sys_mod_count>21</sys_mod_count>
         <sys_name>IoTEventReport</sys_name>

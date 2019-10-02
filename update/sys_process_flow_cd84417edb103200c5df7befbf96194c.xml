@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_process_flow">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
     <sys_process_flow action="INSERT_OR_UPDATE">
         <active>true</active>
         <condition table="x_76760_iot_sm_request">state=10^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="10"/>
@@ -12,7 +11,7 @@
         <sys_class_name>sys_process_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-01-17 10:21:02</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>cd84417edb103200c5df7befbf96194c</sys_id>
         <sys_mod_count>4</sys_mod_count>
         <sys_name>Ready For Dispatch</sys_name>

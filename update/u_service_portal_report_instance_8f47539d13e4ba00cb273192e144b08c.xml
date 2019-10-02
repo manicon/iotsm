@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="u_service_portal_report_instance">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="u_service_portal_report_instance">
     <u_service_portal_report_instance action="INSERT_OR_UPDATE">
         <active>true</active>
         <class_name/>
@@ -8,6 +7,7 @@
         <glyph/>
         <id/>
         <order>0</order>
+        <roles/>
         <short_description/>
         <size>md</size>
         <sp_column display_value="1">22d9090a130db640cb273192e144b0a0</sp_column>
@@ -15,7 +15,7 @@
         <sys_class_name>u_service_portal_report_instance</sys_class_name>
         <sys_created_by>admin_kbazanov</sys_created_by>
         <sys_created_on>2017-01-25 15:27:08</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>8f47539d13e4ba00cb273192e144b08c</sys_id>
         <sys_mod_count>13</sys_mod_count>
         <sys_name>Requets by Location</sys_name>
@@ -47,4 +47,5 @@
         <url/>
         <widget_parameters/>
     </u_service_portal_report_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=8f47539d13e4ba00cb273192e144b08c"/>
 </record_update>

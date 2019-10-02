@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_metadata_link">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
     <sys_metadata_link action="INSERT_OR_UPDATE">
         <directory>update</directory>
         <documentkey>31b286031c013031c7f1031c8e6031c6</documentkey>
@@ -76,7 +75,7 @@
         <sys_class_name>sys_metadata_link</sys_class_name>
         <sys_created_by>admin_stwilhelm</sys_created_by>
         <sys_created_on>2017-01-26 10:03:15</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>d8c613211324fa00fd79b90a6144b05c</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>task 1</sys_name>

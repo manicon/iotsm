@@ -1,15 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="catalog_ui_policy_action">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
     <catalog_ui_policy_action action="INSERT_OR_UPDATE">
         <catalog_item display_value="Replace Component">cee8d707131cf600cb273192e144b017</catalog_item>
         <catalog_variable>IO:9c38da591324ba00fd79b90a6144b020</catalog_variable>
+        <cleared>false</cleared>
         <disabled>true</disabled>
         <field/>
         <mandatory>ignore</mandatory>
+        <order>100</order>
         <sys_class_name>catalog_ui_policy_action</sys_class_name>
         <sys_created_by>admin_stwilhelm</sys_created_by>
         <sys_created_on>2017-01-25 11:06:45</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>92ab9ad91324ba00fd79b90a6144b064</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>affected_component</sys_name>

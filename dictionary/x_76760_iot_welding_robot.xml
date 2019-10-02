@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
-    <element extends="x_76760_iot_industry_robot" label="Welding Robot" max_length="40" name="x_76760_iot_welding_robot" type="collection"/>
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="x_76760_iot_industry_robot" label="Welding Robot" max_length="40" name="x_76760_iot_welding_robot" type="collection">
+        <element label="Thing type" max_length="32" name="thing_type" reference="x_76760_iot_thing_type" type="reference"/>
+    </element>
 </database>

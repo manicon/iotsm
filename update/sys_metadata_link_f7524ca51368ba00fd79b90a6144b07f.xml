@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_metadata_link">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
     <sys_metadata_link action="INSERT_OR_UPDATE">
         <directory>update</directory>
         <documentkey>ef52c0a51368ba00fd79b90a6144b03a</documentkey>
@@ -80,7 +79,7 @@
         <sys_class_name>sys_metadata_link</sys_class_name>
         <sys_created_by>admin_stwilhelm</sys_created_by>
         <sys_created_on>2017-01-25 18:35:20</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>f7524ca51368ba00fd79b90a6144b07f</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>Machine Disposal</sys_name>

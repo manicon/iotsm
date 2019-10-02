@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sc_cat_item_catalog">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
     <sc_cat_item_catalog action="INSERT_OR_UPDATE">
         <sc_cat_item display_value="Recalibrate Machine">c0b3facd13ec7a00fd79b90a6144b0d2</sc_cat_item>
         <sc_catalog display_value="IoT SM Catalog">db8d5fa11324fa00fd79b90a6144b018</sc_catalog>
         <sys_class_name>sc_cat_item_catalog</sys_class_name>
         <sys_created_by>admin_stwilhelm</sys_created_by>
         <sys_created_on>2017-01-26 10:34:07</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>e0dd53e11324fa00fd79b90a6144b0c1</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>IoT SM Catalog.Recalibrate Machine</sys_name>

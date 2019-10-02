@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
+<?xml version="1.0" encoding="UTF-8"?><database>
     <element label="EventCode Definition" max_length="40" name="x_76760_iot_eventcode_definition" type="collection">
         <element label="Auto-dispatch" max_length="40" name="auto_dispatch" type="boolean"/>
         <element label="Description" max_length="512" name="description" type="string"/>

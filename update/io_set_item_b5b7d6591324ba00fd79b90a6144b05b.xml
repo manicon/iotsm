@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="io_set_item">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
     <io_set_item action="INSERT_OR_UPDATE">
         <order>100</order>
         <sc_cat_item display_value="Replace Component">cee8d707131cf600cb273192e144b017</sc_cat_item>
         <sys_class_name>io_set_item</sys_class_name>
         <sys_created_by>admin_stwilhelm</sys_created_by>
         <sys_created_on>2017-01-25 10:49:22</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>b5b7d6591324ba00fd79b90a6144b05b</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>iot_sm_predictive_maint.Replace Component</sys_name>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_script_email">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
     <sys_script_email action="INSERT_OR_UPDATE">
         <name>instance_name</name>
         <new_lines_to_html>false</new_lines_to_html>
@@ -15,7 +14,7 @@
         <sys_class_name>sys_script_email</sys_class_name>
         <sys_created_by>admin_kbazanov</sys_created_by>
         <sys_created_on>2017-02-22 08:30:58</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>2e44021e1381f640cb273192e144b0fe</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>instance_name</sys_name>

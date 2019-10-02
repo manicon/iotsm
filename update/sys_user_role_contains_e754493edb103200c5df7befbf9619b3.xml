@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_user_role_contains">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
     <sys_user_role_contains action="INSERT_OR_UPDATE">
         <contains display_value="territory_admin" name="territory_admin">6e1543b137711000deeabfc8bcbe5d7e</contains>
         <role display_value="x_76760_iot_admin" name="x_76760_iot_admin">9b54493edb103200c5df7befbf961968</role>

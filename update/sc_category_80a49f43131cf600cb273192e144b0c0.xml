@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sc_category">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category">
     <sc_category action="INSERT_OR_UPDATE">
         <active>true</active>
         <description>Service and machine failure analysis and recovery</description>
@@ -22,7 +21,7 @@
         <sys_class_name>sc_category</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2017-01-18 15:29:07</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>80a49f43131cf600cb273192e144b0c0</sys_id>
         <sys_mod_count>8</sys_mod_count>
         <sys_name>Service Recovery</sys_name>
@@ -38,6 +37,7 @@
     <sys_translated_text action="delete_multiple" query="documentkey=80a49f43131cf600cb273192e144b0c0"/>
     <sys_attachment action="INSERT_OR_UPDATE">
         <average_image_color/>
+        <chunk_size_bytes/>
         <compressed>true</compressed>
         <content_type>image/png</content_type>
         <encryption_context/>
@@ -46,12 +46,13 @@
         <image_width/>
         <size_bytes>1517</size_bytes>
         <size_compressed>1472</size_compressed>
+        <state>available</state>
         <sys_created_by>admin_stwilhelm</sys_created_by>
         <sys_created_on>2017-01-26 09:09:23</sys_created_on>
         <sys_id>cb6a8ba913e0fa00fd79b90a6144b07a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin_stwilhelm</sys_updated_by>
-        <sys_updated_on>2017-01-26 09:09:23</sys_updated_on>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2019-02-26 16:17:19</sys_updated_on>
         <table_name>ZZ_YYsc_category</table_name>
         <table_sys_id>80a49f43131cf600cb273192e144b0c0</table_sys_id>
     </sys_attachment>
@@ -75,6 +76,7 @@
     </sys_attachment_doc>
     <sys_attachment action="INSERT_OR_UPDATE">
         <average_image_color/>
+        <chunk_size_bytes/>
         <compressed>true</compressed>
         <content_type>image/png</content_type>
         <encryption_context/>
@@ -83,6 +85,7 @@
         <image_width/>
         <size_bytes>1517</size_bytes>
         <size_compressed>1472</size_compressed>
+        <state/>
         <sys_created_by>admin_stwilhelm</sys_created_by>
         <sys_created_on>2017-01-26 08:58:25</sys_created_on>
         <sys_id>e6e78b6913e0fa00fd79b90a6144b0b3</sys_id>

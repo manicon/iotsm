@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_number">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
     <sys_number action="INSERT_OR_UPDATE">
         <category display_value="" name="x_76760_iot_eventreport">x_76760_iot_eventreport</category>
         <maximum_digits>7</maximum_digits>
@@ -8,7 +7,7 @@
         <sys_class_name>sys_number</sys_class_name>
         <sys_created_by>admin_kbazanov</sys_created_by>
         <sys_created_on>2017-01-24 09:35:35</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>773d7c05136c7a00cb273192e144b025</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>EVNT</sys_name>

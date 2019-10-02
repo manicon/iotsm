@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_security_acl_role">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
     <sys_security_acl_role action="INSERT_OR_UPDATE">
         <sys_class_name>sys_security_acl_role</sys_class_name>
         <sys_created_by>admin_kbazanov</sys_created_by>
         <sys_created_on>2017-01-23 21:13:21</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>36539e3813a87a00fd79b90a6144b006</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_76760_iot_thing_state.x_76760_iot_state_user</sys_name>

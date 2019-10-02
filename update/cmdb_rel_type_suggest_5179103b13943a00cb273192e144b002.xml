@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="cmdb_rel_type_suggest">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmdb_rel_type_suggest">
     <cmdb_rel_type_suggest action="INSERT_OR_UPDATE">
         <base_class>cmdb_ci_service</base_class>
         <child>false</child>
@@ -10,7 +9,7 @@
         <sys_class_name>cmdb_rel_type_suggest</sys_class_name>
         <sys_created_by>admin_kbazanov</sys_created_by>
         <sys_created_on>2017-01-20 09:46:57</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>5179103b13943a00cb273192e144b002</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>cmdb_ci_service</sys_name>

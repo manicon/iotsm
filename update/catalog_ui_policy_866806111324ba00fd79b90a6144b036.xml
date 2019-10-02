@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="catalog_ui_policy">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_ui_policy">
     <catalog_ui_policy action="INSERT_OR_UPDATE">
         <active>true</active>
         <applies_catalog>true</applies_catalog>
         <applies_req_item>false</applies_req_item>
         <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
         <catalog_conditions/>
         <catalog_item display_value="Machine Relocation">a57e802713503a00fd79b90a6144b0fc</catalog_item>
@@ -12,6 +12,7 @@
         <description/>
         <global>true</global>
         <inherit>false</inherit>
+        <isolate_script>false</isolate_script>
         <model_id/>
         <model_table/>
         <on_load>true</on_load>
@@ -25,7 +26,7 @@
         <sys_class_name>catalog_ui_policy</sys_class_name>
         <sys_created_by>admin_stwilhelm</sys_created_by>
         <sys_created_on>2017-01-25 09:42:53</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>866806111324ba00fd79b90a6144b036</sys_id>

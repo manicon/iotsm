@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sp_row">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row">
     <sp_row action="INSERT_OR_UPDATE">
         <class_name/>
         <order>1</order>
@@ -8,7 +7,7 @@
         <sys_class_name>sp_row</sys_class_name>
         <sys_created_by>admin_kbazanov</sys_created_by>
         <sys_created_on>2017-02-07 16:01:49</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>edebd2a913f83e40fd79b90a6144b042</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>1</sys_name>

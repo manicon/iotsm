@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sp_dependency">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_dependency">
     <sp_dependency action="INSERT_OR_UPDATE">
         <module>jquery.qrcode.js</module>
         <name>jquery.qrcode.js</name>
@@ -8,7 +7,7 @@
         <sys_class_name>sp_dependency</sys_class_name>
         <sys_created_by>admin_kbazanov</sys_created_by>
         <sys_created_on>2017-02-22 12:24:50</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>eef97e9e13c1f640cb273192e144b03e</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>jquery.qrcode.js</sys_name>

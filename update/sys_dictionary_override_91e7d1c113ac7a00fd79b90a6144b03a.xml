@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_dictionary_override">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary_override">
     <sys_dictionary_override action="INSERT_OR_UPDATE">
         <attributes/>
         <attributes_override>false</attributes_override>
@@ -22,7 +21,7 @@
         <sys_class_name>sys_dictionary_override</sys_class_name>
         <sys_created_by>admin_stwilhelm</sys_created_by>
         <sys_created_on>2017-01-24 11:32:17</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>91e7d1c113ac7a00fd79b90a6144b03a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>location</sys_name>

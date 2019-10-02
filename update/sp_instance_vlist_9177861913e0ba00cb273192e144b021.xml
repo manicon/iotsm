@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sp_instance_vlist">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_vlist">
     <sp_instance_vlist action="INSERT_OR_UPDATE">
         <active>true</active>
         <class_name/>
@@ -17,6 +16,7 @@
         <order>0</order>
         <order_by/>
         <order_direction>asc</order_direction>
+        <roles/>
         <short_description/>
         <size>md</size>
         <sp_column display_value="3">38bf42d913e0ba00cb273192e144b086</sp_column>
@@ -25,7 +25,7 @@
         <sys_class_name>sp_instance_vlist</sys_class_name>
         <sys_created_by>admin_kbazanov</sys_created_by>
         <sys_created_on>2017-01-25 09:38:18</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>9177861913e0ba00cb273192e144b021</sys_id>
         <sys_mod_count>8</sys_mod_count>
         <sys_name>IoT Service Tasks created by me</sys_name>
@@ -74,4 +74,5 @@
 	}
 }]]></widget_parameters>
     </sp_instance_vlist>
+    <sys_translated_text action="delete_multiple" query="documentkey=9177861913e0ba00cb273192e144b021"/>
 </record_update>

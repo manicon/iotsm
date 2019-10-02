@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_metadata_link">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
     <sys_metadata_link action="INSERT_OR_UPDATE">
         <directory>update</directory>
         <documentkey>58784f4f1398f600fd79b90a6144b070</documentkey>
@@ -23,7 +22,7 @@
         <sys_class_name>sys_metadata_link</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2017-01-18 14:35:56</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>e8784f4f1398f600fd79b90a6144b076</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>IoT SM</sys_name>

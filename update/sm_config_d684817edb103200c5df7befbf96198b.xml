@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sm_config">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sm_config">
     <sm_config action="INSERT_OR_UPDATE">
         <accept_reject>true</accept_reject>
         <active>true</active>
@@ -33,6 +32,7 @@
         <mandatory_work_notes>true</mandatory_work_notes>
         <name>IoT SM</name>
         <part_requirement>true</part_requirement>
+        <pdf_order_summary>false</pdf_order_summary>
         <property_prefix>x_76760_iot</property_prefix>
         <qualification>false</qualification>
         <qualification_group_type/>
@@ -43,11 +43,12 @@
         <request_driven>false</request_driven>
         <rollup_work_notes>false</rollup_work_notes>
         <service_catalog>true</service_catalog>
+        <signature_capture>false</signature_capture>
         <surveys/>
         <sys_class_name>sm_config</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-01-17 10:21:07</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>d684817edb103200c5df7befbf96198b</sys_id>
         <sys_mod_count>24</sys_mod_count>
         <sys_name>IoT SM</sys_name>

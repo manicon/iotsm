@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
-    <element audit="true" extends="cmdb_ci_hardware" label="Thing" max_length="40" name="x_76760_iot_thing" type="collection">
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="cmdb_ci_hardware" label="Thing" max_length="40" name="x_76760_iot_thing" sizeclass="22" type="collection">
         <element label="Thing Type" max_length="32" name="thing_type" reference="x_76760_iot_thing_type" type="reference"/>
-        <index name="index">
-            <element name="thing_type"/>
-        </index>
     </element>
 </database>

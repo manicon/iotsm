@@ -1,25 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_ui_view">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
     <sys_ui_view action="INSERT_OR_UPDATE">
         <group/>
         <hidden>false</hidden>
-        <name>RPTd1993317df23210068c37a0d3df26328</name>
+        <name>pa_relationship_health</name>
         <roles/>
         <sys_class_name>sys_ui_view</sys_class_name>
         <sys_created_by>admin_kbazanov</sys_created_by>
-        <sys_created_on>2017-01-20 13:48:54</sys_created_on>
+        <sys_created_on>2017-05-15 15:51:59</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>97d011bf13d43a00cb273192e144b070</sys_id>
+        <sys_id>23dbfdb8db3a7a00d623bb01ef961911</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
+        <sys_name>Pa_relationship_health</sys_name>
+        <sys_package display_value="IoT Service Management" source="x_76760_iot">ae54013edb103200c5df7befbf96191f</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_ui_view_23dbfdb8db3a7a00d623bb01ef961911</sys_update_name>
         <sys_updated_by>admin_kbazanov</sys_updated_by>
-        <sys_updated_on>2017-01-20 13:48:54</sys_updated_on>
-        <title>Rptd1993317df23210068c37a0d3df26328</title>
+        <sys_updated_on>2017-05-15 15:51:59</sys_updated_on>
+        <title>Pa_relationship_health</title>
         <user/>
     </sys_ui_view>
 </record_update>

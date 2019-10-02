@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="sys_ui_ng_action">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_ng_action">
     <sys_ui_ng_action action="INSERT_OR_UPDATE">
         <action_name/>
         <active>true</active>
@@ -19,7 +18,7 @@
         <sys_class_name>sys_ui_ng_action</sys_class_name>
         <sys_created_by>admin_stwilhelm</sys_created_by>
         <sys_created_on>2017-02-02 14:25:50</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c88594481374b640fd79b90a6144b04f</sys_id>

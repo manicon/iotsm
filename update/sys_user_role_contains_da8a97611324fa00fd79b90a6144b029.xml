@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_user_role_contains">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
     <sys_user_role_contains action="INSERT_OR_UPDATE">
         <contains display_value="rest_service" name="rest_service">3dfd67229f22110041a496fcc67fcf6c</contains>
         <role display_value="x_76760_iot_mid" name="x_76760_iot_mid">d68a97611324fa00fd79b90a6144b028</role>
         <sys_class_name>sys_user_role_contains</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2017-01-26 10:19:47</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>da8a97611324fa00fd79b90a6144b029</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>rest_service.x_76760_iot_mid</sys_name>

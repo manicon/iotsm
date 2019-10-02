@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="sys_script_client">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
     <sys_script_client action="INSERT_OR_UPDATE">
         <active>true</active>
         <applies_extended>true</applies_extended>
@@ -7,6 +6,7 @@
         <description/>
         <field>cmdb_ci</field>
         <global>true</global>
+        <isolate_script>false</isolate_script>
         <messages/>
         <name>IoT Populate CI Location</name>
         <order/>
@@ -25,7 +25,7 @@
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin_stwilhelm</sys_created_by>
         <sys_created_on>2017-01-24 11:33:31</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3e3855c113ac7a00fd79b90a6144b082</sys_id>

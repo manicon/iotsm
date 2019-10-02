@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sp_instance_table">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
     <sp_instance_table action="INSERT_OR_UPDATE">
         <active>true</active>
         <class_name/>
@@ -17,6 +16,7 @@
         <order>0</order>
         <order_by/>
         <order_direction>asc</order_direction>
+        <roles/>
         <short_description/>
         <size>md</size>
         <sp_column display_value="2">e9ebd2a913f83e40fd79b90a6144b043</sp_column>
@@ -25,7 +25,7 @@
         <sys_class_name>sp_instance_table</sys_class_name>
         <sys_created_by>admin_kbazanov</sys_created_by>
         <sys_created_on>2017-01-19 16:02:46</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>dae56caf13503a00fd79b90a6144b02f</sys_id>
         <sys_mod_count>19</sys_mod_count>
         <sys_name>IoT Service Tasks assigned to me</sys_name>
@@ -41,4 +41,5 @@
         <url/>
         <widget_parameters/>
     </sp_instance_table>
+    <sys_translated_text action="delete_multiple" query="documentkey=dae56caf13503a00fd79b90a6144b02f"/>
 </record_update>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_scope_privilege">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
     <sys_scope_privilege action="INSERT_OR_UPDATE">
         <operation>create</operation>
         <source_scope display_value="IoT Service Management">ae54013edb103200c5df7befbf96191f</source_scope>
@@ -7,7 +6,7 @@
         <sys_class_name>sys_scope_privilege</sys_class_name>
         <sys_created_by>admin_kbazanov</sys_created_by>
         <sys_created_on>2017-02-20 14:17:47</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>a8c0c5b113c5b640cb273192e144b087</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>sm_part_requirement</sys_name>

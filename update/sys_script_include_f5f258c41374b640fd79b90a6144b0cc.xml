@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_script_include">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
     <sys_script_include action="INSERT_OR_UPDATE">
         <access>package_private</access>
         <active>true</active>
@@ -56,7 +55,7 @@ IoTThing.prototype = {
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin_kbazanov</sys_created_by>
         <sys_created_on>2017-02-02 14:19:06</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>f5f258c41374b640fd79b90a6144b0cc</sys_id>
         <sys_mod_count>8</sys_mod_count>
         <sys_name>IoTThing</sys_name>

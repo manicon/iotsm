@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sc_cat_item_category">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
     <sc_cat_item_category action="INSERT_OR_UPDATE">
         <sc_cat_item display_value="Recalibrate Machine">c0b3facd13ec7a00fd79b90a6144b0d2</sc_cat_item>
         <sc_category display_value="Service Maintenance">1ad517c3131cf600cb273192e144b02f</sc_category>
         <sys_class_name>sc_cat_item_category</sys_class_name>
         <sys_created_by>admin_kbazanov</sys_created_by>
         <sys_created_on>2017-01-25 08:59:14</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>498eb11513e0ba00cb273192e144b0b2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Service Maintenance.Recalibrate Machine</sys_name>

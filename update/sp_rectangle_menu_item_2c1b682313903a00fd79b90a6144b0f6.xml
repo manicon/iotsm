@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sp_rectangle_menu_item">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rectangle_menu_item">
     <sp_rectangle_menu_item action="INSERT_OR_UPDATE">
         <active>false</active>
         <color>default</color>
@@ -25,7 +24,7 @@
         <sys_class_name>sp_rectangle_menu_item</sys_class_name>
         <sys_created_by>admin_kbazanov</sys_created_by>
         <sys_created_on>2017-01-19 16:25:57</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>2c1b682313903a00fd79b90a6144b0f6</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>My Approvals</sys_name>
@@ -39,5 +38,7 @@
         <table/>
         <type>page</type>
         <url/>
+        <url_target/>
     </sp_rectangle_menu_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=2c1b682313903a00fd79b90a6144b0f6"/>
 </record_update>

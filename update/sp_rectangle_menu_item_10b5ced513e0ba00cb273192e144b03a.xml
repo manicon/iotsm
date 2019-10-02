@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sp_rectangle_menu_item">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rectangle_menu_item">
     <sp_rectangle_menu_item action="INSERT_OR_UPDATE">
         <active>true</active>
         <color>default</color>
@@ -28,7 +27,7 @@
         <sys_class_name>sp_rectangle_menu_item</sys_class_name>
         <sys_created_by>admin_kbazanov</sys_created_by>
         <sys_created_on>2017-01-25 09:34:29</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>10b5ced513e0ba00cb273192e144b03a</sys_id>
         <sys_mod_count>6</sys_mod_count>
         <sys_name>My Requests</sys_name>
@@ -42,5 +41,7 @@
         <table>x_76760_iot_sm_request</table>
         <type>page</type>
         <url/>
+        <url_target/>
     </sp_rectangle_menu_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=10b5ced513e0ba00cb273192e144b03a"/>
 </record_update>

@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sp_widget">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
     <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
         <client_script><![CDATA[function ($rootScope) {	
 	var c = this;		
 	var bc = [{label: c.data.systemStatusBreadcrumb, url: '?id=services_status'}];
@@ -94,7 +94,7 @@ for (var i = 89; i >= 0; i--) {
         <sys_class_name>sp_widget</sys_class_name>
         <sys_created_by>admin_kbazanov</sys_created_by>
         <sys_created_on>2017-02-17 09:06:16</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>5cbc143013c13640cb273192e144b07b</sys_id>
         <sys_mod_count>13</sys_mod_count>
         <sys_name>IoT Service Status</sys_name>

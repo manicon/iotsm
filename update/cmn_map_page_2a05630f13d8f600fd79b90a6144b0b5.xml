@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="cmn_map_page">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmn_map_page">
     <cmn_map_page action="INSERT_OR_UPDATE">
         <center_address>germany</center_address>
         <center_latitude>51.165691</center_latitude>
@@ -67,7 +66,7 @@ while (count.next()) {
         <sys_class_name>cmn_map_page</sys_class_name>
         <sys_created_by>admin_stwilhelm</sys_created_by>
         <sys_created_on>2017-01-18 16:42:51</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>2a05630f13d8f600fd79b90a6144b0b5</sys_id>
         <sys_mod_count>30</sys_mod_count>
         <sys_name>Test</sys_name>

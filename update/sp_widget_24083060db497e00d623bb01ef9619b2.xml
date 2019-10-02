@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sp_widget">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
     <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
         <client_script><![CDATA[function() {
   /* widget controller */
   var c = this;
@@ -36,7 +36,7 @@
         <sys_class_name>sp_widget</sys_class_name>
         <sys_created_by>admin_kbazanov</sys_created_by>
         <sys_created_on>2017-02-16 16:32:18</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>24083060db497e00d623bb01ef9619b2</sys_id>
         <sys_mod_count>31</sys_mod_count>
         <sys_name>Embeded Map Field Service</sys_name>

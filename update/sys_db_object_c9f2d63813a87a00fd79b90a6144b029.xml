@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_db_object">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
     <sys_db_object action="INSERT_OR_UPDATE">
         <access>public</access>
         <actions_access>false</actions_access>
@@ -18,10 +17,12 @@
         <provider_class/>
         <read_access>true</read_access>
         <super_class/>
+        <sys_class_code/>
         <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
         <sys_created_by>admin_kbazanov</sys_created_by>
         <sys_created_on>2017-01-23 21:13:20</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>c9f2d63813a87a00fd79b90a6144b029</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Thing State</sys_name>

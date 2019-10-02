@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sp_instance_link">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
     <sp_instance_link action="INSERT_OR_UPDATE">
         <active>true</active>
         <class_name/>
@@ -11,6 +10,7 @@
         <kb_category/>
         <kb_topic/>
         <order>0</order>
+        <roles/>
         <sc_cat_item/>
         <sc_category display_value="Service Recovery">80a49f43131cf600cb273192e144b0c0</sc_category>
         <short_description>View device health dashboard or report a service outage</short_description>
@@ -21,7 +21,7 @@
         <sys_class_name>sp_instance_link</sys_class_name>
         <sys_created_by>admin_kbazanov</sys_created_by>
         <sys_created_on>2017-01-19 11:05:08</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>2ac1a71713103a00fd79b90a6144b0a6</sys_id>
         <sys_mod_count>8</sys_mod_count>
         <sys_name>Service Issues</sys_name>
@@ -42,4 +42,5 @@
 	}
 }]]></widget_parameters>
     </sp_instance_link>
+    <sys_translated_text action="delete_multiple" query="documentkey=2ac1a71713103a00fd79b90a6144b0a6"/>
 </record_update>

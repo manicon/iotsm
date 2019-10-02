@@ -1,15 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="catalog_ui_policy_action">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
     <catalog_ui_policy_action action="INSERT_OR_UPDATE">
         <catalog_item display_value="Machine Relocation">a57e802713503a00fd79b90a6144b0fc</catalog_item>
         <catalog_variable>IO:31324d89136c7a00fd79b90a6144b017</catalog_variable>
+        <cleared>false</cleared>
         <disabled>true</disabled>
         <field/>
         <mandatory>ignore</mandatory>
+        <order>100</order>
         <sys_class_name>catalog_ui_policy_action</sys_class_name>
         <sys_created_by>admin_stwilhelm</sys_created_by>
         <sys_created_on>2017-01-25 09:43:08</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>828846111324ba00fd79b90a6144b01c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>current_location</sys_name>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sp_instance">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
     <sp_instance action="INSERT_OR_UPDATE">
         <active>true</active>
         <class_name/>
@@ -8,6 +7,7 @@
         <glyph/>
         <id/>
         <order>0</order>
+        <roles/>
         <short_description/>
         <size>md</size>
         <sp_column display_value="1">f4f1186713503a00fd79b90a6144b045</sp_column>
@@ -15,7 +15,7 @@
         <sys_class_name>sp_instance</sys_class_name>
         <sys_created_by>admin_kbazanov</sys_created_by>
         <sys_created_on>2017-01-19 14:30:18</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>f3b0106713503a00fd79b90a6144b038</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name/>
@@ -30,4 +30,5 @@
         <url/>
         <widget_parameters/>
     </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=f3b0106713503a00fd79b90a6144b038"/>
 </record_update>

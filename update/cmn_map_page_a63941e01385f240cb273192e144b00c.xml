@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="cmn_map_page">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmn_map_page">
     <cmn_map_page action="INSERT_OR_UPDATE">
         <center_address>Germany</center_address>
         <center_latitude>51.165691</center_latitude>
@@ -139,7 +138,7 @@ function _buildAgentHTML(gr) {
         <sys_class_name>cmn_map_page</sys_class_name>
         <sys_created_by>admin_kbazanov</sys_created_by>
         <sys_created_on>2017-02-16 17:42:22</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>a63941e01385f240cb273192e144b00c</sys_id>
         <sys_mod_count>6</sys_mod_count>
         <sys_name>IoT Service Dispatch Map</sys_name>

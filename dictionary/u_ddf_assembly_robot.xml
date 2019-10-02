@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="x_76760_iot_thing" label="Assembly Robot" max_length="40" name="u_ddf_assembly_robot" type="collection">
+        <element label="Thing type" max_length="32" name="thing_type" reference="x_76760_iot_thing_type" type="reference"/>
+    </element>
+</database>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="General" section_id="836d236413e47a00fd79b90a6144b04a" sys_domain="global" table="x_76760_iot_thing_product_model" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>short_description</element>
@@ -247,7 +246,7 @@
             <sys_class_name>sys_ui_section</sys_class_name>
             <sys_created_by>admin_kbazanov</sys_created_by>
             <sys_created_on>2017-01-23 09:08:22</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>836d236413e47a00fd79b90a6144b04a</sys_id>

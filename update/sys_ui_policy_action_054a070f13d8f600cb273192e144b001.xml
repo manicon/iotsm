@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_ui_policy_action">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
     <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
         <disabled>ignore</disabled>
         <field>starting_state</field>
         <mandatory>ignore</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>admin_kbazanov</sys_created_by>
         <sys_created_on>2017-01-18 14:43:52</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>054a070f13d8f600cb273192e144b001</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>starting_state</sys_name>

@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sp_widget">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
     <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
         <client_script><![CDATA[function ($scope, spUtil, $location) {
 	/**$scope.$on('data_table.click', function(e, parms){
 		var p = $scope.data.page_id || 'form';
@@ -94,7 +94,7 @@
         <sys_class_name>sp_widget</sys_class_name>
         <sys_created_by>admin_kbazanov</sys_created_by>
         <sys_created_on>2017-02-20 11:09:52</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>c0c514b11385b640cb273192e144b0fc</sys_id>
         <sys_mod_count>7</sys_mod_count>
         <sys_name>Data Table IoT Thing EventReports</sys_name>

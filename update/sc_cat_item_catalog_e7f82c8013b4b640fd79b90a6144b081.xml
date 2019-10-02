@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sc_cat_item_catalog">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
     <sc_cat_item_catalog action="INSERT_OR_UPDATE">
         <sc_cat_item display_value="Restart Machine">d7f8a88013b4b640fd79b90a6144b012</sc_cat_item>
         <sc_catalog display_value="IoT SM Catalog">db8d5fa11324fa00fd79b90a6144b018</sc_catalog>
         <sys_class_name>sc_cat_item_catalog</sys_class_name>
         <sys_created_by>admin_stwilhelm</sys_created_by>
         <sys_created_on>2017-02-02 15:48:53</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>e7f82c8013b4b640fd79b90a6144b081</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>IoT SM Catalog.Restart Machine</sys_name>

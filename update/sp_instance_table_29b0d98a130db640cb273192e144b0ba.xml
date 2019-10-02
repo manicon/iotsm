@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sp_instance_table">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
     <sp_instance_table action="INSERT_OR_UPDATE">
         <active>true</active>
         <class_name/>
@@ -16,6 +15,7 @@
         <order>0</order>
         <order_by/>
         <order_direction>asc</order_direction>
+        <roles/>
         <short_description/>
         <size>md</size>
         <sp_column display_value="2">21d218a713503a00fd79b90a6144b048</sp_column>
@@ -24,7 +24,7 @@
         <sys_class_name>sp_instance_table</sys_class_name>
         <sys_created_by>admin_kbazanov</sys_created_by>
         <sys_created_on>2017-02-21 10:05:57</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>29b0d98a130db640cb273192e144b0ba</sys_id>
         <sys_mod_count>3</sys_mod_count>
         <sys_name>EventReports</sys_name>
@@ -40,4 +40,5 @@
         <url/>
         <widget_parameters/>
     </sp_instance_table>
+    <sys_translated_text action="delete_multiple" query="documentkey=29b0d98a130db640cb273192e144b0ba"/>
 </record_update>

@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="pa_tabs">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_tabs">
     <pa_tabs action="INSERT_OR_UPDATE">
+        <canvas_page/>
         <name>Event Reports</name>
         <page display_value="PA Event Reports">24a5ae0513ec7a00cb273192e144b00d</page>
         <sys_class_name>pa_tabs</sys_class_name>
         <sys_created_by>admin_kbazanov</sys_created_by>
         <sys_created_on>2017-01-24 17:11:40</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>68a5ae0513ec7a00cb273192e144b00d</sys_id>
